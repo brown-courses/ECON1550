@@ -1,0 +1,21 @@
+---
+title: "ECON1550 International Finance"
+---
+
+This is a minimal Quarto site scaffold for the course repo template.
+
+## Released materials
+
+Student-facing files are published under `files/`.
+
+- Problem sets: `files/psets/`
+- Lecture notes: `files/lectures/`
+- Slides: `files/slides/`
+
+## What this template demonstrates
+
+- A two-repo publish model (private instructor repo --&gt; public student repo).
+- Release gating based on timestamps in `course.yml`.
+- Guardrails to prevent solutions from leaking before they should.
+- GitHub Pages deployment via Actions.
+- Automatic publishing on push to main.

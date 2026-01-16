@@ -1,0 +1,26 @@
+project:
+  type: website
+  output-dir: public
+  render:
+    - "*.qmd"
+    - "!psets/"
+    - "!lectures/"
+    - "!slides/"
+    - "!private/"
+    - "!instructor_notes/"
+
+website:
+  title: "ECON1550 International Finance"
+  navbar:
+    left:
+      - href: index.qmd
+        text: Home
+      - href: files/release_manifest.json
+        text: Release manifest
+
+format:
+  html:
+    toc: true
+
+execute:
+  enabled: false
