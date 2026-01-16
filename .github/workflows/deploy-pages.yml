@@ -1,9 +1,9 @@
 name: deploy-github-pages
 
 on:
-  # Trigger on updates to the published site content.
+  # Trigger when main is updated (workflow must exist on triggering branch).
   push:
-    branches: ["gh-pages"]
+    branches: ["main"]
   # Optional manual run (useful when first enabling Pages).
   workflow_dispatch:
 
