@@ -13,7 +13,7 @@ What you get in this template
 - A working GitHub Actions orchestrator (`.github/workflows/orchestrator.yml`) implementing:
   - hourly scheduled runs for time-based releases,
   - a daily full rebuild to catch latent build breakage,
-  - a dry-run-first governance model (`workflow_dispatch` is always dry-run),
+  - manual runs that publish (`workflow_dispatch` deploys),
   - explicit publishing gates via repo variables,
   - layered leak prevention (blocked paths + marker scans + optional PDF text tripwires).
 - Minimal example content so the pipeline can succeed out of the box:
@@ -59,8 +59,8 @@ python scripts/validate_course_yml.py course.yml schemas/course.schema.json
 
 3) Create the public student repo, set Pages Source to `GitHub Actions`, and ensure branches `main` and `gh-pages` exist.
 4) In the instructor repo, add secret `STUDENT_REPO_TOKEN` (fine-grained PAT) and set repo variables (see `INSTANTIATION_CHECKLIST.md`).
-5) Trigger the orchestrator via `workflow_dispatch` (dry-run).
-6) Enable scheduled publishing by setting `SCHEDULED_PUBLISH_ENABLED=true`.
+5) Trigger the orchestrator via `workflow_dispatch` (publishes).
+6) Enable scheduled publishing by setting `SCHEDULED_PUBLISH_ENABLED=true` (optional).
 
 ## Build conventions used by this template
 
