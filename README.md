@@ -2,7 +2,7 @@
 
 This repository is a course-agnostic template for running a modern course with automated build and publish workflows.
 
-Design goal.
+Design goal:
 Keep instructor-only sources private while continuously publishing student-facing outputs to a separate public student repository, with guardrails that make it hard to accidentally publish solutions.
 
 What you get in this template
