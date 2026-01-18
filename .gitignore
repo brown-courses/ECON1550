@@ -1,0 +1,26 @@
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+._*
+
+# Editor files
+*~
+*.swp
+*.swo
+.vscode/
+.idea/
+
+# R
+.Rhistory
+.RData
+.Rproj.user
+
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+
+# Jupyter
+.ipynb_checkpoints/
