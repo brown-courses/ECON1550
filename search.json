@@ -1,21 +1,21 @@
 [
   {
-    "objectID": "docs/index.html",
-    "href": "docs/index.html",
+    "objectID": "index.html",
+    "href": "index.html",
     "title": "ECON1550 International Finance",
     "section": "",
     "text": "Welcome to the course website for ECON1550 International Finance."
   },
   {
-    "objectID": "docs/index.html#released-materials",
-    "href": "docs/index.html#released-materials",
+    "objectID": "index.html#released-materials",
+    "href": "index.html#released-materials",
     "title": "ECON1550 International Finance",
     "section": "Released materials",
     "text": "Released materials\nStudent-facing files are published under files/.\n\nProblem sets: files/psets/\nLecture notes: files/lectures/\nSlides: files/slides/"
   },
   {
-    "objectID": "docs/index.html#what-this-template-demonstrates",
-    "href": "docs/index.html#what-this-template-demonstrates",
+    "objectID": "index.html#what-this-template-demonstrates",
+    "href": "index.html#what-this-template-demonstrates",
     "title": "ECON1550 International Finance",
     "section": "What this template demonstrates",
     "text": "What this template demonstrates\n\nA two-repo publish model (private instructor repo –&gt; public student repo).\nRelease gating based on timestamps in course.yml.\nGuardrails to prevent solutions from leaking before they should.\nGitHub Pages deployment via Actions.\nAutomatic publishing on push to main."
