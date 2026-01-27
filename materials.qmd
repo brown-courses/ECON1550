@@ -28,3 +28,6 @@ Links will become active as materials are released. Solutions are released immed
 ## Lecture Notes
 
 - [Lecture Notes (PDF)](files/lectures/lecture_notes.pdf)
+  - [Models in Economics](files/lectures/models_in_economics.pdf)
+  - [Closed Economy](files/lectures/closed_economy.pdf)
+  - [II-XX Model](files/lectures/iixx.pdf)

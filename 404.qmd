@@ -1,0 +1,193 @@
+---
+title: "Page Not Found"
+pagetitle: "404 - ECON1550"
+---
+
+<div id="error-content">
+  <div id="loading-message" style="display: none;">
+    <p>Checking availability...</p>
+  </div>
+
+  <div id="release-info" style="display: none;">
+    <h2 id="material-title"></h2>
+    <p id="release-message"></p>
+    <p><a href="materials.html">Return to Course Materials</a></p>
+  </div>
+
+  <div id="generic-404">
+    <p>The page you're looking for doesn't exist or hasn't been released yet.</p>
+    <p><a href="index.html">Return to Home</a> | <a href="materials.html">Course Materials</a></p>
+  </div>
+</div>
+
+<script>
+(function() {
+  const path = window.location.pathname;
+
+  // URL patterns to match assignments
+  const patterns = [
+    // Problem set questions: /files/psets/pset1/pset1.pdf
+    { regex: /\/files\/psets\/(pset\d+)\/pset\d+\.pdf$/, type: 'questions' },
+    // Problem set solutions: /files/psets/pset1/pset1_solutions.pdf
+    { regex: /\/files\/psets\/(pset\d+)\/pset\d+_solutions\.pdf$/, type: 'solutions' },
+    // Problem set source: /files/psets/pset1/pset1-src.zip
+    { regex: /\/files\/psets\/(pset\d+)\/pset\d+-src\.zip$/, type: 'questions' },
+    // Lecture notes
+    { regex: /\/files\/lectures\/lecture_notes\.pdf$/, type: 'questions', id: 'lecture_notes' },
+    // Slides: /files/slides/01-tour-of-the-class.pdf
+    { regex: /\/files\/slides\/(\d+)-([^\/]+)\.pdf$/, type: 'questions', kindPrefix: 'slides' }
+  ];
+
+  // Try to match the path
+  let match = null;
+  let assignmentId = null;
+  let requestType = null;
+
+  for (const pattern of patterns) {
+    const m = path.match(pattern.regex);
+    if (m) {
+      if (pattern.id) {
+        assignmentId = pattern.id;
+      } else if (pattern.kindPrefix === 'slides') {
+        // For slides, construct ID like slides-01-tour or slides-02-models
+        const num = m[1];
+        const slug = m[2];
+        // Try to match against known slide IDs
+        assignmentId = `slides-${num}-${slug.split('-').slice(0, 2).join('-')}`;
+      } else {
+        assignmentId = m[1];
+      }
+      requestType = pattern.type;
+      match = m;
+      break;
+    }
+  }
+
+  if (!assignmentId) {
+    // No match - show generic 404
+    return;
+  }
+
+  // Show loading state
+  document.getElementById('loading-message').style.display = 'block';
+  document.getElementById('generic-404').style.display = 'none';
+
+  // Fetch release manifest
+  fetch('/files/release_manifest.json')
+    .then(response => {
+      if (!response.ok) throw new Error('Manifest not found');
+      return response.json();
+    })
+    .then(manifest => {
+      document.getElementById('loading-message').style.display = 'none';
+
+      // Find the assignment
+      const assignment = manifest.assignments.find(a => {
+        if (a.id === assignmentId) return true;
+        // For slides, try partial match
+        if (assignmentId.startsWith('slides-')) {
+          return a.id.startsWith(assignmentId.substring(0, 10));
+        }
+        return false;
+      });
+
+      if (!assignment) {
+        // Assignment not in manifest - show generic 404
+        document.getElementById('generic-404').style.display = 'block';
+        return;
+      }
+
+      // Determine what date to show
+      let releaseDate = null;
+      let message = '';
+
+      if (requestType === 'solutions') {
+        if (assignment.stage === 'solutions') {
+          // Solutions should be available - might be a different issue
+          document.getElementById('generic-404').style.display = 'block';
+          return;
+        }
+        releaseDate = assignment.sol_release_at_local;
+        if (releaseDate) {
+          message = `Solutions will be available after the deadline.`;
+        } else {
+          message = `Solutions for this assignment are not available.`;
+        }
+      } else {
+        // Questions or source
+        if (assignment.stage !== 'none') {
+          // Should be available - might be a different issue
+          document.getElementById('generic-404').style.display = 'block';
+          return;
+        }
+        releaseDate = assignment.pre_release_at_local;
+        if (releaseDate) {
+          message = `This material will be released soon.`;
+        } else {
+          message = `This material has not been scheduled for release.`;
+        }
+      }
+
+      // Format the date nicely
+      if (releaseDate) {
+        const date = new Date(releaseDate);
+        const options = {
+          weekday: 'long',
+          year: 'numeric',
+          month: 'long',
+          day: 'numeric',
+          hour: 'numeric',
+          minute: '2-digit',
+          timeZoneName: 'short'
+        };
+        const formatted = date.toLocaleString('en-US', options);
+        message = `Available on <strong>${formatted}</strong>`;
+      }
+
+      // Show release info
+      document.getElementById('material-title').textContent = assignment.title;
+      document.getElementById('release-message').innerHTML = message;
+      document.getElementById('release-info').style.display = 'block';
+    })
+    .catch(error => {
+      // Error fetching manifest - show generic 404
+      document.getElementById('loading-message').style.display = 'none';
+      document.getElementById('generic-404').style.display = 'block';
+    });
+})();
+</script>
+
+<style>
+#error-content {
+  text-align: center;
+  padding: 2rem;
+  max-width: 600px;
+  margin: 0 auto;
+}
+
+#material-title {
+  color: #2c3e50;
+  margin-bottom: 1rem;
+}
+
+#release-message {
+  font-size: 1.2rem;
+  margin-bottom: 1.5rem;
+}
+
+#release-info {
+  background: #f8f9fa;
+  border-radius: 8px;
+  padding: 2rem;
+  border: 1px solid #dee2e6;
+}
+
+#generic-404 {
+  color: #6c757d;
+}
+
+#loading-message {
+  color: #6c757d;
+  font-style: italic;
+}
+</style>
