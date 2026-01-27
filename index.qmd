@@ -3,20 +3,20 @@ title: "ECON1550 International Finance"
 subtitle: "Spring 2026"
 ---
 
-Welcome to the course website for ECON1550 International Finance.
+Welcome to the course website for ECON1550 International Finance at Brown University.
 
-## Released materials
+## Course Information
 
-Student-facing files are published under `files/`.
+**Instructor:** Fernando Duarte ([fernando_duarte@brown.edu](mailto:fernando_duarte@brown.edu))
 
-- Problem sets: `files/psets/`
-- Lecture notes: `files/lectures/`
-- Slides: `files/slides/`
+**Lectures:** Mon/Wed/Fri 2:00-2:50 PM in MacMillan Hall 115
 
-## What this template demonstrates
+**Links:**
 
-- A two-repo publish model (private instructor repo --&gt; public student repo).
-- Release gating based on timestamps in `course.yml`.
-- Guardrails to prevent solutions from leaking before they should.
-- GitHub Pages deployment via Actions.
-- Automatic publishing on push to main.
+- [Canvas](https://canvas.brown.edu/courses/1101477) - Announcements and grades
+- [Gradescope](https://www.gradescope.com/courses/1208698) - Assignment submission
+
+## Quick Links
+
+- [Materials](materials.qmd) - Problem sets, slides, and lecture notes
+- [Schedule](schedule.qmd) - Course schedule and due dates

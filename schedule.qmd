@@ -1,0 +1,33 @@
+---
+title: "Course Schedule"
+---
+
+## Class Meetings
+
+**Lectures:** Monday, Wednesday, Friday 2:00-2:50 PM
+
+**Location:** MacMillan Hall 115
+
+## Assignment Due Dates
+
+| Assignment | Due Date |
+|------------|----------|
+| Problem Set 1 | February 4, 2026 (11:59 PM) |
+| Problem Set 2 | February 11, 2026 (11:59 PM) |
+| Problem Set 3 | February 18, 2026 (11:59 PM) |
+| Problem Set 4 | February 25, 2026 (11:59 PM) |
+| **Midterm 1** | **March 4, 2026 (in class)** |
+| Problem Set 5 | March 11, 2026 (11:59 PM) |
+| Problem Set 6 | March 18, 2026 (11:59 PM) |
+| Problem Set 7 | April 1, 2026 (11:59 PM) |
+| Problem Set 8 | April 8, 2026 (11:59 PM) |
+| **Midterm 2** | **April 15, 2026 (in class)** |
+| Problem Set 9 | April 22, 2026 (11:59 PM) |
+| **Final Exam** | **May 12, 2026 (Exam Group 07)** |
+
+## Important Dates
+
+- **Spring Break:** March 21-29, 2026 (No classes)
+- **Last Day of Classes:** May 6, 2026
+- **Reading Period:** May 7-10, 2026
+- **Final Exams:** May 11-19, 2026

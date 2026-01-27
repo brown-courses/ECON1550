@@ -8,18 +8,28 @@ project:
     - "!slides/"
     - "!private/"
     - "!instructor_notes/"
+    - "!overleaf/"
 
 website:
   title: "ECON1550 International Finance"
+  description: "Spring 2026 - Course Materials"
   navbar:
     left:
       - href: index.qmd
         text: Home
-      - href: files/release_manifest.json
-        text: Release manifest
+      - href: materials.qmd
+        text: Materials
+      - href: schedule.qmd
+        text: Schedule
+    right:
+      - text: Canvas
+        href: https://canvas.brown.edu/courses/1101477
+      - text: Gradescope
+        href: https://www.gradescope.com/courses/1208698
 
 format:
   html:
+    theme: cosmo
     toc: true
 
 execute:
