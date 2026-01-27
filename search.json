@@ -1,23 +1,79 @@
 [
   {
+    "objectID": "schedule.html",
+    "href": "schedule.html",
+    "title": "Course Schedule",
+    "section": "",
+    "text": "Lectures: Monday, Wednesday, Friday 2:00-2:50 PM\nLocation: MacMillan Hall 115"
+  },
+  {
+    "objectID": "schedule.html#class-meetings",
+    "href": "schedule.html#class-meetings",
+    "title": "Course Schedule",
+    "section": "",
+    "text": "Lectures: Monday, Wednesday, Friday 2:00-2:50 PM\nLocation: MacMillan Hall 115"
+  },
+  {
+    "objectID": "schedule.html#assignment-due-dates",
+    "href": "schedule.html#assignment-due-dates",
+    "title": "Course Schedule",
+    "section": "Assignment Due Dates",
+    "text": "Assignment Due Dates\n\n\n\nAssignment\nDue Date\n\n\n\n\nProblem Set 1\nFebruary 4, 2026 (11:59 PM)\n\n\nProblem Set 2\nFebruary 11, 2026 (11:59 PM)\n\n\nProblem Set 3\nFebruary 18, 2026 (11:59 PM)\n\n\nProblem Set 4\nFebruary 25, 2026 (11:59 PM)\n\n\nMidterm 1\nMarch 4, 2026 (in class)\n\n\nProblem Set 5\nMarch 11, 2026 (11:59 PM)\n\n\nProblem Set 6\nMarch 18, 2026 (11:59 PM)\n\n\nProblem Set 7\nApril 1, 2026 (11:59 PM)\n\n\nProblem Set 8\nApril 8, 2026 (11:59 PM)\n\n\nMidterm 2\nApril 15, 2026 (in class)\n\n\nProblem Set 9\nApril 22, 2026 (11:59 PM)\n\n\nFinal Exam\nMay 12, 2026 (Exam Group 07)"
+  },
+  {
+    "objectID": "schedule.html#important-dates",
+    "href": "schedule.html#important-dates",
+    "title": "Course Schedule",
+    "section": "Important Dates",
+    "text": "Important Dates\n\nSpring Break: March 21-29, 2026 (No classes)\nLast Day of Classes: May 6, 2026\nReading Period: May 7-10, 2026\nFinal Exams: May 11-19, 2026"
+  },
+  {
     "objectID": "index.html",
     "href": "index.html",
     "title": "ECON1550 International Finance",
     "section": "",
-    "text": "Welcome to the course website for ECON1550 International Finance."
+    "text": "Welcome to the course website for ECON1550 International Finance at Brown University."
   },
   {
-    "objectID": "index.html#released-materials",
-    "href": "index.html#released-materials",
+    "objectID": "index.html#course-information",
+    "href": "index.html#course-information",
     "title": "ECON1550 International Finance",
-    "section": "Released materials",
-    "text": "Released materials\nStudent-facing files are published under files/.\n\nProblem sets: files/psets/\nLecture notes: files/lectures/\nSlides: files/slides/"
+    "section": "Course Information",
+    "text": "Course Information\nInstructor: Fernando Duarte (fernando_duarte@brown.edu)\nLectures: Mon/Wed/Fri 2:00-2:50 PM in MacMillan Hall 115\nLinks:\n\nCanvas - Announcements and grades\nGradescope - Assignment submission"
   },
   {
-    "objectID": "index.html#what-this-template-demonstrates",
-    "href": "index.html#what-this-template-demonstrates",
+    "objectID": "index.html#quick-links",
+    "href": "index.html#quick-links",
     "title": "ECON1550 International Finance",
-    "section": "What this template demonstrates",
-    "text": "What this template demonstrates\n\nA two-repo publish model (private instructor repo –&gt; public student repo).\nRelease gating based on timestamps in course.yml.\nGuardrails to prevent solutions from leaking before they should.\nGitHub Pages deployment via Actions.\nAutomatic publishing on push to main."
+    "section": "Quick Links",
+    "text": "Quick Links\n\nMaterials - Problem sets, slides, and lecture notes\nSchedule - Course schedule and due dates"
+  },
+  {
+    "objectID": "materials.html",
+    "href": "materials.html",
+    "title": "Course Materials",
+    "section": "",
+    "text": "Problem Set\nQuestions\nSource\nSolutions\n\n\n\n\nProblem Set 1\nPDF\nZIP\nPDF\n\n\nProblem Set 2\nPDF\nZIP\nPDF\n\n\nProblem Set 3\nPDF\nZIP\nPDF\n\n\nProblem Set 4\nPDF\nZIP\nPDF\n\n\nProblem Set 5\nPDF\nZIP\nPDF\n\n\nProblem Set 6\nPDF\nZIP\nPDF\n\n\nProblem Set 7\nPDF\nZIP\nPDF\n\n\nProblem Set 8\nPDF\nZIP\nPDF\n\n\nProblem Set 9\nPDF\nZIP\nPDF\n\n\n\nLinks will become active as materials are released. Solutions are released immediately after the deadline, along with the next problem set."
+  },
+  {
+    "objectID": "materials.html#problem-sets",
+    "href": "materials.html#problem-sets",
+    "title": "Course Materials",
+    "section": "",
+    "text": "Problem Set\nQuestions\nSource\nSolutions\n\n\n\n\nProblem Set 1\nPDF\nZIP\nPDF\n\n\nProblem Set 2\nPDF\nZIP\nPDF\n\n\nProblem Set 3\nPDF\nZIP\nPDF\n\n\nProblem Set 4\nPDF\nZIP\nPDF\n\n\nProblem Set 5\nPDF\nZIP\nPDF\n\n\nProblem Set 6\nPDF\nZIP\nPDF\n\n\nProblem Set 7\nPDF\nZIP\nPDF\n\n\nProblem Set 8\nPDF\nZIP\nPDF\n\n\nProblem Set 9\nPDF\nZIP\nPDF\n\n\n\nLinks will become active as materials are released. Solutions are released immediately after the deadline, along with the next problem set."
+  },
+  {
+    "objectID": "materials.html#slides",
+    "href": "materials.html#slides",
+    "title": "Course Materials",
+    "section": "Slides",
+    "text": "Slides\n\n\n\nTopic\nPDF\n\n\n\n\nTour of the Class\nPDF\n\n\nModels in Economics\nPDF"
+  },
+  {
+    "objectID": "materials.html#lecture-notes",
+    "href": "materials.html#lecture-notes",
+    "title": "Course Materials",
+    "section": "Lecture Notes",
+    "text": "Lecture Notes\n\nLecture Notes (PDF)"
   }
 ]
