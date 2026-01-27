@@ -2,12 +2,6 @@
 title: "Course Schedule"
 ---
 
-## Class Meetings
-
-**Lectures:** Monday, Wednesday, Friday 2:00-2:50 PM
-
-**Location:** MacMillan Hall 115
-
 ## Assignment Due Dates
 
 | Assignment | Due Date |
