@@ -26,6 +26,9 @@ website:
         href: https://canvas.brown.edu/courses/1101477
       - text: Gradescope
         href: https://www.gradescope.com/courses/1208698
+      - icon: github
+        href: https://github.com/brown-courses/ECON1550-Spring26
+        aria-label: GitHub
 
 format:
   html:
