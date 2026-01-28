@@ -160,6 +160,7 @@ ul.task-list li input[type="checkbox"] {
 </header>
 
 
+<p>Dates in parentheses show when files were last updated.</p>
 <section id="problem-sets" class="level2">
 <h2 class="anchored" data-anchor-id="problem-sets">Problem Sets</h2>
 <table class="caption-top table">
@@ -285,7 +286,7 @@ ul.task-list li input[type="checkbox"] {
             });
             const span = document.createElement('span');
             span.className = 'file-updated';
-            span.textContent = ` (${formatted})`;
+            span.textContent = ` (upd. ${formatted})`;
             link.parentNode.insertBefore(span, link.nextSibling);
           }
         });
@@ -384,7 +385,7 @@ ul.task-list li input[type="checkbox"] {
     }
       var localhostRegex = new RegExp(/^(?:http|https):\/\/localhost\:?[0-9]*\//);
       var mailtoRegex = new RegExp(/^mailto:/);
-        var filterRegex = new RegExp('/' + window.location.host + '/');
+        var filterRegex = new RegExp("https:\/\/brown-courses\.github\.io\/ECON1550");
       var isInternal = (href) => {
           return filterRegex.test(href) || localhostRegex.test(href) || mailtoRegex.test(href);
       }
