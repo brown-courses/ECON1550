@@ -1,6 +1,6 @@
 {
-  "generated_at_local": "2026-01-28T18:27:02.544722-05:00",
-  "generated_at_utc": "2026-01-28T23:27:02.544722+00:00",
+  "generated_at_local": "2026-01-28T18:52:55.524945-05:00",
+  "generated_at_utc": "2026-01-28T23:52:55.524945+00:00",
   "timezone": "America/New_York",
   "forced_stage": null,
   "assignments": [
@@ -25,6 +25,15 @@
     {
       "id": "slides-02-models",
       "title": "Models in Economics",
+      "kind": "slides",
+      "stage": "questions",
+      "pre_release_at_local": "2026-01-22T09:00:00-05:00",
+      "due_at_local": "2026-05-15T23:59:00-04:00",
+      "sol_release_at_local": null
+    },
+    {
+      "id": "slides-03-islmpc",
+      "title": "IS-LM-PC in One Day",
       "kind": "slides",
       "stage": "questions",
       "pre_release_at_local": "2026-01-22T09:00:00-05:00",
