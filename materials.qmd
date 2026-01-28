@@ -2,6 +2,8 @@
 title: "Course Materials"
 ---
 
+Dates in parentheses show when files were last updated.
+
 ## Problem Sets
 
 | Problem Set | Questions | Source | Solutions |
@@ -56,7 +58,7 @@ Links will become active as materials are released. Solutions are released immed
             });
             const span = document.createElement('span');
             span.className = 'file-updated';
-            span.textContent = ` (${formatted})`;
+            span.textContent = ` (upd. ${formatted})`;
             link.parentNode.insertBefore(span, link.nextSibling);
           }
         });

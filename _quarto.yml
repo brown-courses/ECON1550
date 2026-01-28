@@ -13,6 +13,7 @@ project:
 website:
   title: "ECON1550 International Finance"
   description: "Spring 2026 - Course Materials"
+  site-url: "https://brown-courses.github.io/ECON1550"
   navbar:
     left:
       - href: index.qmd
