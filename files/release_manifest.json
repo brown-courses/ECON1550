@@ -1,6 +1,6 @@
 {
-  "generated_at_local": "2026-01-27T20:16:32.556418-05:00",
-  "generated_at_utc": "2026-01-28T01:16:32.556418+00:00",
+  "generated_at_local": "2026-01-27T20:21:44.131745-05:00",
+  "generated_at_utc": "2026-01-28T01:21:44.131745+00:00",
   "timezone": "America/New_York",
   "forced_stage": null,
   "assignments": [
@@ -36,18 +36,9 @@
       "title": "Problem Set 1",
       "kind": "pset",
       "stage": "questions",
-      "pre_release_at_local": "2026-01-27T09:00:00-05:00",
+      "pre_release_at_local": "2026-01-23T09:00:00-05:00",
       "due_at_local": "2026-02-04T23:59:00-05:00",
       "sol_release_at_local": "2026-02-05T00:00:00-05:00"
-    },
-    {
-      "id": "quiz1",
-      "title": "Quiz 1",
-      "kind": "quiz",
-      "stage": "none",
-      "pre_release_at_local": null,
-      "due_at_local": "2026-01-28T23:59:00-05:00",
-      "sol_release_at_local": null
     },
     {
       "id": "pset2",
@@ -59,15 +50,6 @@
       "sol_release_at_local": "2026-02-12T00:00:00-05:00"
     },
     {
-      "id": "quiz2",
-      "title": "Quiz 2",
-      "kind": "quiz",
-      "stage": "none",
-      "pre_release_at_local": null,
-      "due_at_local": "2026-02-04T23:59:00-05:00",
-      "sol_release_at_local": null
-    },
-    {
       "id": "pset3",
       "title": "Problem Set 3",
       "kind": "pset",
@@ -77,15 +59,6 @@
       "sol_release_at_local": "2026-02-19T00:00:00-05:00"
     },
     {
-      "id": "quiz3",
-      "title": "Quiz 3",
-      "kind": "quiz",
-      "stage": "none",
-      "pre_release_at_local": null,
-      "due_at_local": "2026-02-11T23:59:00-05:00",
-      "sol_release_at_local": null
-    },
-    {
       "id": "pset4",
       "title": "Problem Set 4",
       "kind": "pset",
@@ -93,24 +66,6 @@
       "pre_release_at_local": "2026-02-19T00:00:00-05:00",
       "due_at_local": "2026-02-25T23:59:00-05:00",
       "sol_release_at_local": "2026-02-26T00:00:00-05:00"
-    },
-    {
-      "id": "quiz4",
-      "title": "Quiz 4",
-      "kind": "quiz",
-      "stage": "none",
-      "pre_release_at_local": null,
-      "due_at_local": "2026-02-18T23:59:00-05:00",
-      "sol_release_at_local": null
-    },
-    {
-      "id": "quiz5",
-      "title": "Quiz 5",
-      "kind": "quiz",
-      "stage": "none",
-      "pre_release_at_local": null,
-      "due_at_local": "2026-02-25T23:59:00-05:00",
-      "sol_release_at_local": null
     },
     {
       "id": "midterm1",
@@ -140,15 +95,6 @@
       "sol_release_at_local": "2026-03-19T00:00:00-04:00"
     },
     {
-      "id": "quiz6",
-      "title": "Quiz 6",
-      "kind": "quiz",
-      "stage": "none",
-      "pre_release_at_local": null,
-      "due_at_local": "2026-03-11T23:59:00-04:00",
-      "sol_release_at_local": null
-    },
-    {
       "id": "pset7",
       "title": "Problem Set 7",
       "kind": "pset",
@@ -156,15 +102,6 @@
       "pre_release_at_local": "2026-03-19T00:00:00-04:00",
       "due_at_local": "2026-04-01T23:59:00-04:00",
       "sol_release_at_local": "2026-04-02T00:00:00-04:00"
-    },
-    {
-      "id": "quiz7",
-      "title": "Quiz 7",
-      "kind": "quiz",
-      "stage": "none",
-      "pre_release_at_local": null,
-      "due_at_local": "2026-03-18T23:59:00-04:00",
-      "sol_release_at_local": null
     },
     {
       "id": "pset8",
@@ -176,15 +113,6 @@
       "sol_release_at_local": "2026-04-09T00:00:00-04:00"
     },
     {
-      "id": "quiz8",
-      "title": "Quiz 8",
-      "kind": "quiz",
-      "stage": "none",
-      "pre_release_at_local": null,
-      "due_at_local": "2026-04-01T23:59:00-04:00",
-      "sol_release_at_local": null
-    },
-    {
       "id": "pset9",
       "title": "Problem Set 9",
       "kind": "pset",
@@ -194,30 +122,12 @@
       "sol_release_at_local": "2026-04-23T00:00:00-04:00"
     },
     {
-      "id": "quiz9",
-      "title": "Quiz 9",
-      "kind": "quiz",
-      "stage": "none",
-      "pre_release_at_local": null,
-      "due_at_local": "2026-04-08T23:59:00-04:00",
-      "sol_release_at_local": null
-    },
-    {
       "id": "midterm2",
       "title": "Midterm 2",
       "kind": "exam",
       "stage": "none",
       "pre_release_at_local": null,
       "due_at_local": "2026-04-15T14:00:00-04:00",
-      "sol_release_at_local": null
-    },
-    {
-      "id": "quiz10",
-      "title": "Quiz 10",
-      "kind": "quiz",
-      "stage": "none",
-      "pre_release_at_local": null,
-      "due_at_local": "2026-04-22T23:59:00-04:00",
       "sol_release_at_local": null
     },
     {
