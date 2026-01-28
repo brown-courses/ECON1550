@@ -111,6 +111,11 @@ ul.task-list li input[type="checkbox"] {
     <a class="nav-link" href="https://www.gradescope.com/courses/1208698"> 
 <span class="menu-text">Gradescope</span></a>
   </li>  
+  <li class="nav-item compact">
+    <a class="nav-link" href="https://github.com/brown-courses/ECON1550-Spring26"> <i class="bi bi-github" role="img" aria-label="GitHub">
+</i> 
+<span class="menu-text"></span></a>
+  </li>  
 </ul>
           </div> <!-- /navcollapse -->
             <div class="quarto-navbar-tools">
@@ -256,6 +261,42 @@ ul.task-list li input[type="checkbox"] {
 <li><a href="files/lectures/iixx.pdf">II-XX Model</a></li>
 </ul></li>
 </ul>
+<script>
+(function() {
+  fetch('/files/file_timestamps.json')
+    .then(response => {
+      if (!response.ok) return null;
+      return response.json();
+    })
+    .then(data => {
+      if (!data || !data.files) return;
+
+      // Find all links to files
+      document.querySelectorAll('a[href^="files/"]').forEach(link => {
+        const href = link.getAttribute('href');
+        const timestamp = data.files[href];
+        if (timestamp) {
+          const date = new Date(timestamp);
+          const formatted = date.toLocaleDateString('en-US', {
+            month: 'short',
+            day: 'numeric'
+          });
+          const span = document.createElement('span');
+          span.className = 'file-updated';
+          span.textContent = ` (${formatted})`;
+          link.parentNode.insertBefore(span, link.nextSibling);
+        }
+      });
+    })
+    .catch(() => {});
+})();
+</script>
+<style>
+.file-updated {
+  color: #6c757d;
+  font-size: 0.85em;
+}
+</style>
 
 
 </section>
