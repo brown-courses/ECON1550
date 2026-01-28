@@ -72,7 +72,7 @@ ul.task-list li input[type="checkbox"] {
 
 </head>
 
-<body class="nav-fixed quarto-light">
+<body class="nav-fixed fullcontent quarto-light">
 
 <div id="quarto-search-results"></div>
   <header id="quarto-header" class="headroom fixed-top">
@@ -127,9 +127,7 @@ ul.task-list li input[type="checkbox"] {
 <div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
 <!-- sidebar -->
 <!-- margin-sidebar -->
-    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar zindex-bottom">
-        
-    </div>
+    
 <!-- main -->
 <main class="content" id="quarto-document-content">
 
@@ -152,85 +150,307 @@ ul.task-list li input[type="checkbox"] {
 </header>
 
 
-<div id="error-content">
-<div id="loading-message" style="display: none;">
-<pre><code>&lt;p&gt;Checking availability...&lt;/p&gt;</code></pre>
+<div class="error-page">
+  <div class="error-icon">
+    <svg xmlns="http://www.w3.org/2000/svg" width="80" height="80" viewbox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round">
+      <circle cx="12" cy="12" r="10"></circle>
+      <path d="M16 16s-1.5-2-4-2-4 2-4 2"></path>
+      <line x1="9" y1="9" x2="9.01" y2="9"></line>
+      <line x1="15" y1="9" x2="15.01" y2="9"></line>
+    </svg>
+  </div>
+
+  <div id="loading-message" class="hidden">
+    <p class="loading-text">Checking availability...</p>
+  </div>
+
+  <div id="release-info" class="hidden">
+    <div class="release-card">
+      <h2 id="material-title" class="release-title anchored"></h2>
+      <p id="release-message" class="release-message"></p>
+      <div class="release-actions">
+        <a href="/materials.html" class="btn btn-primary">View Course Materials</a>
+      </div>
+    </div>
+  </div>
+
+  <div id="generic-404">
+    <h2 class="error-title anchored">Oops! Page not found</h2>
+    <p class="error-description">
+      The page you're looking for doesn't exist, may have moved, or hasn't been released yet.
+    </p>
+
+    <div class="error-suggestions">
+      <p class="suggestions-title">Here are some helpful links:</p>
+      <div class="link-grid" id="link-grid">
+        <a href="/index.html" class="link-card" data-page="index.html">
+          <span class="link-icon">🏠</span>
+          <span class="link-text">Home</span>
+          <span class="link-desc">Course overview</span>
+        </a>
+        <a href="/materials.html" class="link-card" data-page="materials.html">
+          <span class="link-icon">📚</span>
+          <span class="link-text">Materials</span>
+          <span class="link-desc">Problem sets &amp; notes</span>
+        </a>
+        <a href="/schedule.html" class="link-card" data-page="schedule.html">
+          <span class="link-icon">📅</span>
+          <span class="link-text">Schedule</span>
+          <span class="link-desc">Class calendar</span>
+        </a>
+        <a href="https://canvas.brown.edu/courses/1101477" class="link-card external">
+          <span class="link-icon">🎓</span>
+          <span class="link-text">Canvas</span>
+          <span class="link-desc">Grades &amp; announcements</span>
+        </a>
+      </div>
+    </div>
+  </div>
 </div>
-<div id="release-info" style="display: none;">
-<pre><code>&lt;h2 id="material-title"&gt;&lt;/h2&gt;
-&lt;p id="release-message"&gt;&lt;/p&gt;
-&lt;p&gt;&lt;a href="materials.html"&gt;Return to Course Materials&lt;/a&gt;&lt;/p&gt;</code></pre>
-</div>
-<div id="generic-404">
-<pre><code>&lt;p&gt;The page you're looking for doesn't exist or hasn't been released yet.&lt;/p&gt;
-&lt;p&gt;&lt;a href="index.html"&gt;Return to Home&lt;/a&gt; | &lt;a href="materials.html"&gt;Course Materials&lt;/a&gt;&lt;/p&gt;</code></pre>
-</div>
-</div>
+
+<style>
+.error-page {
+  text-align: center;
+  padding: 3rem 1.5rem;
+  max-width: 700px;
+  margin: 0 auto;
+}
+
+.error-icon {
+  color: #6c757d;
+  margin-bottom: 1.5rem;
+  opacity: 0.6;
+}
+
+.error-title {
+  color: #2c3e50;
+  font-size: 1.75rem;
+  font-weight: 600;
+  margin-bottom: 0.75rem;
+}
+
+.error-description {
+  color: #6c757d;
+  font-size: 1.1rem;
+  margin-bottom: 2rem;
+  line-height: 1.6;
+}
+
+.error-suggestions {
+  margin-top: 2.5rem;
+}
+
+.suggestions-title {
+  color: #495057;
+  font-size: 0.95rem;
+  font-weight: 500;
+  margin-bottom: 1.25rem;
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+}
+
+.link-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(140px, 1fr));
+  gap: 1rem;
+  max-width: 600px;
+  margin: 0 auto;
+}
+
+.link-card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 1.25rem 1rem;
+  background: #f8f9fa;
+  border: 1px solid #e9ecef;
+  border-radius: 12px;
+  text-decoration: none;
+  transition: all 0.2s ease;
+}
+
+.link-card:hover {
+  background: #fff;
+  border-color: #2780e3;
+  box-shadow: 0 4px 12px rgba(39, 128, 227, 0.15);
+  transform: translateY(-2px);
+}
+
+.link-icon {
+  font-size: 1.75rem;
+  margin-bottom: 0.5rem;
+}
+
+.link-text {
+  color: #2c3e50;
+  font-weight: 600;
+  font-size: 1rem;
+  margin-bottom: 0.25rem;
+}
+
+.link-desc {
+  color: #6c757d;
+  font-size: 0.8rem;
+}
+
+.link-card.external .link-text::after {
+  content: " ↗";
+  font-size: 0.75rem;
+  opacity: 0.6;
+}
+
+/* Release info card styling */
+.release-card {
+  background: linear-gradient(135deg, #f8f9fa 0%, #fff 100%);
+  border: 1px solid #dee2e6;
+  border-radius: 16px;
+  padding: 2.5rem 2rem;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.08);
+}
+
+.release-title {
+  color: #2c3e50;
+  font-size: 1.5rem;
+  font-weight: 600;
+  margin-bottom: 1rem;
+}
+
+.release-message {
+  color: #495057;
+  font-size: 1.15rem;
+  margin-bottom: 1.5rem;
+  line-height: 1.6;
+}
+
+.release-actions {
+  margin-top: 1.5rem;
+}
+
+.btn {
+  display: inline-block;
+  padding: 0.75rem 1.5rem;
+  border-radius: 8px;
+  text-decoration: none;
+  font-weight: 500;
+  transition: all 0.2s ease;
+}
+
+.btn-primary {
+  background: #2780e3;
+  color: white;
+}
+
+.btn-primary:hover {
+  background: #1a5fb4;
+  color: white;
+  box-shadow: 0 4px 12px rgba(39, 128, 227, 0.3);
+}
+
+/* Loading state */
+.loading-text {
+  color: #6c757d;
+  font-style: italic;
+  font-size: 1.1rem;
+}
+
+/* Utility classes */
+.hidden {
+  display: none !important;
+}
+
+/* Responsive adjustments */
+@media (max-width: 480px) {
+  .error-page {
+    padding: 2rem 1rem;
+  }
+
+  .link-grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  .error-title {
+    font-size: 1.5rem;
+  }
+}
+</style>
+
 <script>
 (function() {
-  const path = window.location.pathname;
+  // Detect base path from document location or known patterns
+  function getBasePath() {
+    const path = window.location.pathname;
+    // Match /ECON1550/ or similar course repo pattern
+    const match = path.match(/^(\/[A-Z]+\d+[^\/]*)\//);
+    if (match) return match[1];
+    // Check if we're at root (local dev)
+    return '';
+  }
+
+  const basePath = getBasePath();
+
+  // Fix navigation links to use absolute paths
+  document.querySelectorAll('#link-grid a[data-page]').forEach(link => {
+    const page = link.getAttribute('data-page');
+    if (page) {
+      link.href = basePath + '/' + page;
+    }
+  });
+
+  // Also fix the materials link in release-info
+  const materialsBtn = document.querySelector('.release-actions a');
+  if (materialsBtn) {
+    materialsBtn.href = basePath + '/materials.html';
+  }
+
+  const urlPath = window.location.pathname;
 
   // URL patterns to match assignments
   const patterns = [
-    // Problem set questions: /files/psets/pset1/pset1.pdf
     { regex: /\/files\/psets\/(pset\d+)\/pset\d+\.pdf$/, type: 'questions' },
-    // Problem set solutions: /files/psets/pset1/pset1_solutions.pdf
     { regex: /\/files\/psets\/(pset\d+)\/pset\d+_solutions\.pdf$/, type: 'solutions' },
-    // Problem set source: /files/psets/pset1/pset1-src.zip
     { regex: /\/files\/psets\/(pset\d+)\/pset\d+-src\.zip$/, type: 'questions' },
-    // Lecture notes
     { regex: /\/files\/lectures\/lecture_notes\.pdf$/, type: 'questions', id: 'lecture_notes' },
-    // Slides: /files/slides/01-tour-of-the-class.pdf
     { regex: /\/files\/slides\/(\d+)-([^\/]+)\.pdf$/, type: 'questions', kindPrefix: 'slides' }
   ];
 
-  // Try to match the path
-  let match = null;
   let assignmentId = null;
   let requestType = null;
 
   for (const pattern of patterns) {
-    const m = path.match(pattern.regex);
+    const m = urlPath.match(pattern.regex);
     if (m) {
       if (pattern.id) {
         assignmentId = pattern.id;
       } else if (pattern.kindPrefix === 'slides') {
-        // For slides, construct ID like slides-01-tour or slides-02-models
         const num = m[1];
         const slug = m[2];
-        // Try to match against known slide IDs
         assignmentId = `slides-${num}-${slug.split('-').slice(0, 2).join('-')}`;
       } else {
         assignmentId = m[1];
       }
       requestType = pattern.type;
-      match = m;
       break;
     }
   }
 
-  if (!assignmentId) {
-    // No match - show generic 404
-    return;
-  }
+  if (!assignmentId) return;
 
-  // Show loading state
-  document.getElementById('loading-message').style.display = 'block';
-  document.getElementById('generic-404').style.display = 'none';
+  document.getElementById('loading-message').classList.remove('hidden');
+  document.getElementById('generic-404').classList.add('hidden');
 
-  // Fetch release manifest
-  fetch('/files/release_manifest.json')
+  // Try to fetch manifest with base path, fall back to root
+  const manifestUrl = basePath + '/files/release_manifest.json';
+
+  fetch(manifestUrl)
     .then(response => {
       if (!response.ok) throw new Error('Manifest not found');
       return response.json();
     })
     .then(manifest => {
-      document.getElementById('loading-message').style.display = 'none';
+      document.getElementById('loading-message').classList.add('hidden');
 
-      // Find the assignment
       const assignment = manifest.assignments.find(a => {
         if (a.id === assignmentId) return true;
-        // For slides, try partial match
         if (assignmentId.startsWith('slides-')) {
           return a.id.startsWith(assignmentId.substring(0, 10));
         }
@@ -238,43 +458,33 @@ ul.task-list li input[type="checkbox"] {
       });
 
       if (!assignment) {
-        // Assignment not in manifest - show generic 404
-        document.getElementById('generic-404').style.display = 'block';
+        document.getElementById('generic-404').classList.remove('hidden');
         return;
       }
 
-      // Determine what date to show
       let releaseDate = null;
       let message = '';
 
       if (requestType === 'solutions') {
         if (assignment.stage === 'solutions') {
-          // Solutions should be available - might be a different issue
-          document.getElementById('generic-404').style.display = 'block';
+          document.getElementById('generic-404').classList.remove('hidden');
           return;
         }
         releaseDate = assignment.sol_release_at_local;
-        if (releaseDate) {
-          message = `Solutions will be available after the deadline.`;
-        } else {
-          message = `Solutions for this assignment are not available.`;
-        }
+        message = releaseDate
+          ? 'Solutions will be available after the assignment deadline.'
+          : 'Solutions for this assignment are not available.';
       } else {
-        // Questions or source
         if (assignment.stage !== 'none') {
-          // Should be available - might be a different issue
-          document.getElementById('generic-404').style.display = 'block';
+          document.getElementById('generic-404').classList.remove('hidden');
           return;
         }
         releaseDate = assignment.pre_release_at_local;
-        if (releaseDate) {
-          message = `This material will be released soon.`;
-        } else {
-          message = `This material has not been scheduled for release.`;
-        }
+        message = releaseDate
+          ? 'This material will be released soon.'
+          : 'This material has not been scheduled for release.';
       }
 
-      // Format the date nicely
       if (releaseDate) {
         const date = new Date(releaseDate);
         const options = {
@@ -290,52 +500,16 @@ ul.task-list li input[type="checkbox"] {
         message = `Available on <strong>${formatted}</strong>`;
       }
 
-      // Show release info
       document.getElementById('material-title').textContent = assignment.title;
       document.getElementById('release-message').innerHTML = message;
-      document.getElementById('release-info').style.display = 'block';
+      document.getElementById('release-info').classList.remove('hidden');
     })
-    .catch(error => {
-      // Error fetching manifest - show generic 404
-      document.getElementById('loading-message').style.display = 'none';
-      document.getElementById('generic-404').style.display = 'block';
+    .catch(() => {
+      document.getElementById('loading-message').classList.add('hidden');
+      document.getElementById('generic-404').classList.remove('hidden');
     });
 })();
 </script>
-<style>
-#error-content {
-  text-align: center;
-  padding: 2rem;
-  max-width: 600px;
-  margin: 0 auto;
-}
-
-#material-title {
-  color: #2c3e50;
-  margin-bottom: 1rem;
-}
-
-#release-message {
-  font-size: 1.2rem;
-  margin-bottom: 1.5rem;
-}
-
-#release-info {
-  background: #f8f9fa;
-  border-radius: 8px;
-  padding: 2rem;
-  border: 1px solid #dee2e6;
-}
-
-#generic-404 {
-  color: #6c757d;
-}
-
-#loading-message {
-  color: #6c757d;
-  font-style: italic;
-}
-</style>
 
 
 
