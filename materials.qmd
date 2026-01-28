@@ -34,7 +34,7 @@ Links will become active as materials are released. Solutions are released immed
 
 <script>
 (function() {
-  fetch('/files/file_timestamps.json')
+  fetch('files/file_timestamps.json')
     .then(response => {
       if (!response.ok) return null;
       return response.json();
