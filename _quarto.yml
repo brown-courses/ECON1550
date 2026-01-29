@@ -1,0 +1,40 @@
+project:
+  type: website
+  output-dir: public
+  render:
+    - "*.qmd"
+    - "!psets/"
+    - "!lectures/"
+    - "!slides/"
+    - "!private/"
+    - "!instructor_notes/"
+    - "!overleaf/"
+
+website:
+  title: "ECON1550 International Finance"
+  description: "Spring 2026 - Course Materials"
+  site-url: "https://brown-courses.github.io/ECON1550"
+  navbar:
+    left:
+      - href: index.qmd
+        text: Home
+      - href: materials.qmd
+        text: Materials
+      - href: schedule.qmd
+        text: Schedule
+    right:
+      - text: Canvas
+        href: https://canvas.brown.edu/courses/1101477
+      - text: Gradescope
+        href: https://www.gradescope.com/courses/1208698
+      - icon: github
+        href: https://github.com/brown-courses/ECON1550-Spring26
+        aria-label: GitHub
+
+format:
+  html:
+    theme: cosmo
+    toc: true
+
+execute:
+  enabled: false

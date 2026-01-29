@@ -1,0 +1,372 @@
+---
+title: "Content Not Yet Available"
+pagetitle: "ECON1550"
+toc: false
+---
+
+```{=html}
+<div class="info-page">
+  <div class="info-icon">
+    <svg xmlns="http://www.w3.org/2000/svg" width="80" height="80" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round">
+      <circle cx="12" cy="12" r="10"></circle>
+      <polyline points="12 6 12 12 16 14"></polyline>
+    </svg>
+  </div>
+
+  <div id="loading-message" class="hidden">
+    <p class="loading-text">Checking availability...</p>
+  </div>
+
+  <div id="release-info" class="hidden">
+    <div class="release-card">
+      <h2 id="material-title" class="release-title"></h2>
+      <p id="release-message" class="release-message"></p>
+      <div class="release-actions">
+        <button onclick="history.back()" class="btn btn-primary">Go Back</button>
+      </div>
+    </div>
+  </div>
+
+  <div id="generic-404">
+    <h2 class="info-title">Content not available</h2>
+    <p class="info-description">
+      This content hasn't been released yet or may have moved.
+    </p>
+
+    <div class="info-suggestions">
+      <p class="suggestions-title">Here are some helpful links:</p>
+      <div class="link-grid" id="link-grid">
+        <a href="index.html" class="link-card" data-page="index.html">
+          <span class="link-icon">🏠</span>
+          <span class="link-text">Home</span>
+          <span class="link-desc">Course overview</span>
+        </a>
+        <a href="materials.html" class="link-card" data-page="materials.html">
+          <span class="link-icon">📚</span>
+          <span class="link-text">Materials</span>
+          <span class="link-desc">Problem sets & notes</span>
+        </a>
+        <a href="schedule.html" class="link-card" data-page="schedule.html">
+          <span class="link-icon">📅</span>
+          <span class="link-text">Schedule</span>
+          <span class="link-desc">Class calendar</span>
+        </a>
+        <a href="https://canvas.brown.edu/courses/1101477" class="link-card external">
+          <span class="link-icon">🎓</span>
+          <span class="link-text">Canvas</span>
+          <span class="link-desc">Grades & announcements</span>
+        </a>
+      </div>
+    </div>
+  </div>
+</div>
+
+<style>
+.info-page {
+  text-align: center;
+  padding: 3rem 1.5rem;
+  max-width: 700px;
+  margin: 0 auto;
+}
+
+.info-icon {
+  color: #2780e3;
+  margin-bottom: 1.5rem;
+  opacity: 0.7;
+}
+
+.info-title {
+  color: #2c3e50;
+  font-size: 1.75rem;
+  font-weight: 600;
+  margin-bottom: 0.75rem;
+}
+
+.info-description {
+  color: #6c757d;
+  font-size: 1.1rem;
+  margin-bottom: 2rem;
+  line-height: 1.6;
+}
+
+.info-suggestions {
+  margin-top: 2.5rem;
+}
+
+.suggestions-title {
+  color: #495057;
+  font-size: 0.95rem;
+  font-weight: 500;
+  margin-bottom: 1.25rem;
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+}
+
+.link-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(140px, 1fr));
+  gap: 1rem;
+  max-width: 600px;
+  margin: 0 auto;
+}
+
+.link-card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 1.25rem 1rem;
+  background: #f8f9fa;
+  border: 1px solid #e9ecef;
+  border-radius: 12px;
+  text-decoration: none;
+  transition: all 0.2s ease;
+}
+
+.link-card:hover {
+  background: #fff;
+  border-color: #2780e3;
+  box-shadow: 0 4px 12px rgba(39, 128, 227, 0.15);
+  transform: translateY(-2px);
+}
+
+.link-icon {
+  font-size: 1.75rem;
+  margin-bottom: 0.5rem;
+}
+
+.link-text {
+  color: #2c3e50;
+  font-weight: 600;
+  font-size: 1rem;
+  margin-bottom: 0.25rem;
+}
+
+.link-desc {
+  color: #6c757d;
+  font-size: 0.8rem;
+}
+
+.link-card.external .link-text::after {
+  content: " ↗";
+  font-size: 0.75rem;
+  opacity: 0.6;
+}
+
+/* Release info card styling */
+.release-card {
+  background: linear-gradient(135deg, #f8f9fa 0%, #fff 100%);
+  border: 1px solid #dee2e6;
+  border-radius: 16px;
+  padding: 2.5rem 2rem;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.08);
+}
+
+.release-title {
+  color: #2c3e50;
+  font-size: 1.5rem;
+  font-weight: 600;
+  margin-bottom: 1rem;
+}
+
+.release-message {
+  color: #495057;
+  font-size: 1.15rem;
+  margin-bottom: 1.5rem;
+  line-height: 1.6;
+}
+
+.release-actions {
+  margin-top: 1.5rem;
+}
+
+.btn {
+  display: inline-block;
+  padding: 0.75rem 1.5rem;
+  border-radius: 8px;
+  text-decoration: none;
+  font-weight: 500;
+  transition: all 0.2s ease;
+}
+
+.btn-primary {
+  background: #2780e3;
+  color: white;
+}
+
+.btn-primary:hover {
+  background: #1a5fb4;
+  color: white;
+  box-shadow: 0 4px 12px rgba(39, 128, 227, 0.3);
+}
+
+button.btn {
+  border: none;
+  cursor: pointer;
+  font-size: 1rem;
+}
+
+/* Loading state */
+.loading-text {
+  color: #6c757d;
+  font-style: italic;
+  font-size: 1.1rem;
+}
+
+/* Utility classes */
+.hidden {
+  display: none !important;
+}
+
+/* Responsive adjustments */
+@media (max-width: 480px) {
+  .info-page {
+    padding: 2rem 1rem;
+  }
+
+  .link-grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  .info-title {
+    font-size: 1.5rem;
+  }
+}
+</style>
+
+<script>
+(function() {
+  // Detect base path from document location or known patterns
+  function getBasePath() {
+    const path = window.location.pathname;
+    // Match /ECON1550/ or similar course repo pattern
+    const match = path.match(/^(\/[A-Z]+\d+[^\/]*)\//);
+    if (match) return match[1];
+    // Check if we're at root (local dev)
+    return '';
+  }
+
+  const basePath = getBasePath();
+
+  // Fix navigation links to use absolute paths
+  document.querySelectorAll('#link-grid a[data-page]').forEach(link => {
+    const page = link.getAttribute('data-page');
+    if (page) {
+      link.href = basePath + '/' + page;
+    }
+  });
+
+  // Also fix the materials link in release-info
+  const materialsBtn = document.querySelector('.release-actions a');
+  if (materialsBtn) {
+    materialsBtn.href = basePath + '/materials.html';
+  }
+
+  const urlPath = window.location.pathname;
+
+  // URL patterns to match assignments
+  const patterns = [
+    { regex: /\/files\/psets\/(pset\d+)\/pset\d+\.pdf$/, type: 'questions' },
+    { regex: /\/files\/psets\/(pset\d+)\/pset\d+_solutions\.pdf$/, type: 'solutions' },
+    { regex: /\/files\/psets\/(pset\d+)\/pset\d+-src\.zip$/, type: 'questions' },
+    { regex: /\/files\/lectures\/lecture_notes_ECON1550\.pdf$/, type: 'questions', id: 'lecture_notes' },
+    { regex: /\/files\/slides\/(\d+)-([^\/]+)\.pdf$/, type: 'questions', kindPrefix: 'slides' }
+  ];
+
+  let assignmentId = null;
+  let requestType = null;
+
+  for (const pattern of patterns) {
+    const m = urlPath.match(pattern.regex);
+    if (m) {
+      if (pattern.id) {
+        assignmentId = pattern.id;
+      } else if (pattern.kindPrefix === 'slides') {
+        const num = m[1];
+        const slug = m[2];
+        assignmentId = `slides-${num}-${slug.split('-').slice(0, 2).join('-')}`;
+      } else {
+        assignmentId = m[1];
+      }
+      requestType = pattern.type;
+      break;
+    }
+  }
+
+  if (!assignmentId) return;
+
+  document.getElementById('loading-message').classList.remove('hidden');
+  document.getElementById('generic-404').classList.add('hidden');
+
+  // Try to fetch manifest with base path, fall back to root
+  const manifestUrl = basePath + '/files/release_manifest.json';
+
+  fetch(manifestUrl)
+    .then(response => {
+      if (!response.ok) throw new Error('Manifest not found');
+      return response.json();
+    })
+    .then(manifest => {
+      document.getElementById('loading-message').classList.add('hidden');
+
+      const assignment = manifest.assignments.find(a => {
+        if (a.id === assignmentId) return true;
+        if (assignmentId.startsWith('slides-')) {
+          return a.id.startsWith(assignmentId.substring(0, 10));
+        }
+        return false;
+      });
+
+      if (!assignment) {
+        document.getElementById('generic-404').classList.remove('hidden');
+        return;
+      }
+
+      let releaseDate = null;
+      let message = '';
+
+      if (requestType === 'solutions') {
+        if (assignment.stage === 'solutions') {
+          document.getElementById('generic-404').classList.remove('hidden');
+          return;
+        }
+        releaseDate = assignment.sol_release_at_local;
+        message = releaseDate
+          ? 'Solutions will be available after the assignment deadline.'
+          : 'Solutions for this assignment are not available.';
+      } else {
+        if (assignment.stage !== 'none') {
+          document.getElementById('generic-404').classList.remove('hidden');
+          return;
+        }
+        releaseDate = assignment.pre_release_at_local;
+        message = releaseDate
+          ? 'This material will be released soon.'
+          : 'This material has not been scheduled for release.';
+      }
+
+      if (releaseDate) {
+        const date = new Date(releaseDate);
+        const options = {
+          weekday: 'long',
+          year: 'numeric',
+          month: 'long',
+          day: 'numeric',
+          hour: 'numeric',
+          minute: '2-digit',
+          timeZoneName: 'short'
+        };
+        const formatted = date.toLocaleString('en-US', options);
+        message = `Available on <strong>${formatted}</strong>`;
+      }
+
+      document.getElementById('material-title').textContent = assignment.title;
+      document.getElementById('release-message').innerHTML = message;
+      document.getElementById('release-info').classList.remove('hidden');
+    })
+    .catch(() => {
+      document.getElementById('loading-message').classList.add('hidden');
+      document.getElementById('generic-404').classList.remove('hidden');
+    });
+})();
+</script>
+```

@@ -1,0 +1,82 @@
+---
+title: "Course Materials"
+---
+
+Dates in parentheses show when files were last updated.
+
+## Problem Sets
+
+| Problem Set | Questions | Source | Solutions |
+|-------------|-----------|--------|-----------|
+| Problem Set 1 | [PDF](files/psets/pset1/pset1.pdf) | [ZIP](files/psets/pset1/pset1-src.zip) | [PDF](files/psets/pset1/pset1_solutions.pdf) |
+| Problem Set 2 | [PDF](files/psets/pset2/pset2.pdf) | [ZIP](files/psets/pset2/pset2-src.zip) | [PDF](files/psets/pset2/pset2_solutions.pdf) |
+| Problem Set 3 | [PDF](files/psets/pset3/pset3.pdf) | [ZIP](files/psets/pset3/pset3-src.zip) | [PDF](files/psets/pset3/pset3_solutions.pdf) |
+| Problem Set 4 | [PDF](files/psets/pset4/pset4.pdf) | [ZIP](files/psets/pset4/pset4-src.zip) | [PDF](files/psets/pset4/pset4_solutions.pdf) |
+| Problem Set 5 | [PDF](files/psets/pset5/pset5.pdf) | [ZIP](files/psets/pset5/pset5-src.zip) | [PDF](files/psets/pset5/pset5_solutions.pdf) |
+| Problem Set 6 | [PDF](files/psets/pset6/pset6.pdf) | [ZIP](files/psets/pset6/pset6-src.zip) | [PDF](files/psets/pset6/pset6_solutions.pdf) |
+| Problem Set 7 | [PDF](files/psets/pset7/pset7.pdf) | [ZIP](files/psets/pset7/pset7-src.zip) | [PDF](files/psets/pset7/pset7_solutions.pdf) |
+| Problem Set 8 | [PDF](files/psets/pset8/pset8.pdf) | [ZIP](files/psets/pset8/pset8-src.zip) | [PDF](files/psets/pset8/pset8_solutions.pdf) |
+| Problem Set 9 | [PDF](files/psets/pset9/pset9.pdf) | [ZIP](files/psets/pset9/pset9-src.zip) | [PDF](files/psets/pset9/pset9_solutions.pdf) |
+
+Links will become active as materials are released. Solutions are released immediately after the deadline, along with the next problem set.
+
+## Slides
+
+| Topic | PDF |
+|-------|-----|
+| Tour of the Class | [PDF](files/slides/01-tour-of-the-class.pdf) |
+| Models in Economics | [PDF](files/slides/02-models-in-economics.pdf) |
+
+## Lecture Notes
+
+- [Lecture Notes (PDF)](files/lectures/lecture_notes_ECON1550.pdf)
+  - [Models in Economics](files/lectures/models_in_economics.pdf)
+  - [Closed Economy](files/lectures/closed_economy.pdf)
+  - [II-XX Model](files/lectures/iixx.pdf)
+
+<script>
+(function() {
+  function addTimestamps() {
+    fetch('files/file_timestamps.json')
+      .then(response => {
+        if (!response.ok) return null;
+        return response.json();
+      })
+      .then(data => {
+        if (!data || !data.files) return;
+
+        document.querySelectorAll('a[href*="/files/"]').forEach(link => {
+          if (link.nextSibling && link.nextSibling.className === 'file-updated') return;
+          const href = link.getAttribute('href');
+          const path = href.replace(/^.*?(files\/)/, '$1');
+          const timestamp = data.files[path];
+          if (timestamp) {
+            const date = new Date(timestamp);
+            const formatted = date.toLocaleDateString('en-US', {
+              month: 'short',
+              day: 'numeric'
+            });
+            const span = document.createElement('span');
+            span.className = 'file-updated';
+            span.textContent = ` (upd. ${formatted})`;
+            link.parentNode.insertBefore(span, link.nextSibling);
+          }
+        });
+      })
+      .catch(err => console.error('Timestamp fetch error:', err));
+  }
+
+  if (document.readyState === 'loading') {
+    document.addEventListener('DOMContentLoaded', addTimestamps);
+  } else {
+    addTimestamps();
+  }
+})();
+</script>
+
+<style>
+.file-updated {
+  color: #6c757d;
+  font-size: 0.85em;
+}
+</style>

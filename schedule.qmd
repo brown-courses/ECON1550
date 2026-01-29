@@ -1,0 +1,27 @@
+---
+title: "Course Schedule"
+---
+
+## Assignment Due Dates
+
+| Assignment | Release Date | Due Date |
+|------------|--------------|----------|
+| Problem Set 1 | January 23, 2026 | February 4, 2026 (11:59 PM) |
+| Problem Set 2 | February 5, 2026 | February 11, 2026 (11:59 PM) |
+| Problem Set 3 | February 12, 2026 | February 18, 2026 (11:59 PM) |
+| Problem Set 4 | February 19, 2026 | February 25, 2026 (11:59 PM) |
+| **Midterm 1** | | **March 4, 2026 (in class)** |
+| Problem Set 5 | February 26, 2026 | March 11, 2026 (11:59 PM) |
+| Problem Set 6 | March 12, 2026 | March 18, 2026 (11:59 PM) |
+| Problem Set 7 | March 19, 2026 | April 1, 2026 (11:59 PM) |
+| Problem Set 8 | April 2, 2026 | April 8, 2026 (11:59 PM) |
+| **Midterm 2** | | **April 15, 2026 (in class)** |
+| Problem Set 9 | April 9, 2026 | April 22, 2026 (11:59 PM) |
+| **Final Exam** | | **May 12, 2026 (Exam Group 07)** |
+
+## Important Dates
+
+- **Spring Break:** March 21-29, 2026 (No classes)
+- **Last Day of Classes:** May 6, 2026
+- **Reading Period:** May 7-10, 2026
+- **Final Exams:** May 11-19, 2026

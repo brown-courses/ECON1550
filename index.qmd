@@ -1,0 +1,31 @@
+---
+title: "ECON1550 International Finance"
+subtitle: "Spring 2026"
+---
+
+## Where to Find Course Materials
+
+**[Canvas](https://canvas.brown.edu/courses/1101477) is the official home for this course.** Everything you need—announcements, assignments, grades, policies, and course materials—is available there.
+
+This website and the [GitHub repository](https://github.com/brown-courses/ECON1550) mirror the course materials and offer a few extras:
+
+- **LaTeX source files** — edit or build upon the original source code for problem sets and notes
+- **Modification dates** — see exactly when each file was last updated
+- **Version history** — browse the [commit history](https://github.com/brown-courses/ECON1550/commits/main) to see all changes over time, or compare any two versions
+- **Programmatic access** — clone the repo or use the GitHub API to automate your workflow
+
+If you just want to download PDFs, Canvas is simpler. This site is here for those who want more.
+
+## Course Information
+
+**Instructor:** Fernando Duarte ([fernando_duarte@brown.edu](mailto:fernando_duarte@brown.edu))
+
+**Links:**
+
+- [Canvas](https://canvas.brown.edu/courses/1101477) - Announcements and grades
+- [Gradescope](https://www.gradescope.com/courses/1208698) - Submit your problem sets
+
+## Quick Links
+
+- [Materials](materials.qmd) - Problem sets, slides, and lecture notes
+- [Schedule](schedule.qmd) - Course schedule and due dates
