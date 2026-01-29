@@ -1,0 +1,38 @@
+---
+title: "Accessibility"
+---
+
+## Accessibility Statement
+
+The ECON1550 International Finance course website is committed to ensuring digital accessibility for all users, including those with disabilities.
+
+### Standards
+
+We aim to conform to [WCAG 2.1 Level AA](https://www.w3.org/WAI/WCAG21/quickref/) standards.
+
+### Features
+
+This site includes the following accessibility features:
+
+- Semantic HTML structure with proper heading hierarchy
+- Keyboard navigation support with skip-to-content link
+- Responsive design for various devices and screen sizes
+- Sufficient color contrast
+- Descriptive link text
+
+### Feedback
+
+If you encounter any accessibility barriers on this site, please contact:
+
+**Fernando Duarte**
+Email: [fernando_duarte@brown.edu](mailto:fernando_duarte@brown.edu)
+
+### Reporting Issues
+
+Please include:
+
+- The web address (URL) of the content
+- A description of the issue
+- Your contact information
+
+We will respond within 5 business days.

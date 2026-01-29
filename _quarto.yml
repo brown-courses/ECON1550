@@ -10,10 +10,34 @@ project:
     - "!instructor_notes/"
     - "!overleaf/"
 
+# Document language for accessibility (WCAG 3.1.1)
+lang: en
+
 website:
   title: "ECON1550 International Finance"
-  description: "Spring 2026 - Course Materials"
+  description: "Course materials, problem sets, lecture notes, and schedule for ECON1550 International Finance at Brown University, Spring 2026."
   site-url: "https://brown-courses.github.io/ECON1550"
+  favicon: images/favicon.ico
+
+  # Open Graph for social sharing
+  open-graph:
+    title: "ECON1550 International Finance - Brown University"
+    description: "Course materials, problem sets, and lecture notes for Spring 2026."
+    site-name: "Brown University Courses"
+
+  twitter-card:
+    title: "ECON1550 International Finance"
+    description: "Course materials for ECON1550 at Brown University"
+    card-style: summary
+
+  # Footer landmark
+  page-footer:
+    left: "© 2026 Brown University - ECON1550"
+    center: "Built with [Quarto](https://quarto.org)"
+    right:
+      - text: "Accessibility"
+        href: accessibility.html
+
   navbar:
     left:
       - href: index.qmd
@@ -35,6 +59,11 @@ format:
   html:
     theme: cosmo
     toc: true
+    css: styles/custom.css
+    link-external-newwindow: true
+    link-external-icon: true
+    link-external-filter: '^(?:http:|https:)\/\/(?:brown-courses\.github\.io|localhost)'
+    include-before-body: _includes/skip-link.html
 
 execute:
   enabled: false
