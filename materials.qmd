@@ -2,8 +2,6 @@
 title: "Course Materials"
 ---
 
-Dates in parentheses show when files were last updated.
-
 ## Problem Sets
 
 | Problem Set | Questions | Source | Solutions |
@@ -52,7 +50,66 @@ Links will become active as materials are released. Solutions are released immed
       .then(data => {
         if (!data || !data.files) return;
 
-        document.querySelectorAll('a[href*="/files/"]').forEach(link => {
+        // Process problem sets table (table with "Problem Set" in first column)
+        document.querySelectorAll('table').forEach(table => {
+          const rows = Array.from(table.querySelectorAll('tbody tr'));
+
+          rows.forEach(row => {
+            const firstCell = row.querySelector('td:first-child');
+            if (!firstCell || !firstCell.textContent.includes('Problem Set')) return;
+            if (row.nextElementSibling && row.nextElementSibling.classList.contains('last-updated-row')) return;
+
+            const cells = row.querySelectorAll('td');
+            const timestamps = [];
+            let hasAnyTimestamp = false;
+
+            cells.forEach((cell, idx) => {
+              if (idx === 0) {
+                timestamps.push('Last updated');
+                return;
+              }
+              const link = cell.querySelector('a[href*="files/"]');
+              if (link) {
+                const href = link.getAttribute('href');
+                const path = href.replace(/^.*?(files\/)/, '$1');
+                const timestamp = data.files[path];
+                if (timestamp) {
+                  hasAnyTimestamp = true;
+                  const date = new Date(timestamp);
+                  const formatted = date.toLocaleDateString('en-US', {
+                    month: 'short',
+                    day: 'numeric'
+                  });
+                  timestamps.push(formatted);
+                } else {
+                  timestamps.push('');
+                }
+              } else {
+                timestamps.push('');
+              }
+            });
+
+            if (hasAnyTimestamp) {
+              const newRow = document.createElement('tr');
+              newRow.className = 'last-updated-row';
+              timestamps.forEach((text, idx) => {
+                const td = document.createElement('td');
+                td.textContent = text;
+                if (idx === 0) td.className = 'last-updated-label';
+                else td.className = 'last-updated-date';
+                newRow.appendChild(td);
+              });
+              row.parentNode.insertBefore(newRow, row.nextSibling);
+            }
+          });
+        });
+
+        // Process other links (slides, lecture notes) with inline dates
+        document.querySelectorAll('a[href*="files/"]').forEach(link => {
+          // Skip links in problem sets table (they have row-based dates)
+          const inPsetTable = link.closest('tr')?.querySelector('td:first-child')?.textContent.includes('Problem Set');
+          if (inPsetTable) return;
+
           if (link.nextSibling && link.nextSibling.className === 'file-updated') return;
           const href = link.getAttribute('href');
           const path = href.replace(/^.*?(files\/)/, '$1');
@@ -85,5 +142,20 @@ Links will become active as materials are released. Solutions are released immed
 .file-updated {
   color: #6c757d;
   font-size: 0.85em;
+}
+.last-updated-row {
+  font-size: 0.85em;
+}
+.last-updated-row td {
+  padding-top: 0 !important;
+  padding-bottom: 0.75em !important;
+  border-bottom: none !important;
+}
+.last-updated-label {
+  color: #6c757d;
+  font-style: italic;
+}
+.last-updated-date {
+  color: #6c757d;
 }
 </style>
