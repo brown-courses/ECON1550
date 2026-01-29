@@ -1,33 +1,21 @@
-# ECON1550 International Finance - Spring 2026
+# ECON1550 International Finance — Spring 2026
 
-Private instructor repository for ECON1550. LaTeX sources live in the `overleaf/` submodule; the public-facing site is built with Quarto.
+Course repository for **ECON1550 International Finance** at Brown University.
 
-## Quick links
+## Where to Find Course Materials
 
-- Course config: `overleaf/course.yml`
-- Docs: `docs/README.md`, `docs/PRD.md`, `docs/COURSE_CONFIG.md`, `docs/SECRETS_AND_PERMISSIONS.md`, `docs/VSCODE_LATEX_SETUP.md`
-- CI workflows: `.github/workflows/orchestrator.yml`, `.github/workflows/syllabus-lastmod.yml`
+**[Canvas](https://canvas.brown.edu/courses/1101477) is the official home for this course.** Everything you need—announcements, assignments, grades, policies, staff contact info, and course materials—is available there.
 
-## Workflow (CI)
+This GitHub repository mirrors the course materials and offers a few extras:
 
-The orchestrator workflow:
+- **LaTeX source files** — edit or build upon the original source code for problem sets and notes
+- **Modification dates** — see exactly when each file was last updated
+- **Version history** — browse the [commit history](../../commits/main) to see all changes over time, or compare any two versions
+- **Programmatic access** — clone the repo or use the GitHub API to automate your workflow
 
-1. Validates `overleaf/course.yml`
-2. Computes release stages (`build/release_manifest.json`)
-3. Builds the Quarto site into `public/`
-4. Builds LaTeX PDFs from the Overleaf submodule in Docker
-5. Stages student-facing outputs and runs guardrails
-6. Publishes to the student repo (`main` + `gh-pages`) when publishing is enabled
+If you just want to download PDFs, Canvas is simpler. This repo is for those who want more.
 
-Manual publishing: Actions -> course-orchestrator -> Run workflow.
+## Links
 
-## File structure
-
-- `overleaf/` - LaTeX sources (Problem Sets, Notes, Slides, Exams, Syllabus) + `course.yml`
-- `index.qmd`, `materials.qmd`, `schedule.qmd` - Quarto site pages
-- `_quarto.yml` - site configuration (output to `public/`)
-- `scripts/` - CI and build helper scripts
-- `resources/` - allowlist/denylist and scan patterns
-- `student_repo/` - bootstrap content for the public student repo `main` branch
-- `src/` - allowlisted student-facing sources (currently empty)
-- `build/` and `public/` - generated artifacts
+- [Canvas](https://canvas.brown.edu/courses/1101477) — announcements, grades, policies, and materials
+- [Gradescope](https://www.gradescope.com/courses/1208698) — submit your problem sets
