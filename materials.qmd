@@ -22,10 +22,13 @@ Links will become active as materials are released. Solutions are released immed
 
 ## Slides
 
+<!-- AUTO-GENERATED:SLIDES:START -->
 | Topic | PDF |
 |-------|-----|
 | Tour of the Class | [PDF](files/slides/01-tour-of-the-class.pdf) |
 | Models in Economics | [PDF](files/slides/02-models-in-economics.pdf) |
+| IS-LM-PC in One Day | [PDF](files/slides/03-review-of-intermediate-macro.pdf) |
+<!-- AUTO-GENERATED:SLIDES:END -->
 
 ## Lecture Notes
 

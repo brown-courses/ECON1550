@@ -1,21 +1,47 @@
-# ECON1550 International Finance — Spring 2026
+# ECON1550 International Finance - Spring 2026
 
-Course repository for **ECON1550 International Finance** at Brown University.
+Welcome to the course repository for ECON1550 International Finance at Brown University.
 
-## Where to Find Course Materials
+## Where to find course materials
 
-**[Canvas](https://canvas.brown.edu/courses/1101477) is the official home for this course.** Everything you need—announcements, assignments, grades, policies, staff contact info, and course materials—is available there.
+Canvas is the official home for this course (announcements, assignments, grades, policies).
 
-This GitHub repository mirrors the course materials and offers a few extras:
+This GitHub repository provides two things:
 
-- **LaTeX source files** — edit or build upon the original source code for problem sets and notes
-- **Modification dates** — see exactly when each file was last updated
-- **Version history** — browse the [commit history](../../commits/main) to see all changes over time, or compare any two versions
-- **Programmatic access** — clone the repo or use the GitHub API to automate your workflow
+1) The course website (GitHub Pages)
+2) A small, allowlisted set of source files in the `main` branch
 
-If you just want to download PDFs, Canvas is simpler. This repo is for those who want more.
+If you only need PDFs, the website is the simplest place to go.
 
 ## Links
 
-- [Canvas](https://canvas.brown.edu/courses/1101477) — announcements, grades, policies, and materials
-- [Gradescope](https://www.gradescope.com/courses/1208698) — submit your problem sets
+- Canvas: https://canvas.brown.edu/courses/1101477
+- Gradescope: https://www.gradescope.com/courses/1208698
+- Course website (GitHub Pages): https://brown-courses.github.io/ECON1550/
+
+## What is in each branch
+
+- `main`:
+  - Allowlisted sources only (e.g., `src/`, root `.qmd` files, repo metadata)
+  - Does NOT include full LaTeX source trees or solution files
+- `gh-pages`:
+  - Published site output (HTML)
+  - PDF files and source bundles live under `files/`
+  - Per-file timestamps live at `files/file_timestamps.json`
+
+## Staff
+
+Instructor
+Fernando Duarte - fernando_duarte@brown.edu
+
+Graduate TA
+Leo Zucker - leo_zucker@brown.edu
+
+Undergraduate TAs
+Eric Kim - eric_w_kim@brown.edu
+Raisa Axenie - raisa_axenie@brown.edu
+Nathalie Pena - nathalie_pena@brown.edu
+
+## Questions?
+
+Email the instructor or TAs.
