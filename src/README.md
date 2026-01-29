@@ -1,9 +1,13 @@
 # src/
 
-This folder is intended for student-facing source files that are safe to publish to the student repository `main` branch.
+Student-facing source files that are safe to publish to the public student repo `main` branch.
 
-Examples:
+This folder is allowlisted in `resources/public_export_allowlist.yml`, so anything added here will be copied verbatim during staging.
+
+Typical contents:
 
 - starter code
 - data files
 - assignment templates (without solutions)
+
+Currently empty.

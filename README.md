@@ -1,31 +1,33 @@
-# ECON1550 International Finance — Spring 2026
+# ECON1550 International Finance - Spring 2026
 
-Private instructor repository for ECON1550.
+Private instructor repository for ECON1550. LaTeX sources live in the `overleaf/` submodule; the public-facing site is built with Quarto.
 
 ## Quick links
 
-- [Course configuration](course.yml)
-- [Architecture and design](docs/PRD.md)
-- [Instantiation checklist](docs/INSTANTIATION_CHECKLIST.md)
-- [Secrets and permissions](docs/SECRETS_AND_PERMISSIONS.md)
+- Course config: `overleaf/course.yml`
+- Docs: `docs/README.md`, `docs/PRD.md`, `docs/COURSE_CONFIG.md`, `docs/SECRETS_AND_PERMISSIONS.md`, `docs/VSCODE_LATEX_SETUP.md`
+- CI workflows: `.github/workflows/orchestrator.yml`, `.github/workflows/syllabus-lastmod.yml`
 
-## Workflow
+## Workflow (CI)
 
-Push to `main` triggers the orchestrator workflow which:
+The orchestrator workflow:
 
-1. Validates `course.yml`
-2. Computes release stages based on current time
-3. Builds the Quarto site and LaTeX PDFs
-4. Runs guardrail scans
-5. Publishes to the student repo (if publishing is enabled)
+1. Validates `overleaf/course.yml`
+2. Computes release stages (`build/release_manifest.json`)
+3. Builds the Quarto site into `public/`
+4. Builds LaTeX PDFs from the Overleaf submodule in Docker
+5. Stages student-facing outputs and runs guardrails
+6. Publishes to the student repo (`main` + `gh-pages`) when publishing is enabled
 
-Manual publishing: **Actions → course-orchestrator → Run workflow**
+Manual publishing: Actions -> course-orchestrator -> Run workflow.
 
 ## File structure
 
-- `course.yml` — course metadata and release schedules
-- `psets/` — problem sets and solutions
-- `lectures/` — lecture notes
-- `slides/` — presentation slides
-- `scripts/` — build and validation scripts
-- `student_repo/` — files synced to student repo `main` branch
+- `overleaf/` - LaTeX sources (Problem Sets, Notes, Slides, Exams, Syllabus) + `course.yml`
+- `index.qmd`, `materials.qmd`, `schedule.qmd` - Quarto site pages
+- `_quarto.yml` - site configuration (output to `public/`)
+- `scripts/` - CI and build helper scripts
+- `resources/` - allowlist/denylist and scan patterns
+- `student_repo/` - bootstrap content for the public student repo `main` branch
+- `src/` - allowlisted student-facing sources (currently empty)
+- `build/` and `public/` - generated artifacts
