@@ -278,12 +278,13 @@ Table&nbsp;1: Course problem sets with questions, source files, and solutions
 </section>
 <section id="lecture-notes" class="level2">
 <h2 class="anchored" data-anchor-id="lecture-notes">Lecture Notes</h2>
+<!-- AUTO-GENERATED:LECTURES:START -->
 <ul>
 <li><a href="files/lectures/lecture_notes_ECON1550.pdf">Lecture Notes (PDF)</a>
 <ul>
 <li><a href="files/lectures/models_in_economics.pdf">Models in Economics</a></li>
 <li><a href="files/lectures/closed_economy.pdf">Closed Economy</a></li>
-<li><a href="files/lectures/iixx.pdf">II-XX Model</a></li>
+<li><a href="files/lectures/iixx.pdf">II-XX Model</a> <!-- AUTO-GENERATED:LECTURES:END --></li>
 </ul></li>
 </ul>
 <script>
@@ -337,6 +338,7 @@ Table&nbsp;1: Course problem sets with questions, source files, and solutions
             });
 
             if (hasAnyTimestamp) {
+              row.classList.add('has-updated-row');
               const newRow = document.createElement('tr');
               newRow.className = 'last-updated-row';
               timestamps.forEach((text, idx) => {
@@ -389,13 +391,15 @@ Table&nbsp;1: Course problem sets with questions, source files, and solutions
   color: #6c757d;
   font-size: 0.85em;
 }
+.has-updated-row td {
+  border-bottom: none !important;
+}
 .last-updated-row {
   font-size: 0.85em;
 }
 .last-updated-row td {
   padding-top: 0 !important;
   padding-bottom: 0.75em !important;
-  border-bottom: none !important;
 }
 .last-updated-label {
   color: #6c757d;
