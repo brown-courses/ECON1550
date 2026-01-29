@@ -34,10 +34,12 @@ Links will become active as materials are released. Solutions are released immed
 
 ## Lecture Notes
 
+<!-- AUTO-GENERATED:LECTURES:START -->
 - [Lecture Notes (PDF)](files/lectures/lecture_notes_ECON1550.pdf)
   - [Models in Economics](files/lectures/models_in_economics.pdf)
   - [Closed Economy](files/lectures/closed_economy.pdf)
   - [II-XX Model](files/lectures/iixx.pdf)
+<!-- AUTO-GENERATED:LECTURES:END -->
 
 <script>
 (function() {
@@ -90,6 +92,7 @@ Links will become active as materials are released. Solutions are released immed
             });
 
             if (hasAnyTimestamp) {
+              row.classList.add('has-updated-row');
               const newRow = document.createElement('tr');
               newRow.className = 'last-updated-row';
               timestamps.forEach((text, idx) => {
@@ -143,13 +146,15 @@ Links will become active as materials are released. Solutions are released immed
   color: #6c757d;
   font-size: 0.85em;
 }
+.has-updated-row td {
+  border-bottom: none !important;
+}
 .last-updated-row {
   font-size: 0.85em;
 }
 .last-updated-row td {
   padding-top: 0 !important;
   padding-bottom: 0.75em !important;
-  border-bottom: none !important;
 }
 .last-updated-label {
   color: #6c757d;
