@@ -30,6 +30,7 @@ ul.task-list li input[type="checkbox"] {
 <script src="/ECON1550/site_libs/quarto-search/fuse.min.js"></script>
 <script src="/ECON1550/site_libs/quarto-search/quarto-search.js"></script>
 <meta name="quarto:offset" content="/ECON1550/">
+<link href="/ECON1550/./images/favicon.ico" rel="icon">
 <script src="/ECON1550/site_libs/quarto-html/quarto.js" type="module"></script>
 <script src="/ECON1550/site_libs/quarto-html/tabsets/tabsets.js" type="module"></script>
 <script src="/ECON1550/site_libs/quarto-html/axe/axe-check.js" type="module"></script>
@@ -70,6 +71,13 @@ ul.task-list li input[type="checkbox"] {
 }</script>
 
 
+<link rel="stylesheet" href="/ECON1550/styles/custom.css">
+<meta property="og:title" content="ECON1550 International Finance - Brown University">
+<meta property="og:description" content="Course materials, problem sets, and lecture notes for Spring 2026.">
+<meta property="og:site_name" content="Brown University Courses">
+<meta name="twitter:title" content="ECON1550 International Finance">
+<meta name="twitter:description" content="Course materials for ECON1550 at Brown University">
+<meta name="twitter:card" content="summary">
 </head>
 
 <body class="nav-fixed fullcontent quarto-light">
@@ -130,6 +138,7 @@ ul.task-list li input[type="checkbox"] {
     
 <!-- main -->
 <main class="content" id="quarto-document-content">
+<a href="#quarto-document-content" class="skip-link">Skip to main content</a>
 
 <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
@@ -591,7 +600,7 @@ button.btn {
     }
       var localhostRegex = new RegExp(/^(?:http|https):\/\/localhost\:?[0-9]*\//);
       var mailtoRegex = new RegExp(/^mailto:/);
-        var filterRegex = new RegExp("https:\/\/brown-courses\.github\.io\/ECON1550");
+        var filterRegex = new RegExp("^(?:http:|https:)\/\/(?:brown-courses\.github\.io|localhost)");
       var isInternal = (href) => {
           return filterRegex.test(href) || localhostRegex.test(href) || mailtoRegex.test(href);
       }
@@ -605,6 +614,13 @@ button.btn {
           if (link.dataset.originalHref !== undefined) {
             link.href = link.dataset.originalHref;
           }
+            // target, if specified
+            link.setAttribute("target", "_blank");
+            if (link.getAttribute("rel") === null) {
+              link.setAttribute("rel", "noopener");
+            }
+            // default icon
+            link.classList.add("external");
         }
       }
     function tippyHover(el, contentFn, onTriggerFn, onUntriggerFn) {
@@ -919,6 +935,25 @@ button.btn {
   });
   </script>
 </div> <!-- /content -->
+<footer class="footer">
+  <div class="nav-footer">
+    <div class="nav-footer-left">
+<p>© 2026 Brown University - ECON1550</p>
+</div>   
+    <div class="nav-footer-center">
+<p>Built with <a href="https://quarto.org">Quarto</a></p>
+</div>
+    <div class="nav-footer-right">
+      <ul class="footer-items list-unstyled">
+    <li class="nav-item">
+    <a class="nav-link" href="/ECON1550/accessibility.html">
+<p>Accessibility</p>
+</a>
+  </li>  
+</ul>
+    </div>
+  </div>
+</footer>
 
 
 
