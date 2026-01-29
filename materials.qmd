@@ -16,8 +16,6 @@ title: "Course Materials"
 | Problem Set 8 | [Questions (PDF)](files/psets/pset8/pset8.pdf) | [Source (ZIP)](files/psets/pset8/pset8-src.zip) | [Solutions (PDF)](files/psets/pset8/pset8_solutions.pdf) |
 | Problem Set 9 | [Questions (PDF)](files/psets/pset9/pset9.pdf) | [Source (ZIP)](files/psets/pset9/pset9-src.zip) | [Solutions (PDF)](files/psets/pset9/pset9_solutions.pdf) |
 
-: Course problem sets with questions, source files, and solutions {#tbl-psets}
-
 Links will become active as materials are released. Solutions are released immediately after the deadline, along with the next problem set.
 
 ## Slides
@@ -29,8 +27,6 @@ Links will become active as materials are released. Solutions are released immed
 | Models in Economics | [PDF](files/slides/02-models-in-economics.pdf) |
 | IS-LM-PC in One Day | [PDF](files/slides/03-review-of-intermediate-macro.pdf) |
 <!-- AUTO-GENERATED:SLIDES:END -->
-
-: Lecture slides by topic {#tbl-slides}
 
 ## Lecture Notes
 
