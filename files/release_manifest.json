@@ -1,0 +1,155 @@
+{
+  "generated_at_local": "2026-01-29T01:51:09.313885-05:00",
+  "generated_at_utc": "2026-01-29T06:51:09.313885+00:00",
+  "timezone": "America/New_York",
+  "forced_stage": null,
+  "assignments": [
+    {
+      "id": "lecture_notes",
+      "title": "Lecture Notes",
+      "kind": "lecture_notes",
+      "stage": "questions",
+      "pre_release_at_local": "2026-01-22T09:00:00-05:00",
+      "due_at_local": "2026-05-15T23:59:00-04:00",
+      "sol_release_at_local": null
+    },
+    {
+      "id": "slides-01-tour",
+      "title": "Tour of the Class",
+      "kind": "slides",
+      "stage": "questions",
+      "pre_release_at_local": "2026-01-22T09:00:00-05:00",
+      "due_at_local": "2026-05-15T23:59:00-04:00",
+      "sol_release_at_local": null
+    },
+    {
+      "id": "slides-02-models",
+      "title": "Models in Economics",
+      "kind": "slides",
+      "stage": "questions",
+      "pre_release_at_local": "2026-01-22T09:00:00-05:00",
+      "due_at_local": "2026-05-15T23:59:00-04:00",
+      "sol_release_at_local": null
+    },
+    {
+      "id": "slides-03-islmpc",
+      "title": "IS-LM-PC in One Day",
+      "kind": "slides",
+      "stage": "questions",
+      "pre_release_at_local": "2026-01-22T09:00:00-05:00",
+      "due_at_local": "2026-05-15T23:59:00-04:00",
+      "sol_release_at_local": null
+    },
+    {
+      "id": "pset1",
+      "title": "Problem Set 1",
+      "kind": "pset",
+      "stage": "questions",
+      "pre_release_at_local": "2026-01-23T09:00:00-05:00",
+      "due_at_local": "2026-02-04T23:59:00-05:00",
+      "sol_release_at_local": "2026-02-05T00:00:00-05:00"
+    },
+    {
+      "id": "pset2",
+      "title": "Problem Set 2",
+      "kind": "pset",
+      "stage": "none",
+      "pre_release_at_local": "2026-02-05T00:00:00-05:00",
+      "due_at_local": "2026-02-11T23:59:00-05:00",
+      "sol_release_at_local": "2026-02-12T00:00:00-05:00"
+    },
+    {
+      "id": "pset3",
+      "title": "Problem Set 3",
+      "kind": "pset",
+      "stage": "none",
+      "pre_release_at_local": "2026-02-12T00:00:00-05:00",
+      "due_at_local": "2026-02-18T23:59:00-05:00",
+      "sol_release_at_local": "2026-02-19T00:00:00-05:00"
+    },
+    {
+      "id": "pset4",
+      "title": "Problem Set 4",
+      "kind": "pset",
+      "stage": "none",
+      "pre_release_at_local": "2026-02-19T00:00:00-05:00",
+      "due_at_local": "2026-02-25T23:59:00-05:00",
+      "sol_release_at_local": "2026-02-26T00:00:00-05:00"
+    },
+    {
+      "id": "midterm1",
+      "title": "Midterm 1",
+      "kind": "exam",
+      "stage": "none",
+      "pre_release_at_local": null,
+      "due_at_local": "2026-03-04T14:00:00-05:00",
+      "sol_release_at_local": null
+    },
+    {
+      "id": "pset5",
+      "title": "Problem Set 5",
+      "kind": "pset",
+      "stage": "none",
+      "pre_release_at_local": "2026-02-26T00:00:00-05:00",
+      "due_at_local": "2026-03-11T23:59:00-04:00",
+      "sol_release_at_local": "2026-03-12T00:00:00-04:00"
+    },
+    {
+      "id": "pset6",
+      "title": "Problem Set 6",
+      "kind": "pset",
+      "stage": "none",
+      "pre_release_at_local": "2026-03-12T00:00:00-04:00",
+      "due_at_local": "2026-03-18T23:59:00-04:00",
+      "sol_release_at_local": "2026-03-19T00:00:00-04:00"
+    },
+    {
+      "id": "pset7",
+      "title": "Problem Set 7",
+      "kind": "pset",
+      "stage": "none",
+      "pre_release_at_local": "2026-03-19T00:00:00-04:00",
+      "due_at_local": "2026-04-01T23:59:00-04:00",
+      "sol_release_at_local": "2026-04-02T00:00:00-04:00"
+    },
+    {
+      "id": "pset8",
+      "title": "Problem Set 8",
+      "kind": "pset",
+      "stage": "none",
+      "pre_release_at_local": "2026-04-02T00:00:00-04:00",
+      "due_at_local": "2026-04-08T23:59:00-04:00",
+      "sol_release_at_local": "2026-04-09T00:00:00-04:00"
+    },
+    {
+      "id": "pset9",
+      "title": "Problem Set 9",
+      "kind": "pset",
+      "stage": "none",
+      "pre_release_at_local": "2026-04-09T00:00:00-04:00",
+      "due_at_local": "2026-04-22T23:59:00-04:00",
+      "sol_release_at_local": "2026-04-23T00:00:00-04:00"
+    },
+    {
+      "id": "midterm2",
+      "title": "Midterm 2",
+      "kind": "exam",
+      "stage": "none",
+      "pre_release_at_local": null,
+      "due_at_local": "2026-04-15T14:00:00-04:00",
+      "sol_release_at_local": null
+    },
+    {
+      "id": "final_exam",
+      "title": "Final Exam",
+      "kind": "exam",
+      "stage": "none",
+      "pre_release_at_local": null,
+      "due_at_local": "2026-05-12T14:00:00-04:00",
+      "sol_release_at_local": null
+    }
+  ],
+  "max_stage": "questions",
+  "any_questions": true,
+  "any_solutions": false
+}
