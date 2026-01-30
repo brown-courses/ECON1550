@@ -1,11 +1,14 @@
 {
-  "generated_at": "2026-01-30T12:32:07.091384+00:00",
+  "generated_at": "2026-01-30T12:39:41.828170+00:00",
   "files": {
     "files/lectures/lecture_notes_ECON1550.pdf": "2026-01-29T06:21:13.223304+00:00",
+    "files/lectures/models_in_economics.pdf": "2026-01-29T06:22:06.638787+00:00",
+    "files/lectures/closed_economy.pdf": "2026-01-29T06:22:11.744740+00:00",
+    "files/lectures/iixx.pdf": "2026-01-29T06:22:18.989669+00:00",
     "files/slides/01-tour-of-the-class.pdf": "2026-01-27T18:55:44.711056+00:00",
     "files/slides/02-models-in-economics.pdf": "2026-01-27T18:55:51.366032+00:00",
     "files/slides/03-review-of-intermediate-macro.pdf": "2026-01-28T23:56:00.128813+00:00",
     "files/psets/pset1/pset1.pdf": "2026-01-29T06:21:16.454272+00:00",
-    "files/psets/pset1/pset1-src.zip": "2026-01-30T12:32:06.884182+00:00"
+    "files/psets/pset1/pset1-src.zip": "2026-01-30T12:39:41.461761+00:00"
   }
 }
