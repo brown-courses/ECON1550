@@ -26,6 +26,7 @@ Links will become active as materials are released. Solutions are released immed
 | Tour of the Class | [PDF](files/slides/01-tour-of-the-class.pdf) |
 | Models in Economics | [PDF](files/slides/02-models-in-economics.pdf) |
 | IS-LM-PC in One Day | [PDF](files/slides/03-review-of-intermediate-macro.pdf) |
+| National Income Accounting for Open Economies | [PDF](files/slides/04-national-income-accounting.pdf) |
 <!-- AUTO-GENERATED:SLIDES:END -->
 
 ## Lecture Notes

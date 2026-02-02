@@ -1,6 +1,6 @@
 {
-  "generated_at_local": "2026-02-02T13:29:16.415294-05:00",
-  "generated_at_utc": "2026-02-02T18:29:16.415294+00:00",
+  "generated_at_local": "2026-02-02T13:54:17.536444-05:00",
+  "generated_at_utc": "2026-02-02T18:54:17.536444+00:00",
   "timezone": "America/New_York",
   "forced_stage": null,
   "assignments": [
@@ -34,6 +34,15 @@
     {
       "id": "slides-03-islmpc",
       "title": "IS-LM-PC in One Day",
+      "kind": "slides",
+      "stage": "questions",
+      "pre_release_at_local": "2026-01-22T09:00:00-05:00",
+      "due_at_local": "2026-05-15T23:59:00-04:00",
+      "sol_release_at_local": null
+    },
+    {
+      "id": "slides-04-nia",
+      "title": "National Income Accounting for Open Economies",
       "kind": "slides",
       "stage": "questions",
       "pre_release_at_local": "2026-01-22T09:00:00-05:00",
