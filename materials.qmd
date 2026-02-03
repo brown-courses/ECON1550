@@ -250,6 +250,7 @@ Links will become active as materials are released. Solutions are released immed
 }
 .last-updated-label {
   font-style: italic;
+  text-align: left !important;
 }
 .last-updated-date {
 }
