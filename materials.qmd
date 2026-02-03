@@ -248,7 +248,7 @@ Links will become active as materials are released. Solutions are released immed
   text-align: center !important;
   color: #6b7280;
 }
-.last-updated-label {
+.last-updated-row td.last-updated-label {
   font-style: italic;
   text-align: left !important;
 }
