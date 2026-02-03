@@ -32,21 +32,21 @@
     "href": "index.html#where-to-find-course-materials",
     "title": "ECON1550 International Finance",
     "section": "Where to Find Course Materials",
-    "text": "Where to Find Course Materials\nCanvas is the official home for this course. Everything you need—announcements, assignments, grades, policies, and course materials—is available there.\nThis website and the GitHub repository mirror the course materials and offer a few extras:\n\nLaTeX source files — edit or build upon the original source code for problem sets and notes\nModification dates — see exactly when each file was last updated\nProgrammatic access — clone the repo or use the GitHub API to automate your workflow\nFrequently Asked Questions — answers to common questions about the course\n\nIf you just want to download PDFs, Canvas is simpler. This site is here for those who want more."
+    "text": "Where to Find Course Materials\nCanvas is the official home for this course. Everything you need—announcements, assignments, grades, policies, and course materials—is available there.\nThis website and the GitHub repository mirror the course materials and offer a few extras:\n\nLaTeX source files — edit or build upon the original source code for problem sets and notes\nModification dates — see exactly when each file was last updated\nRepo history — see exactly what changed in each update\nProgrammatic access — clone the repo or use the GitHub API to automate your workflow\nFrequently Asked Questions — answers to common questions about the course\n\nIf you just want to download PDFs, Canvas is simpler. This site is here for those who want more."
   },
   {
     "objectID": "index.html#course-information",
     "href": "index.html#course-information",
     "title": "ECON1550 International Finance",
     "section": "Course Information",
-    "text": "Course Information\nInstructor: Fernando Duarte (fernando_duarte@brown.edu)\nLinks:\n\nCanvas - Announcements and grades\nGradescope - Submit your problem sets\nEd Discussion - Ask questions and discuss course content"
+    "text": "Course Information\nInstructor: Fernando Duarte (fernando_duarte@brown.edu)"
   },
   {
-    "objectID": "index.html#quick-links",
-    "href": "index.html#quick-links",
+    "objectID": "index.html#links",
+    "href": "index.html#links",
     "title": "ECON1550 International Finance",
-    "section": "Quick Links",
-    "text": "Quick Links\n\nMaterials - Problem sets, slides, and lecture notes\nSchedule - Course schedule and due dates"
+    "section": "Links",
+    "text": "Links\n\nMaterials - Problem sets, slides, and lecture notes\nSchedule - Course schedule and due dates"
   },
   {
     "objectID": "accessibility.html",
@@ -60,7 +60,7 @@
     "href": "accessibility.html#accessibility-statement",
     "title": "Accessibility",
     "section": "Accessibility Statement",
-    "text": "Accessibility Statement\nThe ECON1550 International Finance course website is committed to ensuring digital accessibility for all users, including those with disabilities.\n\nStandards\nWe aim to conform to WCAG 2.1 Level AA standards.\n\n\nFeatures\nThis site includes the following accessibility features:\n\nSemantic HTML structure with proper heading hierarchy\nKeyboard navigation support with skip-to-content link\nResponsive design for various devices and screen sizes\nSufficient color contrast\nDescriptive link text\n\n\n\nFeedback\nIf you encounter any accessibility barriers on this site, please contact:\nFernando Duarte Email: fernando_duarte@brown.edu\n\n\nReporting Issues\nPlease include:\n\nThe web address (URL) of the content\nA description of the issue\nYour contact information\n\nWe will respond within 5 business days."
+    "text": "Accessibility Statement\nThe ECON1550 International Finance course website is committed to ensuring digital accessibility for all users, including those with disabilities.\n\nStandards\nWe aim to conform to WCAG 2.1 Level AA standards.\n\n\nFeatures\nThis site includes the following accessibility features:\n\nSemantic HTML structure with proper heading hierarchy\nKeyboard navigation support with skip-to-content link\nResponsive design for various devices and screen sizes\nSufficient color contrast\nDescriptive link text\n\n\n\nFeedback\nIf you encounter any accessibility barriers on this site, please submit an issue on our GitHub repository.\n\n\nReporting Issues\nPlease include:\n\nThe web address (URL) of the content\nA description of the issue"
   },
   {
     "objectID": "faq.html",
@@ -119,11 +119,11 @@
     "text": "Skip to main content"
   },
   {
-    "objectID": "materials.html#problem-sets",
-    "href": "materials.html#problem-sets",
+    "objectID": "materials.html#lecture-notes",
+    "href": "materials.html#lecture-notes",
     "title": "Course Materials",
-    "section": "Problem Sets",
-    "text": "Problem Sets\n\n\n\nProblem Set\nQuestions\nSource\nSolutions\n\n\n\n\nProblem Set 1\nQuestions (PDF)\nSource (ZIP)\nSolutions (PDF)\n\n\nProblem Set 2\nQuestions (PDF)\nSource (ZIP)\nSolutions (PDF)\n\n\nProblem Set 3\nQuestions (PDF)\nSource (ZIP)\nSolutions (PDF)\n\n\nProblem Set 4\nQuestions (PDF)\nSource (ZIP)\nSolutions (PDF)\n\n\nProblem Set 5\nQuestions (PDF)\nSource (ZIP)\nSolutions (PDF)\n\n\nProblem Set 6\nQuestions (PDF)\nSource (ZIP)\nSolutions (PDF)\n\n\nProblem Set 7\nQuestions (PDF)\nSource (ZIP)\nSolutions (PDF)\n\n\nProblem Set 8\nQuestions (PDF)\nSource (ZIP)\nSolutions (PDF)\n\n\nProblem Set 9\nQuestions (PDF)\nSource (ZIP)\nSolutions (PDF)\n\n\n\nLinks will become active as materials are released. Solutions are released immediately after the deadline, along with the next problem set."
+    "section": "Lecture Notes",
+    "text": "Lecture Notes\n\n\nLecture Notes (PDF)\n\nModels in Economics\nIntermediate Macro\nThe II-XX Model"
   },
   {
     "objectID": "materials.html#slides",
@@ -133,10 +133,10 @@
     "text": "Slides\n\n\n\n\nTopic\nPDF\n\n\n\n\nTour of the Class\nPDF\n\n\nModels in Economics\nPDF\n\n\nIS-LM-PC in One Day\nPDF\n\n\nNational Income Accounting for Open Economies\nPDF"
   },
   {
-    "objectID": "materials.html#lecture-notes",
-    "href": "materials.html#lecture-notes",
+    "objectID": "materials.html#problem-sets",
+    "href": "materials.html#problem-sets",
     "title": "Course Materials",
-    "section": "Lecture Notes",
-    "text": "Lecture Notes\n\n\nLecture Notes (PDF)\n\nModels in Economics\nClosed Economy\nII-XX Model"
+    "section": "Problem Sets",
+    "text": "Problem Sets\n\n\n\nProblem Set\nQuestions\nSource\nSolutions\n\n\n\n\nProblem Set 1\nQuestions (PDF)\nSource (ZIP)\nSolutions (PDF)\n\n\nProblem Set 2\nQuestions (PDF)\nSource (ZIP)\nSolutions (PDF)\n\n\nProblem Set 3\nQuestions (PDF)\nSource (ZIP)\nSolutions (PDF)\n\n\nProblem Set 4\nQuestions (PDF)\nSource (ZIP)\nSolutions (PDF)\n\n\nProblem Set 5\nQuestions (PDF)\nSource (ZIP)\nSolutions (PDF)\n\n\nProblem Set 6\nQuestions (PDF)\nSource (ZIP)\nSolutions (PDF)\n\n\nProblem Set 7\nQuestions (PDF)\nSource (ZIP)\nSolutions (PDF)\n\n\nProblem Set 8\nQuestions (PDF)\nSource (ZIP)\nSolutions (PDF)\n\n\nProblem Set 9\nQuestions (PDF)\nSource (ZIP)\nSolutions (PDF)\n\n\n\nLinks will become active as materials are released. Solutions are released immediately after the deadline, along with the next problem set."
   }
 ]
