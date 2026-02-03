@@ -22,10 +22,7 @@ This site includes the following accessibility features:
 
 ### Feedback
 
-If you encounter any accessibility barriers on this site, please contact:
-
-**Fernando Duarte**
-Email: [fernando_duarte@brown.edu](mailto:fernando_duarte@brown.edu)
+If you encounter any accessibility barriers on this site, please [submit an issue](https://github.com/fernando-duarte/ECON1550/issues) on our GitHub repository.
 
 ### Reporting Issues
 
@@ -33,6 +30,3 @@ Please include:
 
 - The web address (URL) of the content
 - A description of the issue
-- Your contact information
-
-We will respond within 5 business days.

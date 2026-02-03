@@ -11,6 +11,7 @@ This website and the [GitHub repository](https://github.com/brown-courses/ECON15
 
 - **LaTeX source files** — edit or build upon the original source code for problem sets and notes
 - **Modification dates** — see exactly when each file was last updated
+- **Repo history** — see exactly what changed in each update
 - **Programmatic access** — clone the repo or use the GitHub API to automate your workflow
 - **[Frequently Asked Questions](faq.qmd)** — answers to common questions about the course
 
@@ -20,13 +21,7 @@ If you just want to download PDFs, Canvas is simpler. This site is here for thos
 
 **Instructor:** Fernando Duarte ([fernando_duarte@brown.edu](mailto:fernando_duarte@brown.edu))
 
-**Links:**
-
-- [Canvas](https://canvas.brown.edu/courses/1101477) - Announcements and grades
-- [Gradescope](https://www.gradescope.com/courses/1208698) - Submit your problem sets
-- [Ed Discussion](https://edstem.org/us/courses/90602/discussion) - Ask questions and discuss course content
-
-## Quick Links
+## Links
 
 - [Materials](materials.qmd) - Problem sets, slides, and lecture notes
 - [Schedule](schedule.qmd) - Course schedule and due dates

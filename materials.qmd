@@ -2,6 +2,26 @@
 title: "Course Materials"
 ---
 
+## Lecture Notes
+
+<!-- AUTO-GENERATED:LECTURES:START -->
+- [Lecture Notes (PDF)](files/lectures/lecture_notes_ECON1550.pdf)
+  - [Models in Economics](files/lectures/models_in_economics.pdf)
+  - [Intermediate Macro](files/lectures/closed_economy.pdf)
+  - [The II-XX Model](files/lectures/iixx.pdf)
+<!-- AUTO-GENERATED:LECTURES:END -->
+
+## Slides
+
+<!-- AUTO-GENERATED:SLIDES:START -->
+| Topic | PDF |
+|-------|-----|
+| Tour of the Class | [PDF](files/slides/01-tour-of-the-class.pdf) |
+| Models in Economics | [PDF](files/slides/02-models-in-economics.pdf) |
+| IS-LM-PC in One Day | [PDF](files/slides/03-review-of-intermediate-macro.pdf) |
+| National Income Accounting for Open Economies | [PDF](files/slides/04-national-income-accounting.pdf) |
+<!-- AUTO-GENERATED:SLIDES:END -->
+
 ## Problem Sets
 
 | Problem Set | Questions | Source | Solutions |
@@ -18,122 +38,195 @@ title: "Course Materials"
 
 Links will become active as materials are released. Solutions are released immediately after the deadline, along with the next problem set.
 
-## Slides
-
-<!-- AUTO-GENERATED:SLIDES:START -->
-| Topic | PDF |
-|-------|-----|
-| Tour of the Class | [PDF](files/slides/01-tour-of-the-class.pdf) |
-| Models in Economics | [PDF](files/slides/02-models-in-economics.pdf) |
-| IS-LM-PC in One Day | [PDF](files/slides/03-review-of-intermediate-macro.pdf) |
-| National Income Accounting for Open Economies | [PDF](files/slides/04-national-income-accounting.pdf) |
-<!-- AUTO-GENERATED:SLIDES:END -->
-
-## Lecture Notes
-
-<!-- AUTO-GENERATED:LECTURES:START -->
-- [Lecture Notes (PDF)](files/lectures/lecture_notes_ECON1550.pdf)
-  - [Models in Economics](files/lectures/models_in_economics.pdf)
-  - [Closed Economy](files/lectures/closed_economy.pdf)
-  - [II-XX Model](files/lectures/iixx.pdf)
-<!-- AUTO-GENERATED:LECTURES:END -->
-
 <script>
 (function() {
-  function addTimestamps() {
-    fetch('files/file_timestamps.json')
-      .then(response => {
-        if (!response.ok) return null;
-        return response.json();
-      })
-      .then(data => {
-        if (!data || !data.files) return;
+  function processPage() {
+    // Fetch both timestamps and release manifest
+    Promise.all([
+      fetch('files/file_timestamps.json').then(r => r.ok ? r.json() : null).catch(() => null),
+      fetch('files/release_manifest.json').then(r => r.ok ? r.json() : null).catch(() => null)
+    ]).then(([timestampData, releaseData]) => {
+      const files = timestampData?.files || {};
+      const assignments = releaseData?.assignments || [];
+      const timezone = releaseData?.timezone || 'America/New_York';
 
-        // Process problem sets table (table with "Problem Set" in first column)
-        document.querySelectorAll('table').forEach(table => {
-          const rows = Array.from(table.querySelectorAll('tbody tr'));
+      // Build lookup by assignment ID
+      const assignmentById = {};
+      assignments.forEach(a => { assignmentById[a.id] = a; });
 
-          rows.forEach(row => {
-            const firstCell = row.querySelector('td:first-child');
-            if (!firstCell || !firstCell.textContent.includes('Problem Set')) return;
-            if (row.nextElementSibling && row.nextElementSibling.classList.contains('last-updated-row')) return;
+      // Get current time
+      const now = new Date();
 
-            const cells = row.querySelectorAll('td');
-            const timestamps = [];
-            let hasAnyTimestamp = false;
+      // Helper: check if a date string has passed
+      function hasDatePassed(isoString) {
+        if (!isoString) return false;
+        const date = new Date(isoString);
+        return now >= date;
+      }
 
-            cells.forEach((cell, idx) => {
-              if (idx === 0) {
-                timestamps.push('Last updated');
-                return;
-              }
-              const link = cell.querySelector('a[href*="files/"]');
-              if (link) {
-                const href = link.getAttribute('href');
-                const path = href.replace(/^.*?(files\/)/, '$1');
-                const timestamp = data.files[path];
-                if (timestamp) {
-                  hasAnyTimestamp = true;
-                  const date = new Date(timestamp);
-                  const formatted = date.toLocaleDateString('en-US', {
-                    month: 'short',
-                    day: 'numeric'
-                  });
-                  timestamps.push(formatted);
-                } else {
-                  timestamps.push('');
-                }
-              } else {
-                timestamps.push('');
-              }
-            });
+      // Helper: disable a link (convert to plain text)
+      function disableLink(link) {
+        if (link.classList.contains('link-disabled')) return;
+        link.classList.add('link-disabled');
+        link.removeAttribute('href');
+        link.style.pointerEvents = 'none';
+      }
 
-            if (hasAnyTimestamp) {
-              row.classList.add('has-updated-row');
-              const newRow = document.createElement('tr');
-              newRow.className = 'last-updated-row';
-              timestamps.forEach((text, idx) => {
-                const td = document.createElement('td');
-                td.textContent = text;
-                if (idx === 0) td.className = 'last-updated-label';
-                else td.className = 'last-updated-date';
-                newRow.appendChild(td);
-              });
-              row.parentNode.insertBefore(newRow, row.nextSibling);
+      // Helper: extract pset ID from href (e.g., "files/psets/pset1/pset1.pdf" -> "pset1")
+      function extractPsetId(href) {
+        const match = href.match(/psets\/(pset\d+)\//);
+        return match ? match[1] : null;
+      }
+
+      // Helper function to add last-updated row to a table row
+      function addLastUpdatedRow(row, labelText) {
+        if (row.nextElementSibling && row.nextElementSibling.classList.contains('last-updated-row')) return;
+
+        const cells = row.querySelectorAll('td');
+        const timestamps = [];
+        let hasAnyTimestamp = false;
+
+        cells.forEach((cell, idx) => {
+          if (idx === 0) {
+            timestamps.push(labelText);
+            return;
+          }
+          const link = cell.querySelector('a[href*="files/"]');
+          if (link) {
+            const href = link.getAttribute('href');
+            if (!href) {
+              timestamps.push('');
+              return;
             }
-          });
-        });
-
-        // Process other links (slides, lecture notes) with inline dates
-        document.querySelectorAll('a[href*="files/"]').forEach(link => {
-          // Skip links in problem sets table (they have row-based dates)
-          const inPsetTable = link.closest('tr')?.querySelector('td:first-child')?.textContent.includes('Problem Set');
-          if (inPsetTable) return;
-
-          if (link.nextSibling && link.nextSibling.className === 'file-updated') return;
-          const href = link.getAttribute('href');
-          const path = href.replace(/^.*?(files\/)/, '$1');
-          const timestamp = data.files[path];
-          if (timestamp) {
-            const date = new Date(timestamp);
-            const formatted = date.toLocaleDateString('en-US', {
-              month: 'short',
-              day: 'numeric'
-            });
-            const span = document.createElement('span');
-            span.className = 'file-updated';
-            span.textContent = ` (upd. ${formatted})`;
-            link.parentNode.insertBefore(span, link.nextSibling);
+            const path = href.replace(/^.*?(files\/)/, '$1');
+            const timestamp = files[path];
+            if (timestamp) {
+              hasAnyTimestamp = true;
+              const date = new Date(timestamp);
+              const formatted = date.toLocaleDateString('en-US', {
+                month: 'short',
+                day: 'numeric'
+              });
+              timestamps.push(formatted);
+            } else {
+              timestamps.push('');
+            }
+          } else {
+            timestamps.push('');
           }
         });
-      })
-      .catch(err => console.error('Timestamp fetch error:', err));
+
+        if (hasAnyTimestamp) {
+          row.classList.add('has-updated-row');
+          const newRow = document.createElement('tr');
+          newRow.className = 'last-updated-row';
+          timestamps.forEach((text, idx) => {
+            const td = document.createElement('td');
+            td.textContent = text;
+            if (idx === 0) td.className = 'last-updated-label';
+            else td.className = 'last-updated-date';
+            newRow.appendChild(td);
+          });
+          row.parentNode.insertBefore(newRow, row.nextSibling);
+        }
+      }
+
+      // Process problem sets table: disable unreleased links
+      document.querySelectorAll('table').forEach(table => {
+        const rows = Array.from(table.querySelectorAll('tbody tr'));
+        const headerRow = table.querySelector('thead tr');
+        const headers = headerRow ? Array.from(headerRow.querySelectorAll('th')).map(th => th.textContent.trim()) : [];
+
+        // Check if this is the slides table
+        const isSlidesTable = headers.includes('Topic') && headers.includes('PDF');
+        // Check if this is the problem sets table
+        const isPsetTable = headers.includes('Problem Set') && headers.includes('Questions');
+
+        rows.forEach(row => {
+          const firstCell = row.querySelector('td:first-child');
+          if (!firstCell) return;
+
+          // Problem sets table: check release status and disable unreleased links
+          if (firstCell.textContent.includes('Problem Set')) {
+            const cells = row.querySelectorAll('td');
+
+            // Find the pset ID from any link in the row
+            let psetId = null;
+            cells.forEach(cell => {
+              const link = cell.querySelector('a[href*="files/psets/"]');
+              if (link && !psetId) {
+                psetId = extractPsetId(link.getAttribute('href'));
+              }
+            });
+
+            if (psetId) {
+              const assignment = assignmentById[psetId];
+              if (assignment) {
+                const questionsReleased = hasDatePassed(assignment.pre_release_at_local);
+                const solutionsReleased = hasDatePassed(assignment.sol_release_at_local);
+
+                cells.forEach(cell => {
+                  const link = cell.querySelector('a');
+                  if (!link) return;
+                  const href = link.getAttribute('href') || '';
+
+                  // Questions and Source links: require questions release
+                  if (href.includes('pset') && !href.includes('_solutions')) {
+                    if (!questionsReleased) {
+                      disableLink(link);
+                    }
+                  }
+                  // Solutions link: require solutions release
+                  if (href.includes('_solutions')) {
+                    if (!solutionsReleased) {
+                      disableLink(link);
+                    }
+                  }
+                });
+              }
+            }
+
+            // Add timestamp row (only for released items)
+            addLastUpdatedRow(row, 'Last updated');
+          }
+          // Slides table
+          else if (isSlidesTable) {
+            addLastUpdatedRow(row, 'Last updated');
+          }
+        });
+      });
+
+      // Process other links (lecture notes) with inline dates
+      document.querySelectorAll('a[href*="files/"]').forEach(link => {
+        // Skip links in tables (they have row-based dates)
+        if (link.closest('table')) return;
+
+        if (link.nextSibling && link.nextSibling.className === 'file-updated') return;
+        const href = link.getAttribute('href');
+        if (!href) return;
+        const path = href.replace(/^.*?(files\/)/, '$1');
+        const timestamp = files[path];
+        if (timestamp) {
+          const date = new Date(timestamp);
+          const formatted = date.toLocaleDateString('en-US', {
+            month: 'short',
+            day: 'numeric'
+          });
+          const span = document.createElement('span');
+          span.className = 'file-updated';
+          // Use "last updated" for main lecture notes PDF, "upd." for chapters
+          const isMainLectureNotes = href.includes('lecture_notes_ECON1550.pdf');
+          span.textContent = isMainLectureNotes ? ` (last updated ${formatted})` : ` (upd. ${formatted})`;
+          link.parentNode.insertBefore(span, link.nextSibling);
+        }
+      });
+    }).catch(err => console.error('Materials page error:', err));
   }
 
   if (document.readyState === 'loading') {
-    document.addEventListener('DOMContentLoaded', addTimestamps);
+    document.addEventListener('DOMContentLoaded', processPage);
   } else {
-    addTimestamps();
+    processPage();
   }
 })();
 </script>
@@ -159,5 +252,11 @@ Links will become active as materials are released. Solutions are released immed
   font-style: italic;
 }
 .last-updated-date {
+}
+/* Disabled links (unreleased content) */
+a.link-disabled {
+  color: #9ca3af !important;
+  text-decoration: none !important;
+  cursor: default !important;
 }
 </style>
