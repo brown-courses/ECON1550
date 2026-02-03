@@ -35,6 +35,7 @@ Links will become active as materials are released. Solutions are released immed
 - [Lecture Notes (PDF)](files/lectures/lecture_notes_ECON1550.pdf)
   - [Models in Economics](files/lectures/models_in_economics.pdf)
   - [Closed Economy](files/lectures/closed_economy.pdf)
+  - [GDP Vs GNP Note](files/lectures/GDP_vs_GNP_note.pdf)
   - [II-XX Model](files/lectures/iixx.pdf)
 <!-- AUTO-GENERATED:LECTURES:END -->
 
