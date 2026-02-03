@@ -18,7 +18,7 @@ title: "Frequently Asked Questions"
 - **Course website** (you're here): Lecture notes, slides, problem sets, and schedule
 - **[Canvas](https://canvas.brown.edu/courses/1101477)**: Announcements, grades, office hours, and section times
 - **[Gradescope](https://www.gradescope.com/courses/1208698)**: Submit problem sets and view graded work
-- **[Ed Discussion](https://edstem.org/us/courses/75398/discussion/)**: Ask questions and discuss course content
+- **[Ed Discussion](https://edstem.org/us/courses/90602/discussion)**: Ask questions and discuss course content
 
 ### What should I do before the first class?
 
@@ -144,7 +144,7 @@ Office hours are listed on [Canvas](https://canvas.brown.edu/courses/1101477). Y
 
 ### How do I ask questions about course content?
 
-Post on [Ed Discussion](https://edstem.org/us/courses/75398/discussion/). Check if your question has already been answered before posting. TAs and the instructor monitor the forum regularly.
+Post on [Ed Discussion](https://edstem.org/us/courses/90602/discussion). Check if your question has already been answered before posting. TAs and the instructor monitor the forum regularly.
 
 ### Who do I contact for personal matters?
 
@@ -159,5 +159,5 @@ Post on [Ed Discussion](https://edstem.org/us/courses/75398/discussion/). Check 
 
 ::: {.callout-note}
 ## Still have questions?
-If your question isn't answered here, post on [Ed Discussion](https://edstem.org/us/courses/75398/discussion/). You'll get a faster response there than by email, and your classmates may benefit from the answer too.
+If your question isn't answered here, post on [Ed Discussion](https://edstem.org/us/courses/90602/discussion). You'll get a faster response there than by email, and your classmates may benefit from the answer too.
 :::

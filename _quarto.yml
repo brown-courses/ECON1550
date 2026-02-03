@@ -53,6 +53,8 @@ website:
         href: https://canvas.brown.edu/courses/1101477
       - text: Gradescope
         href: https://www.gradescope.com/courses/1208698
+      - text: Ed
+        href: https://edstem.org/us/courses/90602/discussion
       - icon: github
         href: https://github.com/brown-courses/ECON1550-Spring26
         aria-label: GitHub

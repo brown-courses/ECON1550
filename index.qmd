@@ -11,8 +11,8 @@ This website and the [GitHub repository](https://github.com/brown-courses/ECON15
 
 - **LaTeX source files** — edit or build upon the original source code for problem sets and notes
 - **Modification dates** — see exactly when each file was last updated
-- **Version history** — browse the [commit history](https://github.com/brown-courses/ECON1550/commits/main) to see all changes over time, or compare any two versions
 - **Programmatic access** — clone the repo or use the GitHub API to automate your workflow
+- **[Frequently Asked Questions](faq.qmd)** — answers to common questions about the course
 
 If you just want to download PDFs, Canvas is simpler. This site is here for those who want more.
 
@@ -24,6 +24,7 @@ If you just want to download PDFs, Canvas is simpler. This site is here for thos
 
 - [Canvas](https://canvas.brown.edu/courses/1101477) - Announcements and grades
 - [Gradescope](https://www.gradescope.com/courses/1208698) - Submit your problem sets
+- [Ed Discussion](https://edstem.org/us/courses/90602/discussion) - Ask questions and discuss course content
 
 ## Quick Links
 
