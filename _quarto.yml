@@ -67,6 +67,7 @@ format:
     link-external-newwindow: true
     link-external-icon: true
     link-external-filter: '^(?:http:|https:)\/\/(?:brown-courses\.github\.io|localhost)'
+    include-in-header: _includes/favicon-meta.html
     include-before-body: _includes/skip-link.html
 
 execute:
