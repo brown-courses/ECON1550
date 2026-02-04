@@ -81,12 +81,14 @@ Links will become active as materials are released. Solutions are released immed
       }
 
       // Helper function to add last-updated row to a table row
-      function addLastUpdatedRow(row, labelText) {
+      // compact: if true, merge date into first column (e.g. "Last updated Jan 25")
+      function addLastUpdatedRow(row, labelText, compact) {
         if (row.nextElementSibling && row.nextElementSibling.classList.contains('last-updated-row')) return;
 
         const cells = row.querySelectorAll('td');
         const timestamps = [];
         let hasAnyTimestamp = false;
+        let firstDate = '';
 
         cells.forEach((cell, idx) => {
           if (idx === 0) {
@@ -109,7 +111,8 @@ Links will become active as materials are released. Solutions are released immed
                 month: 'short',
                 day: 'numeric'
               });
-              timestamps.push(formatted);
+              if (!firstDate) firstDate = formatted;
+              timestamps.push(compact ? '' : formatted);
             } else {
               timestamps.push('');
             }
@@ -119,6 +122,7 @@ Links will become active as materials are released. Solutions are released immed
         });
 
         if (hasAnyTimestamp) {
+          if (compact && firstDate) timestamps[0] = labelText + ' ' + firstDate;
           row.classList.add('has-updated-row');
           const newRow = document.createElement('tr');
           newRow.className = 'last-updated-row';
@@ -191,9 +195,9 @@ Links will become active as materials are released. Solutions are released immed
             // Add timestamp row (only for released items)
             addLastUpdatedRow(row, 'Last updated');
           }
-          // Slides table
+          // Slides table: compact mode (date in first column)
           else if (isSlidesTable) {
-            addLastUpdatedRow(row, 'Last updated');
+            addLastUpdatedRow(row, 'Last updated', true);
           }
         });
       });
