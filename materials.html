@@ -195,6 +195,7 @@ ul.task-list li input[type="checkbox"] {
 </section>
 <section id="slides" class="level2">
 <h2 class="anchored" data-anchor-id="slides">Slides</h2>
+<div class="slides-table">
 <!-- AUTO-GENERATED:SLIDES:START -->
 <table class="caption-top table">
 <thead>
@@ -223,6 +224,7 @@ ul.task-list li input[type="checkbox"] {
 </tbody>
 </table>
 <!-- AUTO-GENERATED:SLIDES:END -->
+</div>
 </section>
 <section id="problem-sets" class="level2">
 <h2 class="anchored" data-anchor-id="problem-sets">Problem Sets</h2>
@@ -486,6 +488,14 @@ ul.task-list li input[type="checkbox"] {
 })();
 </script>
 <style>
+/* Slides table: fit columns to content */
+.slides-table table {
+  width: auto;
+}
+.slides-table table td:first-child,
+.slides-table table th:first-child {
+  white-space: nowrap;
+}
 .file-updated {
   color: #6b7280;
   font-size: 0.85em;
