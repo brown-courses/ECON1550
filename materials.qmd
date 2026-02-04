@@ -7,6 +7,7 @@ title: "Course Materials"
 <!-- AUTO-GENERATED:LECTURES:START -->
 - [Lecture Notes (PDF)](files/lectures/lecture_notes_ECON1550.pdf)
   - [Models in Economics](files/lectures/models_in_economics.pdf)
+  - [Financial Assets](files/lectures/financial_assets.pdf)
   - [Intermediate Macro](files/lectures/closed_economy.pdf)
   - [The II-XX Model](files/lectures/iixx.pdf)
 <!-- AUTO-GENERATED:LECTURES:END -->
