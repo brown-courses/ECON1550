@@ -11,140 +11,44 @@ title: "Frequently Asked Questions"
      - Textbook edition
 -->
 
-## Getting Started
-
-### Where do I find course materials?
-
-- **Course website** (you're here): Lecture notes, slides, problem sets, and schedule
-- **[Canvas](https://canvas.brown.edu/courses/1101477)**: Announcements, grades, office hours, and section times
-- **[Gradescope](https://www.gradescope.com/courses/1208698)**: Submit problem sets and view graded work
-- **[Ed Discussion](https://edstem.org/us/courses/90602/discussion)**: Ask questions and discuss course content
-
-### What should I do before the first class?
-
-Read the syllabus on Canvas. Come to class ready to take notes.
+<!-- ## Getting Started
 
 ### Is attendance required?
 
-Attendance is not graded, but the material builds on itself quickly. Students who attend regularly perform better on exams.
-
+-->
 ### Will lectures be recorded?
 
 No. Lectures are not recorded. If you miss class, get notes from a classmate and come to office hours with questions.
 
-## Problem Sets
-
-### When are problem sets due?
-
-Problem sets are due on **Tuesdays at 11:59 PM ET**. The exact due dates are on the [schedule](schedule.qmd).
-
-### Where do I submit problem sets?
-
-Submit on [Gradescope](https://www.gradescope.com/courses/1208698). Make sure to match each problem with the correct pages when submitting.
-
-### Can I work with other students?
-
-Yes, collaboration is encouraged. Discuss problems with classmates and work through concepts together. However, you must write up your answers independently in your own words. Copying or paraphrasing another student's work is not allowed.
+<!-- ## Problem Sets
 
 ### What if I need an extension?
 
-Extensions are not granted for problem sets. Instead, your two lowest problem set scores are automatically dropped. This policy accommodates illness, travel, and other conflicts—use the drops wisely.
-
-### How are problem sets graded?
-
-Each problem is graded on a scale of 0–2:
-
-- **2**: Correct answer with clear reasoning
-- **1**: Meaningful progress or minor errors
-- **0**: Missing, wrong approach, or no work shown
-
-Show your work. A correct numerical answer without supporting reasoning may not receive full credit.
-
 ## Exams
-
-### When are the exams?
-
-| Exam | Date | Time | Location |
-|------|------|------|----------|
-| Midterm 1 | Wednesday, March 4 | 2:00 PM | MacMillan Hall 115 |
-| Midterm 2 | Wednesday, April 15 | 2:00 PM | MacMillan Hall 115 |
-| Final Exam | Tuesday, May 12 | 2:00 PM | TBA |
-
-Midterms are held during the regular class time. The final exam is scheduled by the registrar.
 
 ### What can I bring to exams?
 
-Nothing. Exams are closed-book, closed-notes, and no calculators or electronic devices are allowed.
-
 ### How do I prepare for exams?
-
-- Work through problem sets without looking at solutions
-- Review lecture notes and slides
-- Practice with past exams (posted before each exam on Canvas)
-- Attend review sessions during the week before exams
 
 ### What if I can't make an exam?
 
-Contact the instructor as soon as possible. Make-up exams require a Dean's letter documenting the conflict or emergency. Anticipated conflicts (religious observances, varsity athletics) must be communicated before the exam.
-
 ### Are there sections during exam weeks?
 
-No. Sections do not meet during midterm and final exam weeks. Review sessions will be scheduled instead—check Canvas for times.
+### Are there review sessions during exam weeks?
+
+### Do we get practice exams?
 
 ## Grading
-
-### How is my final grade calculated?
-
-Your final grade is the **maximum** of:
-
-- **Weighted average**: 20% problem sets + 20% Midterm 1 + 20% Midterm 2 + 40% Final Exam
-- **Final exam score alone**
-
-This means the final exam can only help your grade, never hurt it.
-
-### What grade do I need for an A/B/C?
-
-These thresholds are guaranteed minimums:
-
-| Final Average | Minimum Grade |
-|---------------|---------------|
-| 90% or above | A |
-| 80% or above | B |
-| 70% or above | C |
-
-Actual cutoffs are often lower and depend on the class distribution.
 
 ### How do I request a regrade?
 
 Submit a regrade request through [Gradescope](https://www.gradescope.com/courses/1208698) within 7 days of receiving your grade. Explain specifically why you believe the grading was incorrect. Note that your entire submission may be regraded, which could result in a higher or lower score.
 
-### Can I take this course S/NC?
-
-Yes. Brown's standard S/NC policies apply. The S/NC deadline is set by the registrar. Deciding whether to take a course S/NC is a personal choice—think about your goals and workload.
+### Do you give S_DIST for students taking this course S/NC?
 
 ## Course Content
 
-### What are the prerequisites?
-
-ECON 1210 (Intermediate Macroeconomics) or equivalent. The course assumes familiarity with basic macroeconomic concepts: GDP, inflation, interest rates, and the IS-LM model.
-
-### What textbook do I need?
-
-Krugman, Obstfeld, and Melitz, *International Economics: Theory and Policy*, 11th edition. The textbook is required. Readings are assigned before most lectures.
-
-### Are the readings graded?
-
-No, but they are expected. Come to class having done the reading—you'll understand the lecture better and be able to participate in discussions.
-
 ## Getting Help
-
-### Where can I find office hours?
-
-Office hours are listed on [Canvas](https://canvas.brown.edu/courses/1101477). You can attend any instructor or TA's office hours, not just your section TA's.
-
-### How do I ask questions about course content?
-
-Post on [Ed Discussion](https://edstem.org/us/courses/90602/discussion). Check if your question has already been answered before posting. TAs and the instructor monitor the forum regularly.
 
 ### Who do I contact for personal matters?
 
@@ -154,7 +58,7 @@ Post on [Ed Discussion](https://edstem.org/us/courses/90602/discussion). Check i
 | Grading questions | Gradescope regrade request |
 | Section conflicts, accommodations | TA handling your section |
 | Emergencies, personal circumstances | Instructor (fernando_duarte@brown.edu) |
-
+-->
 ---
 
 ::: {.callout-note}
