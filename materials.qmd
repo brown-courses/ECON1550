@@ -13,6 +13,7 @@ title: "Course Materials"
 
 ## Slides
 
+::: {.slides-table}
 <!-- AUTO-GENERATED:SLIDES:START -->
 | Topic | PDF |
 |-------|-----|
@@ -21,6 +22,7 @@ title: "Course Materials"
 | IS-LM-PC in One Day | [PDF](files/slides/03-review-of-intermediate-macro.pdf) |
 | National Income Accounting for Open Economies | [PDF](files/slides/04-national-income-accounting.pdf) |
 <!-- AUTO-GENERATED:SLIDES:END -->
+:::
 
 ## Problem Sets
 
@@ -232,6 +234,14 @@ Links will become active as materials are released. Solutions are released immed
 </script>
 
 <style>
+/* Slides table: fit columns to content */
+.slides-table table {
+  width: auto;
+}
+.slides-table table td:first-child,
+.slides-table table th:first-child {
+  white-space: nowrap;
+}
 .file-updated {
   color: #6b7280;
   font-size: 0.85em;
