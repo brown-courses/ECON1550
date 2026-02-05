@@ -1,0 +1,13 @@
+name: FAQ Question
+description: Submit a question you'd like added to the FAQ
+title: "[FAQ] "
+labels: ["faq"]
+body:
+  - type: textarea
+    id: question
+    attributes:
+      label: Your question
+      description: What would you like to know?
+      placeholder: Type your question here
+    validations:
+      required: true

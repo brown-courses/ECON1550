@@ -11,6 +11,8 @@ title: "Frequently Asked Questions"
      - Textbook edition
 -->
 
+Have a question? [Submit it here](https://github.com/brown-courses/ECON1550-Spring26/issues/new?template=faq-question.yml) and we'll add it to the FAQ.
+
 <!-- ## Getting Started
 
 ### Is attendance required?
@@ -23,6 +25,16 @@ No. Lectures are not recorded. If you miss class, get notes from a classmate and
 ### Do I need the textbook version sold through Canvas or the Brown Bookstore?
 
 No. You are welcome to use any edition or format of the textbook. The course does not rely on any proprietary or interactive features tied to a specific version.
+
+### I earned what would have been an A while taking the course S/NC. Why don't I see S_DIST on my transcript?
+
+As stated on the [Grade Options](https://college.brown.edu/design-your-education/explore-open-curriculum/course-selection/grade-options) page,
+
+> "S with Distinction grades are not recorded on your Brown transcript or your internal academic record."
+
+Therefore, even when the instructor enters S_DIST as your grade, you will still see "S."
+
+The Registrar keeps a separate list of S_DIST awarded for internal academic uses such as honors eligibility. If you need confirmation, the Registrar can verify it for you.
 
 <!-- ## Problem Sets
 
@@ -48,8 +60,6 @@ No. You are welcome to use any edition or format of the textbook. The course doe
 
 Submit a regrade request through [Gradescope](https://www.gradescope.com/courses/1208698) within 7 days of receiving your grade. Explain specifically why you believe the grading was incorrect. Note that your entire submission may be regraded, which could result in a higher or lower score.
 
-### Do you give S_DIST for students taking this course S/NC?
-
 ## Course Content
 
 ## Getting Help
@@ -67,5 +77,5 @@ Submit a regrade request through [Gradescope](https://www.gradescope.com/courses
 
 ::: {.callout-note}
 ## Still have questions?
-If your question isn't answered here, post on [Ed Discussion](https://edstem.org/us/courses/90602/discussion). You'll get a faster response there than by email, and your classmates may benefit from the answer too.
+For questions about problem sets, course content, or anything time-sensitive, post on [Ed Discussion](https://edstem.org/us/courses/90602/discussion) — you'll get a faster response there. For general questions you think should be added to this FAQ, [submit them here](https://github.com/brown-courses/ECON1550-Spring26/issues/new?template=faq-question.yml).
 :::
