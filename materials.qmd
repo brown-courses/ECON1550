@@ -22,6 +22,7 @@ title: "Course Materials"
 | Models in Economics | [PDF](files/slides/02-models-in-economics.pdf) |
 | IS-LM-PC in One Day | [PDF](files/slides/03-review-of-intermediate-macro.pdf) |
 | National Income Accounting for Open Economies | [PDF](files/slides/04-national-income-accounting.pdf) |
+| Exchange Rates and the Asset Approach | [PDF](files/slides/05-exchange-rates-asset-approach.pdf) |
 <!-- AUTO-GENERATED:SLIDES:END -->
 :::
 
