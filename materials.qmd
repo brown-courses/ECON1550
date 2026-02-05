@@ -28,17 +28,17 @@ title: "Course Materials"
 
 ## Problem Sets
 
-| Problem Set | Questions | Source | Solutions | Short Solutions |
-|-------------|-----------|--------|-----------|-----------------|
-| Problem Set 1 | [Questions (PDF)](files/psets/pset1/pset1_ECON1550.pdf) | [Source (ZIP)](files/psets/pset1/pset1_ECON1550-src.zip) | [Solutions (PDF)](files/psets/pset1/pset1_ECON1550_answers.pdf) | [Short (PDF)](files/psets/pset1/pset1_ECON1550_answers_short.pdf) |
-| Problem Set 2 | [Questions (PDF)](files/psets/pset2/pset2_ECON1550.pdf) | [Source (ZIP)](files/psets/pset2/pset2_ECON1550-src.zip) | [Solutions (PDF)](files/psets/pset2/pset2_ECON1550_answers.pdf) | [Short (PDF)](files/psets/pset2/pset2_ECON1550_answers_short.pdf) |
-| Problem Set 3 | [Questions (PDF)](files/psets/pset3/pset3_ECON1550.pdf) | [Source (ZIP)](files/psets/pset3/pset3_ECON1550-src.zip) | [Solutions (PDF)](files/psets/pset3/pset3_ECON1550_answers.pdf) | [Short (PDF)](files/psets/pset3/pset3_ECON1550_answers_short.pdf) |
-| Problem Set 4 | [Questions (PDF)](files/psets/pset4/pset4_ECON1550.pdf) | [Source (ZIP)](files/psets/pset4/pset4_ECON1550-src.zip) | [Solutions (PDF)](files/psets/pset4/pset4_ECON1550_answers.pdf) | [Short (PDF)](files/psets/pset4/pset4_ECON1550_answers_short.pdf) |
-| Problem Set 5 | [Questions (PDF)](files/psets/pset5/pset5_ECON1550.pdf) | [Source (ZIP)](files/psets/pset5/pset5_ECON1550-src.zip) | [Solutions (PDF)](files/psets/pset5/pset5_ECON1550_answers.pdf) | [Short (PDF)](files/psets/pset5/pset5_ECON1550_answers_short.pdf) |
-| Problem Set 6 | [Questions (PDF)](files/psets/pset6/pset6_ECON1550.pdf) | [Source (ZIP)](files/psets/pset6/pset6_ECON1550-src.zip) | [Solutions (PDF)](files/psets/pset6/pset6_ECON1550_answers.pdf) | [Short (PDF)](files/psets/pset6/pset6_ECON1550_answers_short.pdf) |
-| Problem Set 7 | [Questions (PDF)](files/psets/pset7/pset7_ECON1550.pdf) | [Source (ZIP)](files/psets/pset7/pset7_ECON1550-src.zip) | [Solutions (PDF)](files/psets/pset7/pset7_ECON1550_answers.pdf) | [Short (PDF)](files/psets/pset7/pset7_ECON1550_answers_short.pdf) |
-| Problem Set 8 | [Questions (PDF)](files/psets/pset8/pset8_ECON1550.pdf) | [Source (ZIP)](files/psets/pset8/pset8_ECON1550-src.zip) | [Solutions (PDF)](files/psets/pset8/pset8_ECON1550_answers.pdf) | [Short (PDF)](files/psets/pset8/pset8_ECON1550_answers_short.pdf) |
-| Problem Set 9 | [Questions (PDF)](files/psets/pset9/pset9_ECON1550.pdf) | [Source (ZIP)](files/psets/pset9/pset9_ECON1550-src.zip) | [Solutions (PDF)](files/psets/pset9/pset9_ECON1550_answers.pdf) | [Short (PDF)](files/psets/pset9/pset9_ECON1550_answers_short.pdf) |
+| Problem Set | Questions | Solutions | Short Solutions | Source |
+|-------------|-----------|-----------|-----------------|--------|
+| Problem Set 1 | [Questions (PDF)](files/psets/pset1/pset1_ECON1550.pdf) | [Solutions (PDF)](files/psets/pset1/pset1_ECON1550_answers.pdf) | [Short (PDF)](files/psets/pset1/pset1_ECON1550_answers_short.pdf) | [Source (ZIP)](files/psets/pset1/pset1_ECON1550-src.zip) |
+| Problem Set 2 | [Questions (PDF)](files/psets/pset2/pset2_ECON1550.pdf) | [Solutions (PDF)](files/psets/pset2/pset2_ECON1550_answers.pdf) | [Short (PDF)](files/psets/pset2/pset2_ECON1550_answers_short.pdf) | [Source (ZIP)](files/psets/pset2/pset2_ECON1550-src.zip) |
+| Problem Set 3 | [Questions (PDF)](files/psets/pset3/pset3_ECON1550.pdf) | [Solutions (PDF)](files/psets/pset3/pset3_ECON1550_answers.pdf) | [Short (PDF)](files/psets/pset3/pset3_ECON1550_answers_short.pdf) | [Source (ZIP)](files/psets/pset3/pset3_ECON1550-src.zip) |
+| Problem Set 4 | [Questions (PDF)](files/psets/pset4/pset4_ECON1550.pdf) | [Solutions (PDF)](files/psets/pset4/pset4_ECON1550_answers.pdf) | [Short (PDF)](files/psets/pset4/pset4_ECON1550_answers_short.pdf) | [Source (ZIP)](files/psets/pset4/pset4_ECON1550-src.zip) |
+| Problem Set 5 | [Questions (PDF)](files/psets/pset5/pset5_ECON1550.pdf) | [Solutions (PDF)](files/psets/pset5/pset5_ECON1550_answers.pdf) | [Short (PDF)](files/psets/pset5/pset5_ECON1550_answers_short.pdf) | [Source (ZIP)](files/psets/pset5/pset5_ECON1550-src.zip) |
+| Problem Set 6 | [Questions (PDF)](files/psets/pset6/pset6_ECON1550.pdf) | [Solutions (PDF)](files/psets/pset6/pset6_ECON1550_answers.pdf) | [Short (PDF)](files/psets/pset6/pset6_ECON1550_answers_short.pdf) | [Source (ZIP)](files/psets/pset6/pset6_ECON1550-src.zip) |
+| Problem Set 7 | [Questions (PDF)](files/psets/pset7/pset7_ECON1550.pdf) | [Solutions (PDF)](files/psets/pset7/pset7_ECON1550_answers.pdf) | [Short (PDF)](files/psets/pset7/pset7_ECON1550_answers_short.pdf) | [Source (ZIP)](files/psets/pset7/pset7_ECON1550-src.zip) |
+| Problem Set 8 | [Questions (PDF)](files/psets/pset8/pset8_ECON1550.pdf) | [Solutions (PDF)](files/psets/pset8/pset8_ECON1550_answers.pdf) | [Short (PDF)](files/psets/pset8/pset8_ECON1550_answers_short.pdf) | [Source (ZIP)](files/psets/pset8/pset8_ECON1550-src.zip) |
+| Problem Set 9 | [Questions (PDF)](files/psets/pset9/pset9_ECON1550.pdf) | [Solutions (PDF)](files/psets/pset9/pset9_ECON1550_answers.pdf) | [Short (PDF)](files/psets/pset9/pset9_ECON1550_answers_short.pdf) | [Source (ZIP)](files/psets/pset9/pset9_ECON1550-src.zip) |
 
 Links will become active as materials are released. Solutions are released immediately after the deadline, along with the next problem set.
 
