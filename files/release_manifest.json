@@ -1,6 +1,6 @@
 {
-  "generated_at_local": "2026-02-04T23:55:38.548677-05:00",
-  "generated_at_utc": "2026-02-05T04:55:38.548677+00:00",
+  "generated_at_local": "2026-02-05T12:29:26.671176-05:00",
+  "generated_at_utc": "2026-02-05T17:29:26.671176+00:00",
   "timezone": "America/New_York",
   "forced_stage": null,
   "assignments": [
@@ -50,10 +50,19 @@
       "sol_release_at_local": null
     },
     {
+      "id": "slides-05-exchange-rates",
+      "title": "Exchange Rates and the Asset Approach",
+      "kind": "slides",
+      "stage": "questions",
+      "pre_release_at_local": "2026-01-22T09:00:00-05:00",
+      "due_at_local": "2026-05-15T23:59:00-04:00",
+      "sol_release_at_local": null
+    },
+    {
       "id": "pset1",
       "title": "Problem Set 1",
       "kind": "pset",
-      "stage": "questions",
+      "stage": "solutions",
       "pre_release_at_local": "2026-01-23T09:00:00-05:00",
       "due_at_local": "2026-02-04T23:59:00-05:00",
       "sol_release_at_local": "2026-02-05T00:00:00-05:00"
@@ -62,7 +71,7 @@
       "id": "pset2",
       "title": "Problem Set 2",
       "kind": "pset",
-      "stage": "none",
+      "stage": "questions",
       "pre_release_at_local": "2026-02-05T00:00:00-05:00",
       "due_at_local": "2026-02-11T23:59:00-05:00",
       "sol_release_at_local": "2026-02-12T00:00:00-05:00"
@@ -158,7 +167,7 @@
       "sol_release_at_local": null
     }
   ],
-  "max_stage": "questions",
+  "max_stage": "solutions",
   "any_questions": true,
-  "any_solutions": false
+  "any_solutions": true
 }

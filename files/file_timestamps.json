@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-02-05T04:58:28.607461+00:00",
+  "generated_at": "2026-02-05T17:33:19.969295+00:00",
   "files": {
     "files/lectures/lecture_notes_ECON1550.pdf": "2026-02-04T18:46:24.623644+00:00",
     "files/lectures/models_in_economics.pdf": "2026-02-04T18:47:28.401917+00:00",
@@ -9,8 +9,12 @@
     "files/slides/01-tour-of-the-class.pdf": "2026-02-04T18:46:29.800582+00:00",
     "files/slides/02-models-in-economics.pdf": "2026-02-04T18:46:32.113554+00:00",
     "files/slides/03-review-of-intermediate-macro.pdf": "2026-02-04T18:46:34.828522+00:00",
-    "files/slides/04-national-income-accounting.pdf": "2026-02-04T18:46:39.801466+00:00",
-    "files/psets/pset1/pset1.pdf": "2026-02-04T18:46:41.903442+00:00",
-    "files/psets/pset1/pset1-src.zip": "2026-02-05T04:58:28.369739+00:00"
+    "files/slides/04-national-income-accounting.pdf": "2026-02-05T17:32:22.484579+00:00",
+    "files/slides/05-exchange-rates-asset-approach.pdf": "2026-02-05T17:32:28.765606+00:00",
+    "files/psets/pset1/pset1.pdf": "2026-02-05T17:32:30.847615+00:00",
+    "files/psets/pset1/pset1-src.zip": "2026-02-05T17:33:19.537824+00:00",
+    "files/psets/pset1/pset1_solutions.pdf": "2026-02-05T17:32:33.255626+00:00",
+    "files/psets/pset2/pset2.pdf": "2026-02-05T17:32:37.635645+00:00",
+    "files/psets/pset2/pset2-src.zip": "2026-02-05T17:33:19.544824+00:00"
   }
 }
