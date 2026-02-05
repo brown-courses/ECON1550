@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-02-05T18:35:12.447390+00:00",
+  "generated_at": "2026-02-05T18:40:01.913960+00:00",
   "files": {
     "files/lectures/lecture_notes_ECON1550.pdf": "2026-02-04T18:46:24.623644+00:00",
     "files/lectures/models_in_economics.pdf": "2026-02-04T18:47:28.401917+00:00",
@@ -12,9 +12,10 @@
     "files/slides/04-national-income-accounting.pdf": "2026-02-05T17:32:22.484579+00:00",
     "files/slides/05-exchange-rates-asset-approach.pdf": "2026-02-05T17:32:28.765606+00:00",
     "files/psets/pset1/pset1_ECON1550.pdf": "2026-02-05T17:32:30.847615+00:00",
-    "files/psets/pset1/pset1_ECON1550-src.zip": "2026-02-05T18:35:12.158452+00:00",
+    "files/psets/pset1/pset1_ECON1550-src.zip": "2026-02-05T18:40:01.503936+00:00",
     "files/psets/pset1/pset1_ECON1550_answers.pdf": "2026-02-05T17:32:33.255626+00:00",
-    "files/psets/pset2/pset2_ECON1550.pdf": "2026-02-05T17:32:37.635645+00:00",
-    "files/psets/pset2/pset2_ECON1550-src.zip": "2026-02-05T18:35:12.167452+00:00"
+    "files/psets/pset1/pset1_ECON1550_answers_short.pdf": "2026-02-05T18:38:15.578983+00:00",
+    "files/psets/pset2/pset2_ECON1550.pdf": "2026-02-05T18:38:17.760003+00:00",
+    "files/psets/pset2/pset2_ECON1550-src.zip": "2026-02-05T18:40:01.511936+00:00"
   }
 }
