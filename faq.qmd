@@ -1,18 +1,6 @@
 ---
 title: "Frequently Asked Questions"
 ---
-
-<!-- FAQ MAINTENANCE NOTE: The following content references syllabus policies.
-     Update this file whenever syllabus changes affect:
-     - Exam dates (midterm1: Mar 4, midterm2: Apr 15, final: May 12)
-     - Grading thresholds (90/80/70)
-     - Problem set policies (2 dropped, no extensions)
-     - Office hours location
-     - Textbook edition
--->
-
-Have a question? [Submit it here](https://github.com/brown-courses/ECON1550-Spring26/issues/new?template=faq-question.yml) and we'll add it to the FAQ.
-
 <!-- ## Getting Started
 
 ### Is attendance required?
@@ -26,13 +14,17 @@ No. Lectures are not recorded. If you miss class, get notes from a classmate and
 
 No. You are welcome to use any edition or format of the textbook. The course does not rely on any proprietary or interactive features tied to a specific version.
 
+### Why are we using the 11th edition of the textbook when there is a 12th edition available?
+
+The Brown Bookstore only had the 11th edition available in Inclusive Access form. You can certainly use the 12th edition — it has the same content, but charts and figures are updated and some boxes cover more recent events.
+
 ### I earned what would have been an A while taking the course S/NC. Why don't I see S_DIST on my transcript?
 
 As stated on the [Grade Options](https://college.brown.edu/design-your-education/explore-open-curriculum/course-selection/grade-options) page,
 
 > "S with Distinction grades are not recorded on your Brown transcript or your internal academic record."
 
-Therefore, even when the instructor enters S_DIST as your grade, you will still see "S."
+Therefore, even though in this course we do award S_DIST, and Prof. Duarte does enter S_DIST as your grade, you will still see "S."
 
 The Registrar keeps a separate list of S_DIST awarded for internal academic uses such as honors eligibility. If you need confirmation, the Registrar can verify it for you.
 
@@ -48,12 +40,20 @@ The Registrar keeps a separate list of S_DIST awarded for internal academic uses
 
 ### What if I can't make an exam?
 
+-->
 ### Are there sections during exam weeks?
+
+No.
 
 ### Are there review sessions during exam weeks?
 
+Yes.
+
 ### Do we get practice exams?
 
+Yes, at least one week before the actual exam takes place. The format and style of the actual exam will be the same as for the practice exam. We also aim to make the difficulty and length of the actual and practice exams as similar as possible.
+
+<!--
 ## Grading
 
 ### How do I request a regrade?
