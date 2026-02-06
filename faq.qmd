@@ -1,5 +1,6 @@
 ---
 title: "Frequently Asked Questions"
+body-classes: faq-page
 ---
 <!-- ## Getting Started
 
