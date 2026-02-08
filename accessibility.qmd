@@ -1,5 +1,6 @@
 ---
 title: "Accessibility"
+description: "Accessibility statement and features for the ECON1550 course website."
 ---
 
 ## Accessibility Statement
@@ -22,7 +23,7 @@ This site includes the following accessibility features:
 
 ### Feedback
 
-If you encounter any accessibility barriers on this site, please [submit an issue](https://github.com/fernando-duarte/ECON1550/issues) on our GitHub repository.
+If you encounter any accessibility barriers on this site, please [submit an issue](https://github.com/brown-courses/ECON1550/issues) on our GitHub repository.
 
 ### Reporting Issues
 

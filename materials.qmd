@@ -1,5 +1,6 @@
 ---
 title: "Course Materials"
+description: "Lecture notes, slides, and problem sets with solutions for ECON1550 International Finance."
 ---
 
 ## Lecture Notes
@@ -227,6 +228,31 @@ Links will become active as materials are released. Solutions are released immed
           span.textContent = isMainLectureNotes ? ` (last updated ${formatted})` : ` (upd. ${formatted})`;
           link.parentNode.insertBefore(span, link.nextSibling);
         }
+      });
+
+      // Add aria-labels to links with generic repeated text for accessibility
+      document.querySelectorAll('table').forEach(table => {
+        const hdr = table.querySelector('thead tr');
+        const cols = hdr ? Array.from(hdr.querySelectorAll('th')).map(th => th.textContent.trim()) : [];
+        const isSlidesTbl = cols.includes('Topic') && cols.includes('PDF');
+        const isPsetTbl = cols.includes('Problem Set') && cols.includes('Questions');
+        if (!isSlidesTbl && !isPsetTbl) return;
+
+        table.querySelectorAll('tbody tr:not(.last-updated-row)').forEach(row => {
+          const cells = Array.from(row.querySelectorAll('td'));
+          if (cells.length === 0) return;
+          const rowLabel = cells[0].textContent.trim();
+          cells.forEach((cell, idx) => {
+            if (idx === 0) return;
+            const link = cell.querySelector('a');
+            if (!link) return;
+            if (isSlidesTbl) {
+              link.setAttribute('aria-label', rowLabel + ' slides (PDF)');
+            } else if (isPsetTbl) {
+              link.setAttribute('aria-label', rowLabel + ' \u2013 ' + link.textContent.trim());
+            }
+          });
+        });
       });
     }).catch(err => console.error('Materials page error:', err));
   }

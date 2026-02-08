@@ -1,5 +1,6 @@
 ---
 title: "Frequently Asked Questions"
+description: "Answers to common questions about ECON1550 International Finance at Brown University."
 body-classes: faq-page
 ---
 <!-- ## Getting Started
@@ -78,5 +79,5 @@ Submit a regrade request through [Gradescope](https://www.gradescope.com/courses
 
 ::: {.callout-note}
 ## Still have questions?
-For questions about problem sets, course content, or anything time-sensitive, post on [Ed Discussion](https://edstem.org/us/courses/90602/discussion) — you'll get a faster response there. For general questions you think should be added to this FAQ, [submit them here](https://github.com/brown-courses/ECON1550-Spring26/issues/new?template=faq-question.yml).
+For questions about problem sets, course content, or anything time-sensitive, post on [Ed Discussion](https://edstem.org/us/courses/90602/discussion) — you'll get a faster response there. For general questions you think should be added to this FAQ, [submit them here](https://github.com/brown-courses/ECON1550/issues/new?template=faq-question.yml).
 :::

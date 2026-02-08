@@ -1,5 +1,6 @@
 ---
 title: "Course Schedule"
+description: "Assignment due dates and lecture schedule for ECON1550 International Finance, Spring 2026."
 ---
 
 ## Assignment Due Dates

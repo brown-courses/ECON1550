@@ -1,6 +1,7 @@
 ---
 title: "ECON1550 International Finance"
 subtitle: "Spring 2026"
+description: "Course materials, problem sets, lecture notes, and schedule for ECON1550 International Finance at Brown University, Spring 2026."
 ---
 
 ## Where to Find Course Materials

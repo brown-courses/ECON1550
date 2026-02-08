@@ -56,8 +56,9 @@ website:
       - text: Ed
         href: https://edstem.org/us/courses/90602/discussion
       - icon: github
-        href: https://github.com/brown-courses/ECON1550-Spring26
-        aria-label: GitHub
+        text: GitHub repository
+        href: https://github.com/brown-courses/ECON1550
+        aria-label: GitHub repository
 
 format:
   html:
