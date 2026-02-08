@@ -12,7 +12,11 @@
 }
 
 .skip-link:focus {
-  top: 0;
+  top: 8px;
+  left: 8px;
+  outline: 3px solid #2563eb;
+  border-radius: 4px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.3);
 }
 
 /* FAQ question headings */

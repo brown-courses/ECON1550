@@ -6,6 +6,7 @@
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
+<meta name="description" content="Lecture notes, slides, and problem sets with solutions for ECON1550 International Finance.">
 
 <title>Course Materials – ECON1550 International Finance</title>
 <style>
@@ -131,10 +132,10 @@ ul.task-list li input[type="checkbox"] {
     <a class="nav-link" href="https://edstem.org/us/courses/90602/discussion"> 
 <span class="menu-text">Ed</span></a>
   </li>  
-  <li class="nav-item compact">
-    <a class="nav-link" href="https://github.com/brown-courses/ECON1550-Spring26"> <i class="bi bi-github" role="img" aria-label="GitHub">
+  <li class="nav-item">
+    <a class="nav-link" href="https://github.com/brown-courses/ECON1550"> <i class="bi bi-github" role="img" aria-label="GitHub repository">
 </i> 
-<span class="menu-text"></span></a>
+<span class="menu-text">GitHub repository</span></a>
   </li>  
 </ul>
           </div> <!-- /navcollapse -->
@@ -167,6 +168,11 @@ ul.task-list li input[type="checkbox"] {
 <h1 class="title">Course Materials</h1>
 </div>
 
+<div>
+  <div class="description">
+    Lecture notes, slides, and problem sets with solutions for ECON1550 International Finance.
+  </div>
+</div>
 
 
 <div class="quarto-title-meta">
@@ -495,6 +501,31 @@ ul.task-list li input[type="checkbox"] {
           span.textContent = isMainLectureNotes ? ` (last updated ${formatted})` : ` (upd. ${formatted})`;
           link.parentNode.insertBefore(span, link.nextSibling);
         }
+      });
+
+      // Add aria-labels to links with generic repeated text for accessibility
+      document.querySelectorAll('table').forEach(table => {
+        const hdr = table.querySelector('thead tr');
+        const cols = hdr ? Array.from(hdr.querySelectorAll('th')).map(th => th.textContent.trim()) : [];
+        const isSlidesTbl = cols.includes('Topic') && cols.includes('PDF');
+        const isPsetTbl = cols.includes('Problem Set') && cols.includes('Questions');
+        if (!isSlidesTbl && !isPsetTbl) return;
+
+        table.querySelectorAll('tbody tr:not(.last-updated-row)').forEach(row => {
+          const cells = Array.from(row.querySelectorAll('td'));
+          if (cells.length === 0) return;
+          const rowLabel = cells[0].textContent.trim();
+          cells.forEach((cell, idx) => {
+            if (idx === 0) return;
+            const link = cell.querySelector('a');
+            if (!link) return;
+            if (isSlidesTbl) {
+              link.setAttribute('aria-label', rowLabel + ' slides (PDF)');
+            } else if (isPsetTbl) {
+              link.setAttribute('aria-label', rowLabel + ' \u2013 ' + link.textContent.trim());
+            }
+          });
+        });
       });
     }).catch(err => console.error('Materials page error:', err));
   }
