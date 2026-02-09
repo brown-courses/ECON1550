@@ -29,19 +29,10 @@ If you only need PDFs, the website is the simplest place to go.
   - PDF files and source bundles live under `files/`
   - Per-file timestamps live at `files/file_timestamps.json`
 
-## Staff
+## Instructor
 
-Instructor
 Fernando Duarte - fernando_duarte@brown.edu
-
-Graduate TA
-Leo Zucker - leo_zucker@brown.edu
-
-Undergraduate TAs
-Eric Kim - eric_w_kim@brown.edu
-Raisa Axenie - raisa_axenie@brown.edu
-Nathalie Peña - nathalie_pena@brown.edu
 
 ## Questions?
 
-Email the instructor or TAs.
+Check Canvas for full staff contact information, or email the instructor.
