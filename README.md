@@ -17,7 +17,7 @@ If you only need PDFs, the website is the simplest place to go.
 
 - Canvas: https://canvas.brown.edu/courses/1101477
 - Gradescope: https://www.gradescope.com/courses/1208698
-- Course website (GitHub Pages): https://brown-courses.github.io/ECON1550/
+- Course website (GitHub Pages): https://brown-courses.github.io/ECON1550
 
 ## What is in each branch
 
@@ -40,7 +40,7 @@ Leo Zucker - leo_zucker@brown.edu
 Undergraduate TAs
 Eric Kim - eric_w_kim@brown.edu
 Raisa Axenie - raisa_axenie@brown.edu
-Nathalie Pena - nathalie_pena@brown.edu
+Nathalie Peña - nathalie_pena@brown.edu
 
 ## Questions?
 
