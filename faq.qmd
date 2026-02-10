@@ -60,7 +60,7 @@ Yes, at least one week before the actual exam takes place. The format and style 
 
 ### How do I request a regrade?
 
-Submit a regrade request through [Gradescope](https://www.gradescope.com/courses/1208698) within 7 days of receiving your grade. Explain specifically why you believe the grading was incorrect. Note that your entire submission may be regraded, which could result in a higher or lower score.
+Submit a regrade request through [Gradescope]({{< var links.gradescope >}}) within 7 days of receiving your grade. Explain specifically why you believe the grading was incorrect. Note that your entire submission may be regraded, which could result in a higher or lower score.
 
 ## Course Content
 
@@ -68,16 +68,11 @@ Submit a regrade request through [Gradescope](https://www.gradescope.com/courses
 
 ### Who do I contact for personal matters?
 
-| Issue | Contact |
-|-------|---------|
-| Course content, concepts, problem sets | Ed Discussion or office hours |
-| Grading questions | Gradescope regrade request |
-| Section conflicts, accommodations | TA handling your section |
-| Emergencies, personal circumstances | Instructor (fernando_duarte@brown.edu) |
+| Emergencies, personal circumstances | Instructor ({{< var instructor.email >}}) |
 -->
 ---
 
 ::: {.callout-note}
 ## Still have questions?
-For questions about problem sets, course content, or anything time-sensitive, post on [Ed Discussion](https://edstem.org/us/courses/90602/discussion) — you'll get a faster response there. For general questions you think should be added to this FAQ, [submit them here](https://github.com/brown-courses/ECON1550/issues/new?template=faq-question.yml).
+For questions about problem sets, course content, or anything time-sensitive, post on [Ed Discussion]({{< var links.ed_discussion >}}) — you'll get a faster response there. For general questions you think should be added to this FAQ, [submit them here](https://github.com/brown-courses/ECON1550/issues/new?template=faq-question.yml).
 :::

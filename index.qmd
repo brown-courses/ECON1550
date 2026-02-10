@@ -6,7 +6,7 @@ description: "Course materials, problem sets, lecture notes, and schedule for EC
 
 ## Where to Find Course Materials
 
-**[Canvas](https://canvas.brown.edu/courses/1101477) is the official home for this course.** Everything you need—announcements, assignments, grades, policies, and course materials—is available there.
+**[Canvas]({{< var links.canvas >}}) is the official home for this course.** Everything you need—announcements, assignments, grades, policies, and course materials—is available there.
 
 This website and the [GitHub repository](https://github.com/brown-courses/ECON1550) mirror the course materials and offer a few extras:
 
@@ -20,7 +20,7 @@ If you just want to download PDFs, Canvas is simpler. This site is here for thos
 
 ## Course Information
 
-**Instructor:** Fernando Duarte ([fernando_duarte@brown.edu](mailto:fernando_duarte@brown.edu))
+**Instructor:** {{< var instructor.name >}} ([{{< var instructor.email >}}](mailto:{{< var instructor.email >}}))
 
 ## Links
 
