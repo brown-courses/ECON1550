@@ -24,6 +24,7 @@ description: "Lecture notes, slides, and problem sets with solutions for ECON155
 | IS-LM-PC in One Day | [PDF](files/slides/03-review-of-intermediate-macro.pdf) |
 | National Income Accounting for Open Economies | [PDF](files/slides/04-national-income-accounting.pdf) |
 | Exchange Rates: An Asset Approach | [PDF](files/slides/05-exchange-rates-asset-approach.pdf) |
+| Money, Interest Rates, and Exchange Rates | [PDF](files/slides/06-money-interest-rates-and-exchange-rates.pdf) |
 <!-- AUTO-GENERATED:SLIDES:END -->
 :::
 
