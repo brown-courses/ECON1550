@@ -48,6 +48,8 @@ website:
         text: Schedule
       - href: faq.qmd
         text: FAQ
+      - href: versions.qmd
+        text: Version History
     right:
       - text: Canvas
         href: https://canvas.brown.edu/courses/1101477
