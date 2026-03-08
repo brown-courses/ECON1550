@@ -26,6 +26,7 @@ description: "Lecture notes, slides, and problem sets with solutions for ECON155
 | Exchange Rates: An Asset Approach | [PDF](files/slides/05-exchange-rates-asset-approach.pdf) |
 | Money, Interest Rates, and Exchange Rates | [PDF](files/slides/06-money-interest-rates-and-exchange-rates.pdf) |
 | Price Levels and the Exchange Rate in the Long Run | [PDF](files/slides/07-price-levels-and-the-exchange-rate-in-the-long-run.pdf) |
+| A Tour of the World | [PDF](files/slides/09-tour-of-the-world.pdf) |
 <!-- AUTO-GENERATED:SLIDES:END -->
 :::
 
