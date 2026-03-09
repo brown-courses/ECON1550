@@ -27,7 +27,7 @@
     "files/slides/07-price-levels-and-the-exchange-rate-in-the-long-run.pdf",
     "files/slides/09-tour-of-the-world.pdf"
   ],
-  "generated_at": "2026-03-09T15:54:56.402441+00:00",
+  "generated_at": "2026-03-09T17:41:50.668241+00:00",
   "versions": {
     "files/lectures/closed_economy.pdf": [
       {
@@ -222,6 +222,10 @@
       }
     ],
     "files/slides/07-price-levels-and-the-exchange-rate-in-the-long-run.pdf": [
+      {
+        "archived_at": "2026-03-09T17:41:50.668241+00:00",
+        "path": "files/_versions/slides/07-price-levels-and-the-exchange-rate-in-the-long-run_2026-03-09T17-41-50Z.pdf"
+      },
       {
         "archived_at": "2026-03-09T15:54:56.402441+00:00",
         "path": "files/_versions/slides/07-price-levels-and-the-exchange-rate-in-the-long-run_2026-03-09T15-54-56Z.pdf"
