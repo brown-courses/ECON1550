@@ -47,14 +47,14 @@ If a file has no entries below, it has not been revised since its initial releas
         if (files.length === 0) return;
         html += '<h3>' + cat + '</h3>';
         html += '<table class="table"><thead><tr>';
-        html += '<th>File</th><th>Current</th><th>Previous Versions</th>';
+        html += '<th>File</th><th>Latest</th><th>Previous Versions</th>';
         html += '</tr></thead><tbody>';
         files.forEach(function(entry) {
           var fileName = entry.filePath.split('/').pop();
           var isActive = data.active_files && data.active_files.indexOf(entry.filePath) !== -1;
           html += '<tr><td>' + fileName + '</td>';
           html += '<td>' + (isActive
-            ? '<a href="' + entry.filePath + '">Current</a>'
+            ? '<a href="' + entry.filePath + '">Latest</a>'
             : '<span class="text-muted">Removed</span>') + '</td>';
           html += '<td>';
           entry.versions.forEach(function(v, i) {
