@@ -27,7 +27,7 @@
     "files/slides/07-price-levels-and-the-exchange-rate-in-the-long-run.pdf",
     "files/slides/09-tour-of-the-world.pdf"
   ],
-  "generated_at": "2026-03-08T22:02:34.869464+00:00",
+  "generated_at": "2026-03-09T13:21:48.152388+00:00",
   "versions": {
     "files/psets/pset1/pset1_ECON1550_answers.pdf": [
       {
@@ -102,6 +102,10 @@
       }
     ],
     "files/slides/09-tour-of-the-world.pdf": [
+      {
+        "archived_at": "2026-03-09T13:21:48.152388+00:00",
+        "path": "files/_versions/slides/09-tour-of-the-world_2026-03-09T13-21-48Z.pdf"
+      },
       {
         "archived_at": "2026-03-08T22:02:34.869464+00:00",
         "path": "files/_versions/slides/09-tour-of-the-world_2026-03-08T22-02-34Z.pdf"
