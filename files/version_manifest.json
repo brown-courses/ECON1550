@@ -27,9 +27,49 @@
     "files/slides/07-price-levels-and-the-exchange-rate-in-the-long-run.pdf",
     "files/slides/09-tour-of-the-world.pdf"
   ],
-  "generated_at": "2026-03-09T13:21:48.152388+00:00",
+  "generated_at": "2026-03-09T15:54:56.402441+00:00",
   "versions": {
+    "files/lectures/closed_economy.pdf": [
+      {
+        "archived_at": "2026-03-09T15:54:56.402441+00:00",
+        "path": "files/_versions/lectures/closed_economy_2026-03-09T15-54-56Z.pdf"
+      }
+    ],
+    "files/lectures/financial_assets.pdf": [
+      {
+        "archived_at": "2026-03-09T15:54:56.402441+00:00",
+        "path": "files/_versions/lectures/financial_assets_2026-03-09T15-54-56Z.pdf"
+      }
+    ],
+    "files/lectures/iixx.pdf": [
+      {
+        "archived_at": "2026-03-09T15:54:56.402441+00:00",
+        "path": "files/_versions/lectures/iixx_2026-03-09T15-54-56Z.pdf"
+      }
+    ],
+    "files/lectures/lecture_notes_ECON1550.pdf": [
+      {
+        "archived_at": "2026-03-09T15:54:56.402441+00:00",
+        "path": "files/_versions/lectures/lecture_notes_ECON1550_2026-03-09T15-54-56Z.pdf"
+      }
+    ],
+    "files/lectures/models_in_economics.pdf": [
+      {
+        "archived_at": "2026-03-09T15:54:56.402441+00:00",
+        "path": "files/_versions/lectures/models_in_economics_2026-03-09T15-54-56Z.pdf"
+      }
+    ],
+    "files/psets/pset1/pset1_ECON1550.pdf": [
+      {
+        "archived_at": "2026-03-09T15:54:56.402441+00:00",
+        "path": "files/_versions/psets/pset1/pset1_ECON1550_2026-03-09T15-54-56Z.pdf"
+      }
+    ],
     "files/psets/pset1/pset1_ECON1550_answers.pdf": [
+      {
+        "archived_at": "2026-03-09T15:54:56.402441+00:00",
+        "path": "files/_versions/psets/pset1/pset1_ECON1550_answers_2026-03-09T15-54-56Z.pdf"
+      },
       {
         "archived_at": "2026-03-08T22:02:34.869464+00:00",
         "path": "files/_versions/psets/pset1/pset1_ECON1550_answers_2026-03-08T22-02-34Z.pdf"
@@ -37,11 +77,19 @@
     ],
     "files/psets/pset1/pset1_ECON1550_answers_short.pdf": [
       {
+        "archived_at": "2026-03-09T15:54:56.402441+00:00",
+        "path": "files/_versions/psets/pset1/pset1_ECON1550_answers_short_2026-03-09T15-54-56Z.pdf"
+      },
+      {
         "archived_at": "2026-03-08T22:02:34.869464+00:00",
         "path": "files/_versions/psets/pset1/pset1_ECON1550_answers_short_2026-03-08T22-02-34Z.pdf"
       }
     ],
     "files/psets/pset2/pset2_ECON1550.pdf": [
+      {
+        "archived_at": "2026-03-09T15:54:56.402441+00:00",
+        "path": "files/_versions/psets/pset2/pset2_ECON1550_2026-03-09T15-54-56Z.pdf"
+      },
       {
         "archived_at": "2026-03-08T22:02:34.869464+00:00",
         "path": "files/_versions/psets/pset2/pset2_ECON1550_2026-03-08T22-02-34Z.pdf"
@@ -49,11 +97,19 @@
     ],
     "files/psets/pset2/pset2_ECON1550_answers.pdf": [
       {
+        "archived_at": "2026-03-09T15:54:56.402441+00:00",
+        "path": "files/_versions/psets/pset2/pset2_ECON1550_answers_2026-03-09T15-54-56Z.pdf"
+      },
+      {
         "archived_at": "2026-03-08T22:02:34.869464+00:00",
         "path": "files/_versions/psets/pset2/pset2_ECON1550_answers_2026-03-08T22-02-34Z.pdf"
       }
     ],
     "files/psets/pset2/pset2_ECON1550_answers_short.pdf": [
+      {
+        "archived_at": "2026-03-09T15:54:56.402441+00:00",
+        "path": "files/_versions/psets/pset2/pset2_ECON1550_answers_short_2026-03-09T15-54-56Z.pdf"
+      },
       {
         "archived_at": "2026-03-08T22:02:34.869464+00:00",
         "path": "files/_versions/psets/pset2/pset2_ECON1550_answers_short_2026-03-08T22-02-34Z.pdf"
@@ -61,11 +117,19 @@
     ],
     "files/psets/pset3/pset3_ECON1550.pdf": [
       {
+        "archived_at": "2026-03-09T15:54:56.402441+00:00",
+        "path": "files/_versions/psets/pset3/pset3_ECON1550_2026-03-09T15-54-56Z.pdf"
+      },
+      {
         "archived_at": "2026-03-08T22:02:34.869464+00:00",
         "path": "files/_versions/psets/pset3/pset3_ECON1550_2026-03-08T22-02-34Z.pdf"
       }
     ],
     "files/psets/pset3/pset3_ECON1550_answers.pdf": [
+      {
+        "archived_at": "2026-03-09T15:54:56.402441+00:00",
+        "path": "files/_versions/psets/pset3/pset3_ECON1550_answers_2026-03-09T15-54-56Z.pdf"
+      },
       {
         "archived_at": "2026-03-08T22:02:34.869464+00:00",
         "path": "files/_versions/psets/pset3/pset3_ECON1550_answers_2026-03-08T22-02-34Z.pdf"
@@ -73,11 +137,19 @@
     ],
     "files/psets/pset3/pset3_ECON1550_answers_short.pdf": [
       {
+        "archived_at": "2026-03-09T15:54:56.402441+00:00",
+        "path": "files/_versions/psets/pset3/pset3_ECON1550_answers_short_2026-03-09T15-54-56Z.pdf"
+      },
+      {
         "archived_at": "2026-03-08T22:02:34.869464+00:00",
         "path": "files/_versions/psets/pset3/pset3_ECON1550_answers_short_2026-03-08T22-02-34Z.pdf"
       }
     ],
     "files/psets/pset4/pset4_ECON1550.pdf": [
+      {
+        "archived_at": "2026-03-09T15:54:56.402441+00:00",
+        "path": "files/_versions/psets/pset4/pset4_ECON1550_2026-03-09T15-54-56Z.pdf"
+      },
       {
         "archived_at": "2026-03-08T22:02:34.869464+00:00",
         "path": "files/_versions/psets/pset4/pset4_ECON1550_2026-03-08T22-02-34Z.pdf"
@@ -85,11 +157,19 @@
     ],
     "files/psets/pset4/pset4_ECON1550_answers.pdf": [
       {
+        "archived_at": "2026-03-09T15:54:56.402441+00:00",
+        "path": "files/_versions/psets/pset4/pset4_ECON1550_answers_2026-03-09T15-54-56Z.pdf"
+      },
+      {
         "archived_at": "2026-03-08T22:02:34.869464+00:00",
         "path": "files/_versions/psets/pset4/pset4_ECON1550_answers_2026-03-08T22-02-34Z.pdf"
       }
     ],
     "files/psets/pset4/pset4_ECON1550_answers_short.pdf": [
+      {
+        "archived_at": "2026-03-09T15:54:56.402441+00:00",
+        "path": "files/_versions/psets/pset4/pset4_ECON1550_answers_short_2026-03-09T15-54-56Z.pdf"
+      },
       {
         "archived_at": "2026-03-08T22:02:34.869464+00:00",
         "path": "files/_versions/psets/pset4/pset4_ECON1550_answers_short_2026-03-08T22-02-34Z.pdf"
@@ -97,11 +177,61 @@
     ],
     "files/psets/pset5/pset5_ECON1550.pdf": [
       {
+        "archived_at": "2026-03-09T15:54:56.402441+00:00",
+        "path": "files/_versions/psets/pset5/pset5_ECON1550_2026-03-09T15-54-56Z.pdf"
+      },
+      {
         "archived_at": "2026-03-08T22:02:34.869464+00:00",
         "path": "files/_versions/psets/pset5/pset5_ECON1550_2026-03-08T22-02-34Z.pdf"
       }
     ],
+    "files/slides/01-tour-of-the-class.pdf": [
+      {
+        "archived_at": "2026-03-09T15:54:56.402441+00:00",
+        "path": "files/_versions/slides/01-tour-of-the-class_2026-03-09T15-54-56Z.pdf"
+      }
+    ],
+    "files/slides/02-models-in-economics.pdf": [
+      {
+        "archived_at": "2026-03-09T15:54:56.402441+00:00",
+        "path": "files/_versions/slides/02-models-in-economics_2026-03-09T15-54-56Z.pdf"
+      }
+    ],
+    "files/slides/03-review-of-intermediate-macro.pdf": [
+      {
+        "archived_at": "2026-03-09T15:54:56.402441+00:00",
+        "path": "files/_versions/slides/03-review-of-intermediate-macro_2026-03-09T15-54-56Z.pdf"
+      }
+    ],
+    "files/slides/04-national-income-accounting.pdf": [
+      {
+        "archived_at": "2026-03-09T15:54:56.402441+00:00",
+        "path": "files/_versions/slides/04-national-income-accounting_2026-03-09T15-54-56Z.pdf"
+      }
+    ],
+    "files/slides/05-exchange-rates-asset-approach.pdf": [
+      {
+        "archived_at": "2026-03-09T15:54:56.402441+00:00",
+        "path": "files/_versions/slides/05-exchange-rates-asset-approach_2026-03-09T15-54-56Z.pdf"
+      }
+    ],
+    "files/slides/06-money-interest-rates-and-exchange-rates.pdf": [
+      {
+        "archived_at": "2026-03-09T15:54:56.402441+00:00",
+        "path": "files/_versions/slides/06-money-interest-rates-and-exchange-rates_2026-03-09T15-54-56Z.pdf"
+      }
+    ],
+    "files/slides/07-price-levels-and-the-exchange-rate-in-the-long-run.pdf": [
+      {
+        "archived_at": "2026-03-09T15:54:56.402441+00:00",
+        "path": "files/_versions/slides/07-price-levels-and-the-exchange-rate-in-the-long-run_2026-03-09T15-54-56Z.pdf"
+      }
+    ],
     "files/slides/09-tour-of-the-world.pdf": [
+      {
+        "archived_at": "2026-03-09T15:54:56.402441+00:00",
+        "path": "files/_versions/slides/09-tour-of-the-world_2026-03-09T15-54-56Z.pdf"
+      },
       {
         "archived_at": "2026-03-09T13:21:48.152388+00:00",
         "path": "files/_versions/slides/09-tour-of-the-world_2026-03-09T13-21-48Z.pdf"
