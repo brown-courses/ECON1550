@@ -160,6 +160,7 @@ ul.task-list li input[type="checkbox"] {
   <li><a href="#lecture-notes" id="toc-lecture-notes" class="nav-link active" data-scroll-target="#lecture-notes">Lecture Notes</a></li>
   <li><a href="#slides" id="toc-slides" class="nav-link" data-scroll-target="#slides">Slides</a></li>
   <li><a href="#problem-sets" id="toc-problem-sets" class="nav-link" data-scroll-target="#problem-sets">Problem Sets</a></li>
+  <li><a href="#download-all-materials" id="toc-download-all-materials" class="nav-link" data-scroll-target="#download-all-materials">Download All Materials</a></li>
   </ul>
 </nav>
     </div>
@@ -332,6 +333,32 @@ ul.task-list li input[type="checkbox"] {
 </tbody>
 </table>
 <p>Links will become active as materials are released. Solutions are released immediately after the deadline, along with the next problem set.</p>
+</section>
+<section id="download-all-materials" class="level2">
+<h2 class="anchored" data-anchor-id="download-all-materials">Download All Materials</h2>
+<p>Download combined PDFs of all released materials:</p>
+<table class="caption-top table">
+<thead>
+<tr class="header">
+<th>Bundle</th>
+<th>Download</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>All Problem Sets</td>
+<td><a href="files/bundles/ECON1550_problem_sets_bundle.pdf" class="bundle-link">PDF</a></td>
+</tr>
+<tr class="even">
+<td>All Slides</td>
+<td><a href="files/bundles/ECON1550_slides_bundle.pdf" class="bundle-link">PDF</a></td>
+</tr>
+<tr class="odd">
+<td>Complete Course Materials</td>
+<td><a href="files/bundles/ECON1550_complete_bundle.pdf" class="bundle-link">PDF</a></td>
+</tr>
+</tbody>
+</table>
 <script>
 (function() {
   function processPage() {
@@ -494,8 +521,18 @@ ul.task-list li input[type="checkbox"] {
         });
       });
 
+      document.querySelectorAll('a.bundle-link').forEach(link => {
+        const href = link.getAttribute('href');
+        if (!href) return;
+        const path = href.replace(/^.*?(files\/)/, '$1');
+        if (!files[path]) {
+          disableLink(link);
+        }
+      });
+
       // Process other links (lecture notes) with inline dates
       document.querySelectorAll('a[href*="files/"]').forEach(link => {
+        if (link.classList.contains('bundle-link')) return;
         // Skip links in tables (they have row-based dates)
         if (link.closest('table')) return;
 

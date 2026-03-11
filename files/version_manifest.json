@@ -1,5 +1,8 @@
 {
   "active_files": [
+    "files/bundles/ECON1550_complete_bundle.pdf",
+    "files/bundles/ECON1550_problem_sets_bundle.pdf",
+    "files/bundles/ECON1550_slides_bundle.pdf",
     "files/lectures/closed_economy.pdf",
     "files/lectures/financial_assets.pdf",
     "files/lectures/iixx.pdf",
@@ -27,7 +30,7 @@
     "files/slides/07-price-levels-and-the-exchange-rate-in-the-long-run.pdf",
     "files/slides/09-tour-of-the-world.pdf"
   ],
-  "generated_at": "2026-03-10T21:56:09.809380+00:00",
+  "generated_at": "2026-03-11T02:13:26.013741+00:00",
   "versions": {
     "files/lectures/closed_economy.pdf": [
       {
