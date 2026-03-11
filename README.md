@@ -1,38 +1,66 @@
-# ECON1550 International Finance - Spring 2026
+# ECON 1550: International Finance — Spring 2026
 
-Welcome to the course repository for ECON1550 International Finance at Brown University.
+**[Canvas](https://canvas.brown.edu/courses/1101477) is the official home for this course.** Everything you need — announcements, assignments, grades, policies, and course materials — is available there.
 
-## Where to find course materials
+This GitHub repository and the [course website](https://brown-courses.github.io/ECON1550) mirror the course materials and offer a few extras:
 
-Canvas is the official home for this course (announcements, assignments, grades, policies).
+- **LaTeX source files** — edit or build upon the original source code for problem sets and notes
+- **Modification dates** — see exactly when each file was last updated
+- **Version history** — see exactly what changed in each update
+- **Programmatic access** — clone the repo or use the GitHub API to automate your workflow
 
-This GitHub repository provides two things:
+If you just want to download PDFs, Canvas is simpler. This repo is here for those who want more.
 
-1) The course website (GitHub Pages)
-2) A small, allowlisted set of source files in the `main` branch
+| Resource | Link |
+|----------|------|
+| Canvas | <https://canvas.brown.edu/courses/1101477> |
+| Course website | <https://brown-courses.github.io/ECON1550> |
+| Gradescope | <https://www.gradescope.com/courses/1208698> |
 
-If you only need PDFs, the website is the simplest place to go.
+## How to use this repository
 
-## Links
+If you're new to GitHub, here are the basics.
 
-- Canvas: https://canvas.brown.edu/courses/1101477
-- Gradescope: https://www.gradescope.com/courses/1208698
-- Course website (GitHub Pages): https://brown-courses.github.io/ECON1550
+### Option A: Just browse and download (no setup needed)
 
-## What is in each branch
+1. Go to the [course website](https://brown-courses.github.io/ECON1550).
+2. Click on any file to view or download it.
 
-- `main`:
-  - Allowlisted sources only (e.g., `src/`, root `.qmd` files, repo metadata)
-  - Does NOT include full LaTeX source trees or solution files
-- `gh-pages`:
-  - Published site output (HTML)
-  - PDF files and source bundles live under `files/`
-  - Per-file timestamps live at `files/file_timestamps.json`
+That's it — no account or software required.
+
+**Want to see an older version of a file?** On this GitHub page, click on any file, then click the **History** button (top-right of the file view). This shows every past version of that file. Click on any entry to see what changed, or click the `< >` icon to view the full file as it was at that point in time.
+
+### Option B: Clone the repo (useful if you want a local copy)
+
+Cloning downloads the entire repository to your computer so you can keep it up to date with one command.
+
+**First time (one-time setup):**
+
+Open a terminal (Terminal on macOS/Linux, Command Prompt or PowerShell on Windows) and run:
+
+```bash
+git clone https://github.com/brown-courses/ECON1550.git
+```
+
+This creates an `ECON1550` folder in whatever directory your terminal is currently in (usually your home folder).
+
+**To get the latest updates:**
+
+In the same terminal, run:
+
+```bash
+cd ECON1550
+git pull
+```
+
+Run `git pull` any time you want to grab new or updated materials.
+
+> **Don't have Git installed?** Download it at <https://git-scm.com/downloads>. On macOS, you can also install it by running `xcode-select --install` in Terminal.
 
 ## Instructor
 
-Fernando Duarte - fernando_duarte@brown.edu
+Fernando Duarte — fernando_duarte@brown.edu
 
 ## Questions?
 
-Check Canvas for full staff contact information, or email the instructor.
+Check Canvas for full staff and TA contact information, or email the instructor.
