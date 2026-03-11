@@ -57,6 +57,20 @@ Run `git pull` any time you want to grab new or updated materials.
 
 > **Don't have Git installed?** Download it at <https://git-scm.com/downloads>. On macOS, you can also install it by running `xcode-select --install` in Terminal.
 
+## Found an error or have a suggestion?
+
+If you spot a typo, a broken link, or something that looks wrong in the course materials, you can let us know by opening an **issue** on this repository. Think of an issue as a short message that the instructor will see — no coding required.
+
+**How to submit an issue:**
+
+1. Go to the [Issues tab](https://github.com/brown-courses/ECON1550/issues) at the top of this page (you will need a free GitHub account).
+2. Click the green **New issue** button.
+3. Give it a short title (e.g., "Typo in Problem Set 3, question 2").
+4. In the description box, explain what you noticed and where. The more specific you are, the easier it is to fix.
+5. Click **Submit new issue**.
+
+That's it. You will get a notification when the issue is addressed.
+
 ## Instructor
 
 Fernando Duarte — fernando_duarte@brown.edu

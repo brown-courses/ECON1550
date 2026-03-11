@@ -18,6 +18,18 @@ This website and the [GitHub repository](https://github.com/brown-courses/ECON15
 
 If you just want to download PDFs, Canvas is simpler. This site is here for those who want more.
 
+## Found an error or have a suggestion?
+
+If you spot a typo, a broken link, or something that looks wrong in the course materials, you can let us know by opening an **issue** on the GitHub repository. Think of an issue as a short message that the instructor will see — no coding required.
+
+1. Go to the [Issues page](https://github.com/brown-courses/ECON1550/issues) (you will need a free GitHub account).
+2. Click the green **New issue** button.
+3. Give it a short title (e.g., "Typo in Problem Set 3, question 2").
+4. In the description box, explain what you noticed and where. The more specific you are, the easier it is to fix.
+5. Click **Submit new issue**.
+
+That's it. You will get a notification when the issue is addressed.
+
 ## Course Information
 
 **Instructor:** {{< var instructor.name >}} ([{{< var instructor.email >}}](mailto:{{< var instructor.email >}}))
