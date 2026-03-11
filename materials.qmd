@@ -46,6 +46,16 @@ description: "Lecture notes, slides, and problem sets with solutions for ECON155
 
 Links will become active as materials are released. Solutions are released immediately after the deadline, along with the next problem set.
 
+## Download All Materials
+
+Download combined PDFs of all released materials:
+
+| Bundle | Download |
+|--------|----------|
+| All Problem Sets | [PDF](files/bundles/ECON1550_problem_sets_bundle.pdf){.bundle-link} |
+| All Slides | [PDF](files/bundles/ECON1550_slides_bundle.pdf){.bundle-link} |
+| Complete Course Materials | [PDF](files/bundles/ECON1550_complete_bundle.pdf){.bundle-link} |
+
 <script>
 (function() {
   function processPage() {
@@ -208,8 +218,18 @@ Links will become active as materials are released. Solutions are released immed
         });
       });
 
+      document.querySelectorAll('a.bundle-link').forEach(link => {
+        const href = link.getAttribute('href');
+        if (!href) return;
+        const path = href.replace(/^.*?(files\/)/, '$1');
+        if (!files[path]) {
+          disableLink(link);
+        }
+      });
+
       // Process other links (lecture notes) with inline dates
       document.querySelectorAll('a[href*="files/"]').forEach(link => {
+        if (link.classList.contains('bundle-link')) return;
         // Skip links in tables (they have row-based dates)
         if (link.closest('table')) return;
 

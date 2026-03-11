@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-03-11T01:42:51.590675+00:00",
+  "generated_at": "2026-03-11T02:12:25.312717+00:00",
   "files": {
     "files/lectures/lecture_notes_ECON1550.pdf": "2026-03-09T15:50:58.739632+00:00",
     "files/lectures/models_in_economics.pdf": "2026-03-09T15:53:05.327420+00:00",
@@ -15,22 +15,25 @@
     "files/slides/07-price-levels-and-the-exchange-rate-in-the-long-run.pdf": "2026-03-09T17:31:50.258440+00:00",
     "files/slides/09-tour-of-the-world.pdf": "2026-03-09T17:31:58.384390+00:00",
     "files/psets/pset1/pset1_ECON1550.pdf": "2026-03-10T23:15:11.567140+00:00",
-    "files/psets/pset1/pset1_ECON1550-src.zip": "2026-03-11T01:42:51.149150+00:00",
+    "files/psets/pset1/pset1_ECON1550-src.zip": "2026-03-11T02:12:21.573779+00:00",
     "files/psets/pset1/pset1_ECON1550_answers.pdf": "2026-03-10T23:15:14.504123+00:00",
     "files/psets/pset1/pset1_ECON1550_answers_short.pdf": "2026-03-10T23:15:16.929109+00:00",
     "files/psets/pset2/pset2_ECON1550.pdf": "2026-03-10T23:15:19.493094+00:00",
-    "files/psets/pset2/pset2_ECON1550-src.zip": "2026-03-11T01:42:51.156150+00:00",
+    "files/psets/pset2/pset2_ECON1550-src.zip": "2026-03-11T02:12:21.581779+00:00",
     "files/psets/pset2/pset2_ECON1550_answers.pdf": "2026-03-10T23:15:22.267078+00:00",
     "files/psets/pset2/pset2_ECON1550_answers_short.pdf": "2026-03-10T23:15:24.649064+00:00",
     "files/psets/pset3/pset3_ECON1550.pdf": "2026-03-10T23:15:27.394048+00:00",
-    "files/psets/pset3/pset3_ECON1550-src.zip": "2026-03-11T01:42:51.175150+00:00",
+    "files/psets/pset3/pset3_ECON1550-src.zip": "2026-03-11T02:12:21.601779+00:00",
     "files/psets/pset3/pset3_ECON1550_answers.pdf": "2026-03-10T23:15:30.663030+00:00",
     "files/psets/pset3/pset3_ECON1550_answers_short.pdf": "2026-03-10T23:15:33.676013+00:00",
     "files/psets/pset4/pset4_ECON1550.pdf": "2026-03-10T23:15:36.007999+00:00",
-    "files/psets/pset4/pset4_ECON1550-src.zip": "2026-03-11T01:42:51.196150+00:00",
+    "files/psets/pset4/pset4_ECON1550-src.zip": "2026-03-11T02:12:21.621779+00:00",
     "files/psets/pset4/pset4_ECON1550_answers.pdf": "2026-03-10T23:15:38.986982+00:00",
     "files/psets/pset4/pset4_ECON1550_answers_short.pdf": "2026-03-10T23:15:41.588967+00:00",
     "files/psets/pset5/pset5_ECON1550.pdf": "2026-03-10T23:15:43.863954+00:00",
-    "files/psets/pset5/pset5_ECON1550-src.zip": "2026-03-11T01:42:51.208149+00:00"
+    "files/psets/pset5/pset5_ECON1550-src.zip": "2026-03-11T02:12:21.635779+00:00",
+    "files/bundles/ECON1550_problem_sets_bundle.pdf": "2026-03-10T23:15:43.863954+00:00",
+    "files/bundles/ECON1550_slides_bundle.pdf": "2026-03-09T17:31:58.384390+00:00",
+    "files/bundles/ECON1550_complete_bundle.pdf": "2026-03-10T23:15:43.863954+00:00"
   }
 }
