@@ -389,6 +389,19 @@ ul.task-list li input[type="checkbox"] {
         return now >= date;
       }
 
+      function getFilesPath(href) {
+        if (!href) return null;
+        try {
+          const url = new URL(href, document.baseURI);
+          const normalized = url.pathname.replace(/^\/+/, '');
+          const marker = normalized.indexOf('files/');
+          return marker === -1 ? null : normalized.slice(marker);
+        } catch (_) {
+          const marker = href.indexOf('files/');
+          return marker === -1 ? null : href.slice(marker);
+        }
+      }
+
       // Helper: disable a link (convert to plain text)
       function disableLink(link) {
         if (link.classList.contains('link-disabled')) return;
@@ -425,7 +438,11 @@ ul.task-list li input[type="checkbox"] {
               timestamps.push('');
               return;
             }
-            const path = href.replace(/^.*?(files\/)/, '$1');
+            const path = getFilesPath(href);
+            if (!path) {
+              timestamps.push('');
+              return;
+            }
             const timestamp = files[path];
             if (timestamp) {
               hasAnyTimestamp = true;
@@ -527,9 +544,8 @@ ul.task-list li input[type="checkbox"] {
 
       document.querySelectorAll('a.bundle-link').forEach(link => {
         const href = link.getAttribute('href');
-        if (!href) return;
-        const path = href.replace(/^.*?(files\/)/, '$1');
-        if (!files[path]) {
+        const path = getFilesPath(href);
+        if (!path || !files[path]) {
           disableLink(link);
         }
       });
@@ -542,8 +558,8 @@ ul.task-list li input[type="checkbox"] {
 
         if (link.nextSibling && link.nextSibling.className === 'file-updated') return;
         const href = link.getAttribute('href');
-        if (!href) return;
-        const path = href.replace(/^.*?(files\/)/, '$1');
+        const path = getFilesPath(href);
+        if (!path) return;
         const timestamp = files[path];
         if (timestamp) {
           const date = new Date(timestamp);
