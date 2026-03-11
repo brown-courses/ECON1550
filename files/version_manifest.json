@@ -28,10 +28,22 @@
     "files/slides/05-exchange-rates-asset-approach.pdf",
     "files/slides/06-money-interest-rates-and-exchange-rates.pdf",
     "files/slides/07-price-levels-and-the-exchange-rate-in-the-long-run.pdf",
-    "files/slides/09-tour-of-the-world.pdf"
+    "files/slides/08-output-and-the-exchange-rate-in-the-short-run.pdf"
   ],
-  "generated_at": "2026-03-11T02:13:26.013741+00:00",
+  "generated_at": "2026-03-11T02:46:32.066781+00:00",
   "versions": {
+    "files/bundles/ECON1550_complete_bundle.pdf": [
+      {
+        "archived_at": "2026-03-11T02:46:32.066781+00:00",
+        "path": "files/_versions/bundles/ECON1550_complete_bundle_2026-03-11T02-46-32Z.pdf"
+      }
+    ],
+    "files/bundles/ECON1550_slides_bundle.pdf": [
+      {
+        "archived_at": "2026-03-11T02:46:32.066781+00:00",
+        "path": "files/_versions/bundles/ECON1550_slides_bundle_2026-03-11T02-46-32Z.pdf"
+      }
+    ],
     "files/lectures/closed_economy.pdf": [
       {
         "archived_at": "2026-03-09T15:54:56.402441+00:00",
@@ -243,6 +255,10 @@
       }
     ],
     "files/slides/09-tour-of-the-world.pdf": [
+      {
+        "archived_at": "2026-03-11T02:46:32.066781+00:00",
+        "path": "files/_versions/slides/09-tour-of-the-world_2026-03-11T02-46-32Z.pdf"
+      },
       {
         "archived_at": "2026-03-09T15:54:56.402441+00:00",
         "path": "files/_versions/slides/09-tour-of-the-world_2026-03-09T15-54-56Z.pdf"
