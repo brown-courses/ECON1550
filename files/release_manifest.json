@@ -1,6 +1,6 @@
 {
-  "generated_at_local": "2026-03-10T23:51:36.128941-04:00",
-  "generated_at_utc": "2026-03-11T03:51:36.128941+00:00",
+  "generated_at_local": "2026-03-11T11:06:40.557373-04:00",
+  "generated_at_utc": "2026-03-11T15:06:40.557373+00:00",
   "timezone": "America/New_York",
   "forced_stage": null,
   "assignments": [
@@ -18,7 +18,7 @@
       "title": "Tour of the Class",
       "kind": "slides",
       "stage": "questions",
-      "pre_release_at_local": "2026-01-22T09:00:00-05:00",
+      "pre_release_at_local": "2026-01-21T00:00:00-05:00",
       "due_at_local": "2026-05-15T23:59:00-04:00",
       "sol_release_at_local": null
     },
@@ -27,7 +27,7 @@
       "title": "Models in Economics",
       "kind": "slides",
       "stage": "questions",
-      "pre_release_at_local": "2026-01-22T09:00:00-05:00",
+      "pre_release_at_local": "2026-01-23T00:00:00-05:00",
       "due_at_local": "2026-05-15T23:59:00-04:00",
       "sol_release_at_local": null
     },
@@ -36,7 +36,7 @@
       "title": "IS-LM-PC in One Day",
       "kind": "slides",
       "stage": "questions",
-      "pre_release_at_local": "2026-01-22T09:00:00-05:00",
+      "pre_release_at_local": "2026-01-28T00:00:00-05:00",
       "due_at_local": "2026-05-15T23:59:00-04:00",
       "sol_release_at_local": null
     },
@@ -45,7 +45,7 @@
       "title": "National Income Accounting for Open Economies",
       "kind": "slides",
       "stage": "questions",
-      "pre_release_at_local": "2026-01-22T09:00:00-05:00",
+      "pre_release_at_local": "2026-01-30T00:00:00-05:00",
       "due_at_local": "2026-05-15T23:59:00-04:00",
       "sol_release_at_local": null
     },
@@ -54,7 +54,7 @@
       "title": "Exchange Rates: An Asset Approach",
       "kind": "slides",
       "stage": "questions",
-      "pre_release_at_local": "2026-01-22T09:00:00-05:00",
+      "pre_release_at_local": "2026-02-04T00:00:00-05:00",
       "due_at_local": "2026-05-15T23:59:00-04:00",
       "sol_release_at_local": null
     },
@@ -63,7 +63,7 @@
       "title": "Money, Interest Rates, and Exchange Rates",
       "kind": "slides",
       "stage": "questions",
-      "pre_release_at_local": "2026-01-22T09:00:00-05:00",
+      "pre_release_at_local": "2026-02-18T00:00:00-05:00",
       "due_at_local": "2026-05-15T23:59:00-04:00",
       "sol_release_at_local": null
     },
@@ -72,7 +72,7 @@
       "title": "Price Levels and the Exchange Rate in the Long Run",
       "kind": "slides",
       "stage": "questions",
-      "pre_release_at_local": "2026-01-22T09:00:00-05:00",
+      "pre_release_at_local": "2026-02-25T00:00:00-05:00",
       "due_at_local": "2026-05-15T23:59:00-04:00",
       "sol_release_at_local": null
     },
@@ -81,7 +81,7 @@
       "title": "Output and the Exchange Rate in the Short Run",
       "kind": "slides",
       "stage": "questions",
-      "pre_release_at_local": "2026-01-22T09:00:00-05:00",
+      "pre_release_at_local": "2026-03-09T00:00:00-04:00",
       "due_at_local": "2026-05-15T23:59:00-04:00",
       "sol_release_at_local": null
     },
