@@ -212,6 +212,10 @@ ul.task-list li input[type="checkbox"] {
       Object.keys(data.versions).sort().forEach(function(filePath) {
         var versions = data.versions[filePath];
         if (versions.length === 0) return;
+        // Only show files that are currently active (released to students).
+        // Pre-release or removed files should not appear in version history.
+        var isActive = data.active_files && data.active_files.indexOf(filePath) !== -1;
+        if (!isActive) return;
         var entry = { filePath: filePath, versions: versions };
         if (filePath.indexOf('/psets/') !== -1) categories['Problem Sets'].push(entry);
         else if (filePath.indexOf('/slides/') !== -1) categories['Slides'].push(entry);
@@ -230,11 +234,8 @@ ul.task-list li input[type="checkbox"] {
         html += '</tr></thead><tbody>';
         files.forEach(function(entry) {
           var fileName = entry.filePath.split('/').pop();
-          var isActive = data.active_files && data.active_files.indexOf(entry.filePath) !== -1;
           html += '<tr><td>' + fileName + '</td>';
-          html += '<td>' + (isActive
-            ? '<a href="' + entry.filePath + '">Latest</a>'
-            : '<span class="text-muted">Removed</span>') + '</td>';
+          html += '<td><a href="' + entry.filePath + '">Latest</a></td>';
           html += '<td>';
           entry.versions.forEach(function(v, i) {
             var date = new Date(v.archived_at);
