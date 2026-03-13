@@ -21,17 +21,17 @@ description: "Lecture notes, slides, and problem sets with solutions for ECON155
 
 ::: {.slides-table}
 <!-- AUTO-GENERATED:SLIDES:START -->
-| Topic | PDF |
-|-------|-----|
-| Tour of the Class | [PDF](files/slides/01-tour-of-the-class.pdf) |
-| Models in Economics | [PDF](files/slides/02-models-in-economics.pdf) |
-| IS-LM-PC in One Day | [PDF](files/slides/03-review-of-intermediate-macro.pdf) |
-| National Income Accounting for Open Economies | [PDF](files/slides/04-national-income-accounting.pdf) |
-| Exchange Rates: An Asset Approach | [PDF](files/slides/05-exchange-rates-asset-approach.pdf) |
-| Money, Interest Rates, and Exchange Rates | [PDF](files/slides/06-money-interest-rates-and-exchange-rates.pdf) |
-| Price Levels and the Exchange Rate in the Long Run | [PDF](files/slides/07-price-levels-and-the-exchange-rate-in-the-long-run.pdf) |
-| Output and the Exchange Rate in the Short Run | [PDF](files/slides/08-output-and-the-exchange-rate-in-the-short-run.pdf) |
-| A Tour of the World | [PDF](files/slides/09-tour-of-the-world.pdf) |
+| Topic | PDF | Annotated |
+|-------|-----|-----------|
+| Tour of the Class | [PDF](files/slides/01-tour-of-the-class.pdf) | [PDF](files/slides/01-tour-of-the-class-annotated.pdf) |
+| Models in Economics | [PDF](files/slides/02-models-in-economics.pdf) | [PDF](files/slides/02-models-in-economics-annotated.pdf) |
+| IS-LM-PC in One Day | [PDF](files/slides/03-review-of-intermediate-macro.pdf) | [PDF](files/slides/03-review-of-intermediate-macro-annotated.pdf) |
+| National Income Accounting for Open Economies | [PDF](files/slides/04-national-income-accounting.pdf) | [PDF](files/slides/04-national-income-accounting-annotated.pdf) |
+| Exchange Rates: An Asset Approach | [PDF](files/slides/05-exchange-rates-asset-approach.pdf) | [PDF](files/slides/05-exchange-rates-asset-approach-annotated.pdf) |
+| Money, Interest Rates, and Exchange Rates | [PDF](files/slides/06-money-interest-rates-and-exchange-rates.pdf) | [PDF](files/slides/06-money-interest-rates-and-exchange-rates-annotated.pdf) |
+| Price Levels and the Exchange Rate in the Long Run | [PDF](files/slides/07-price-levels-and-the-exchange-rate-in-the-long-run.pdf) | [PDF](files/slides/07-price-levels-and-the-exchange-rate-in-the-long-run-annotated.pdf) |
+| Output and the Exchange Rate in the Short Run | [PDF](files/slides/08-output-and-the-exchange-rate-in-the-short-run.pdf) | [PDF](files/slides/08-output-and-the-exchange-rate-in-the-short-run-annotated.pdf) |
+| A Tour of the World | [PDF](files/slides/09-tour-of-the-world.pdf) | [PDF](files/slides/09-tour-of-the-world-annotated.pdf) |
 <!-- AUTO-GENERATED:SLIDES:END -->
 :::
 
@@ -70,6 +70,7 @@ Download combined PDFs of all released materials:
       fetch('files/release_manifest.json').then(r => r.ok ? r.json() : null).catch(() => null)
     ]).then(([timestampData, releaseData]) => {
       const files = timestampData?.files || {};
+      const hasTimestamps = Boolean(timestampData && timestampData.files);
       const assignments = releaseData?.assignments || [];
       const timezone = releaseData?.timezone || 'America/New_York';
 
@@ -241,7 +242,7 @@ Download combined PDFs of all released materials:
             // Add timestamp row (only for released items)
             addLastUpdatedRow(row, 'Last updated');
           }
-          // Slides table: disable unreleased, add timestamps for released
+          // Slides table: disable unreleased and un-annotated, add timestamps for released
           else if (isSlidesTable) {
             const cells = row.querySelectorAll('td');
             cells.forEach(cell => {
@@ -251,12 +252,52 @@ Download combined PDFs of all released materials:
               const slideMatch = href.match(/slides\/(\d+)-/);
               if (slideMatch) {
                 const assignment = slidesByDeckNum[slideMatch[1]];
+                // Disable if slide is unreleased
                 if (assignment && !hasDatePassed(assignment.pre_release_at_local)) {
+                  disableLink(link);
+                  return;
+                }
+              }
+              // Disable if file was not staged (only when timestamps loaded successfully)
+              if (hasTimestamps) {
+                const path = getFilesPath(href);
+                if (path && !files[path]) {
+                  // For annotated links, show "\u2014" instead of disabled "PDF"
+                  if (href.includes('-annotated')) {
+                    link.textContent = '\u2014';
+                  }
                   disableLink(link);
                 }
               }
             });
-            addLastUpdatedRow(row, 'Last updated', true);
+            // For slides, show the most recent timestamp across PDF + Annotated
+            const allLinks = row.querySelectorAll('a[href*="files/slides/"]');
+            let latestDate = null;
+            allLinks.forEach(link => {
+              const href = link.getAttribute('href');
+              if (!href) return;
+              const path = getFilesPath(href);
+              if (path && files[path]) {
+                const d = new Date(files[path]);
+                if (!latestDate || d > latestDate) latestDate = d;
+              }
+            });
+            if (latestDate) {
+              const formatted = latestDate.toLocaleDateString('en-US', { month: 'short', day: 'numeric' });
+              // Insert custom last-updated row
+              if (!row.nextElementSibling || !row.nextElementSibling.classList.contains('last-updated-row')) {
+                row.classList.add('has-updated-row');
+                const newRow = document.createElement('tr');
+                newRow.className = 'last-updated-row';
+                const numCols = row.querySelectorAll('td').length;
+                const td = document.createElement('td');
+                td.colSpan = numCols;
+                td.className = 'last-updated-label';
+                td.textContent = 'Last updated ' + formatted;
+                newRow.appendChild(td);
+                row.parentNode.insertBefore(newRow, row.nextSibling);
+              }
+            }
           }
         });
       });
@@ -321,7 +362,9 @@ Download combined PDFs of all released materials:
             const link = cell.querySelector('a');
             if (!link) return;
             if (isSlidesTbl) {
-              link.setAttribute('aria-label', rowLabel + ' slides (PDF)');
+              const href = (link.getAttribute('href') || '');
+              const isAnnotated = href.includes('-annotated');
+              link.setAttribute('aria-label', rowLabel + (isAnnotated ? ' annotated slides (PDF)' : ' slides (PDF)'));
             } else if (isPsetTbl) {
               link.setAttribute('aria-label', rowLabel + ' \u2013 ' + link.textContent.trim());
             }
@@ -346,6 +389,10 @@ Download combined PDFs of all released materials:
 }
 .slides-table table td:first-child,
 .slides-table table th:first-child {
+  white-space: nowrap;
+}
+.slides-table table td:nth-child(3),
+.slides-table table th:nth-child(3) {
   white-space: nowrap;
 }
 .file-updated {
