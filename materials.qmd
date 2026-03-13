@@ -171,7 +171,15 @@ Download combined PDFs of all released materials:
         }
       }
 
-      // Process problem sets table: disable unreleased links
+      // Build slides lookup by deck number from release manifest
+      const slidesByDeckNum = {};
+      assignments.forEach(a => {
+        if (a.kind !== 'slides') return;
+        const m = a.id.match(/^slides-(\d+)/);
+        if (m) slidesByDeckNum[m[1]] = a;
+      });
+
+      // Process tables: disable unreleased links
       document.querySelectorAll('table').forEach(table => {
         const rows = Array.from(table.querySelectorAll('tbody tr'));
         const headerRow = table.querySelector('thead tr');
@@ -229,8 +237,21 @@ Download combined PDFs of all released materials:
             // Add timestamp row (only for released items)
             addLastUpdatedRow(row, 'Last updated');
           }
-          // Slides table: compact mode (date in first column)
+          // Slides table: disable unreleased, add timestamps for released
           else if (isSlidesTable) {
+            const cells = row.querySelectorAll('td');
+            cells.forEach(cell => {
+              const link = cell.querySelector('a[href*="files/slides/"]');
+              if (!link) return;
+              const href = link.getAttribute('href') || '';
+              const slideMatch = href.match(/slides\/(\d+)-/);
+              if (slideMatch) {
+                const assignment = slidesByDeckNum[slideMatch[1]];
+                if (assignment && !hasDatePassed(assignment.pre_release_at_local)) {
+                  disableLink(link);
+                }
+              }
+            });
             addLastUpdatedRow(row, 'Last updated', true);
           }
         });
@@ -244,7 +265,7 @@ Download combined PDFs of all released materials:
         }
       });
 
-      // Process other links (lecture notes) with inline dates
+      // Process other links (lecture notes) with inline dates; disable if not staged
       document.querySelectorAll('a[href*="files/"]').forEach(link => {
         if (link.classList.contains('bundle-link')) return;
         // Skip links in tables (they have row-based dates)
@@ -267,6 +288,9 @@ Download combined PDFs of all released materials:
           const isMainLectureNotes = href.includes('lecture_notes_ECON1550.pdf');
           span.textContent = isMainLectureNotes ? ` (last updated ${formatted})` : ` (upd. ${formatted})`;
           link.parentNode.insertBefore(span, link.nextSibling);
+        } else {
+          // File not in timestamps means it was not staged (unreleased)
+          disableLink(link);
         }
       });
 
