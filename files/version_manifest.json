@@ -3,11 +3,11 @@
     "files/bundles/ECON1550_complete_bundle.pdf",
     "files/bundles/ECON1550_problem_sets_bundle.pdf",
     "files/bundles/ECON1550_slides_bundle.pdf",
-    "files/lectures/closed_economy.pdf",
     "files/lectures/financial_assets.pdf",
     "files/lectures/iixx.pdf",
     "files/lectures/lecture_notes_ECON1550.pdf",
     "files/lectures/models_in_economics.pdf",
+    "files/lectures/review_of_intermediate_macro.pdf",
     "files/psets/pset1/pset1_ECON1550.pdf",
     "files/psets/pset1/pset1_ECON1550_answers.pdf",
     "files/psets/pset1/pset1_ECON1550_answers_short.pdf",
@@ -34,9 +34,13 @@
     "files/slides/08-output-and-the-exchange-rate-in-the-short-run.pdf",
     "files/syllabus/Syllabus.pdf"
   ],
-  "generated_at": "2026-03-13T03:46:10.522476+00:00",
+  "generated_at": "2026-03-13T17:50:58.363309+00:00",
   "versions": {
     "files/bundles/ECON1550_complete_bundle.pdf": [
+      {
+        "archived_at": "2026-03-13T17:50:58.363309+00:00",
+        "path": "files/_versions/bundles/ECON1550_complete_bundle_2026-03-13T17-50-58Z.pdf"
+      },
       {
         "archived_at": "2026-03-13T03:46:10.522476+00:00",
         "path": "files/_versions/bundles/ECON1550_complete_bundle_2026-03-13T03-46-10Z.pdf"
@@ -86,6 +90,10 @@
     ],
     "files/bundles/ECON1550_slides_bundle.pdf": [
       {
+        "archived_at": "2026-03-13T17:50:58.363309+00:00",
+        "path": "files/_versions/bundles/ECON1550_slides_bundle_2026-03-13T17-50-58Z.pdf"
+      },
+      {
         "archived_at": "2026-03-13T02:36:57.044709+00:00",
         "path": "files/_versions/bundles/ECON1550_slides_bundle_2026-03-13T02-36-57Z.pdf"
       },
@@ -95,6 +103,10 @@
       }
     ],
     "files/lectures/closed_economy.pdf": [
+      {
+        "archived_at": "2026-03-13T17:50:58.363309+00:00",
+        "path": "files/_versions/lectures/closed_economy_2026-03-13T17-50-58Z.pdf"
+      },
       {
         "archived_at": "2026-03-09T15:54:56.402441+00:00",
         "path": "files/_versions/lectures/closed_economy_2026-03-09T15-54-56Z.pdf"
@@ -113,6 +125,10 @@
       }
     ],
     "files/lectures/lecture_notes_ECON1550.pdf": [
+      {
+        "archived_at": "2026-03-13T17:50:58.363309+00:00",
+        "path": "files/_versions/lectures/lecture_notes_ECON1550_2026-03-13T17-50-58Z.pdf"
+      },
       {
         "archived_at": "2026-03-09T15:54:56.402441+00:00",
         "path": "files/_versions/lectures/lecture_notes_ECON1550_2026-03-09T15-54-56Z.pdf"
@@ -317,6 +333,10 @@
       }
     ],
     "files/slides/03-review-of-intermediate-macro.pdf": [
+      {
+        "archived_at": "2026-03-13T17:50:58.363309+00:00",
+        "path": "files/_versions/slides/03-review-of-intermediate-macro_2026-03-13T17-50-58Z.pdf"
+      },
       {
         "archived_at": "2026-03-09T15:54:56.402441+00:00",
         "path": "files/_versions/slides/03-review-of-intermediate-macro_2026-03-09T15-54-56Z.pdf"
