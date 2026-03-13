@@ -34,9 +34,13 @@
     "files/slides/08-output-and-the-exchange-rate-in-the-short-run.pdf",
     "files/syllabus/Syllabus.pdf"
   ],
-  "generated_at": "2026-03-13T18:17:38.923807+00:00",
+  "generated_at": "2026-03-13T20:42:58.774400+00:00",
   "versions": {
     "files/bundles/ECON1550_complete_bundle.pdf": [
+      {
+        "archived_at": "2026-03-13T20:42:58.774400+00:00",
+        "path": "files/_versions/bundles/ECON1550_complete_bundle_2026-03-13T20-42-58Z.pdf"
+      },
       {
         "archived_at": "2026-03-13T18:17:38.923807+00:00",
         "path": "files/_versions/bundles/ECON1550_complete_bundle_2026-03-13T18-17-38Z.pdf"
@@ -97,6 +101,10 @@
       }
     ],
     "files/bundles/ECON1550_slides_bundle.pdf": [
+      {
+        "archived_at": "2026-03-13T20:42:58.774400+00:00",
+        "path": "files/_versions/bundles/ECON1550_slides_bundle_2026-03-13T20-42-58Z.pdf"
+      },
       {
         "archived_at": "2026-03-13T17:50:58.363309+00:00",
         "path": "files/_versions/bundles/ECON1550_slides_bundle_2026-03-13T17-50-58Z.pdf"
@@ -388,6 +396,12 @@
       {
         "archived_at": "2026-03-09T15:54:56.402441+00:00",
         "path": "files/_versions/slides/07-price-levels-and-the-exchange-rate-in-the-long-run_2026-03-09T15-54-56Z.pdf"
+      }
+    ],
+    "files/slides/08-output-and-the-exchange-rate-in-the-short-run.pdf": [
+      {
+        "archived_at": "2026-03-13T20:42:58.774400+00:00",
+        "path": "files/_versions/slides/08-output-and-the-exchange-rate-in-the-short-run_2026-03-13T20-42-58Z.pdf"
       }
     ]
   }
