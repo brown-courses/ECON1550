@@ -34,7 +34,7 @@
     "files/slides/08-output-and-the-exchange-rate-in-the-short-run.pdf",
     "files/syllabus/Syllabus.pdf"
   ],
-  "generated_at": "2026-03-12T12:38:10.688812+00:00",
+  "generated_at": "2026-03-13T01:26:31.934717+00:00",
   "versions": {
     "files/bundles/ECON1550_complete_bundle.pdf": [
       {
@@ -284,24 +284,6 @@
       {
         "archived_at": "2026-03-09T15:54:56.402441+00:00",
         "path": "files/_versions/slides/07-price-levels-and-the-exchange-rate-in-the-long-run_2026-03-09T15-54-56Z.pdf"
-      }
-    ],
-    "files/slides/09-tour-of-the-world.pdf": [
-      {
-        "archived_at": "2026-03-11T02:46:32.066781+00:00",
-        "path": "files/_versions/slides/09-tour-of-the-world_2026-03-11T02-46-32Z.pdf"
-      },
-      {
-        "archived_at": "2026-03-09T15:54:56.402441+00:00",
-        "path": "files/_versions/slides/09-tour-of-the-world_2026-03-09T15-54-56Z.pdf"
-      },
-      {
-        "archived_at": "2026-03-09T13:21:48.152388+00:00",
-        "path": "files/_versions/slides/09-tour-of-the-world_2026-03-09T13-21-48Z.pdf"
-      },
-      {
-        "archived_at": "2026-03-08T22:02:34.869464+00:00",
-        "path": "files/_versions/slides/09-tour-of-the-world_2026-03-08T22-02-34Z.pdf"
       }
     ]
   }
