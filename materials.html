@@ -221,44 +221,54 @@ ul.task-list li input[type="checkbox"] {
 <tr class="header">
 <th>Topic</th>
 <th>PDF</th>
+<th>Annotated</th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
 <td>Tour of the Class</td>
 <td><a href="files/slides/01-tour-of-the-class.pdf">PDF</a></td>
+<td><a href="files/slides/01-tour-of-the-class-annotated.pdf">PDF</a></td>
 </tr>
 <tr class="even">
 <td>Models in Economics</td>
 <td><a href="files/slides/02-models-in-economics.pdf">PDF</a></td>
+<td><a href="files/slides/02-models-in-economics-annotated.pdf">PDF</a></td>
 </tr>
 <tr class="odd">
 <td>IS-LM-PC in One Day</td>
 <td><a href="files/slides/03-review-of-intermediate-macro.pdf">PDF</a></td>
+<td><a href="files/slides/03-review-of-intermediate-macro-annotated.pdf">PDF</a></td>
 </tr>
 <tr class="even">
 <td>National Income Accounting for Open Economies</td>
 <td><a href="files/slides/04-national-income-accounting.pdf">PDF</a></td>
+<td><a href="files/slides/04-national-income-accounting-annotated.pdf">PDF</a></td>
 </tr>
 <tr class="odd">
 <td>Exchange Rates: An Asset Approach</td>
 <td><a href="files/slides/05-exchange-rates-asset-approach.pdf">PDF</a></td>
+<td><a href="files/slides/05-exchange-rates-asset-approach-annotated.pdf">PDF</a></td>
 </tr>
 <tr class="even">
 <td>Money, Interest Rates, and Exchange Rates</td>
 <td><a href="files/slides/06-money-interest-rates-and-exchange-rates.pdf">PDF</a></td>
+<td><a href="files/slides/06-money-interest-rates-and-exchange-rates-annotated.pdf">PDF</a></td>
 </tr>
 <tr class="odd">
 <td>Price Levels and the Exchange Rate in the Long Run</td>
 <td><a href="files/slides/07-price-levels-and-the-exchange-rate-in-the-long-run.pdf">PDF</a></td>
+<td><a href="files/slides/07-price-levels-and-the-exchange-rate-in-the-long-run-annotated.pdf">PDF</a></td>
 </tr>
 <tr class="even">
 <td>Output and the Exchange Rate in the Short Run</td>
 <td><a href="files/slides/08-output-and-the-exchange-rate-in-the-short-run.pdf">PDF</a></td>
+<td><a href="files/slides/08-output-and-the-exchange-rate-in-the-short-run-annotated.pdf">PDF</a></td>
 </tr>
 <tr class="odd">
 <td>A Tour of the World</td>
 <td><a href="files/slides/09-tour-of-the-world.pdf">PDF</a></td>
+<td><a href="files/slides/09-tour-of-the-world-annotated.pdf">PDF</a></td>
 </tr>
 </tbody>
 </table>
@@ -379,6 +389,7 @@ ul.task-list li input[type="checkbox"] {
       fetch('files/release_manifest.json').then(r => r.ok ? r.json() : null).catch(() => null)
     ]).then(([timestampData, releaseData]) => {
       const files = timestampData?.files || {};
+      const hasTimestamps = Boolean(timestampData && timestampData.files);
       const assignments = releaseData?.assignments || [];
       const timezone = releaseData?.timezone || 'America/New_York';
 
@@ -550,7 +561,7 @@ ul.task-list li input[type="checkbox"] {
             // Add timestamp row (only for released items)
             addLastUpdatedRow(row, 'Last updated');
           }
-          // Slides table: disable unreleased, add timestamps for released
+          // Slides table: disable unreleased and un-annotated, add timestamps for released
           else if (isSlidesTable) {
             const cells = row.querySelectorAll('td');
             cells.forEach(cell => {
@@ -560,12 +571,52 @@ ul.task-list li input[type="checkbox"] {
               const slideMatch = href.match(/slides\/(\d+)-/);
               if (slideMatch) {
                 const assignment = slidesByDeckNum[slideMatch[1]];
+                // Disable if slide is unreleased
                 if (assignment && !hasDatePassed(assignment.pre_release_at_local)) {
+                  disableLink(link);
+                  return;
+                }
+              }
+              // Disable if file was not staged (only when timestamps loaded successfully)
+              if (hasTimestamps) {
+                const path = getFilesPath(href);
+                if (path && !files[path]) {
+                  // For annotated links, show "\u2014" instead of disabled "PDF"
+                  if (href.includes('-annotated')) {
+                    link.textContent = '\u2014';
+                  }
                   disableLink(link);
                 }
               }
             });
-            addLastUpdatedRow(row, 'Last updated', true);
+            // For slides, show the most recent timestamp across PDF + Annotated
+            const allLinks = row.querySelectorAll('a[href*="files/slides/"]');
+            let latestDate = null;
+            allLinks.forEach(link => {
+              const href = link.getAttribute('href');
+              if (!href) return;
+              const path = getFilesPath(href);
+              if (path && files[path]) {
+                const d = new Date(files[path]);
+                if (!latestDate || d > latestDate) latestDate = d;
+              }
+            });
+            if (latestDate) {
+              const formatted = latestDate.toLocaleDateString('en-US', { month: 'short', day: 'numeric' });
+              // Insert custom last-updated row
+              if (!row.nextElementSibling || !row.nextElementSibling.classList.contains('last-updated-row')) {
+                row.classList.add('has-updated-row');
+                const newRow = document.createElement('tr');
+                newRow.className = 'last-updated-row';
+                const numCols = row.querySelectorAll('td').length;
+                const td = document.createElement('td');
+                td.colSpan = numCols;
+                td.className = 'last-updated-label';
+                td.textContent = 'Last updated ' + formatted;
+                newRow.appendChild(td);
+                row.parentNode.insertBefore(newRow, row.nextSibling);
+              }
+            }
           }
         });
       });
@@ -630,7 +681,9 @@ ul.task-list li input[type="checkbox"] {
             const link = cell.querySelector('a');
             if (!link) return;
             if (isSlidesTbl) {
-              link.setAttribute('aria-label', rowLabel + ' slides (PDF)');
+              const href = (link.getAttribute('href') || '');
+              const isAnnotated = href.includes('-annotated');
+              link.setAttribute('aria-label', rowLabel + (isAnnotated ? ' annotated slides (PDF)' : ' slides (PDF)'));
             } else if (isPsetTbl) {
               link.setAttribute('aria-label', rowLabel + ' \u2013 ' + link.textContent.trim());
             }
@@ -654,6 +707,10 @@ ul.task-list li input[type="checkbox"] {
 }
 .slides-table table td:first-child,
 .slides-table table th:first-child {
+  white-space: nowrap;
+}
+.slides-table table td:nth-child(3),
+.slides-table table th:nth-child(3) {
   white-space: nowrap;
 }
 .file-updated {
