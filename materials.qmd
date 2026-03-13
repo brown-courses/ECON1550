@@ -3,13 +3,17 @@ title: "Course Materials"
 description: "Lecture notes, slides, and problem sets with solutions for ECON1550 International Finance."
 ---
 
+## Syllabus
+
+- [Syllabus (PDF)](files/syllabus/Syllabus.pdf)
+
 ## Lecture Notes
 
 <!-- AUTO-GENERATED:LECTURES:START -->
 - [Lecture Notes (PDF)](files/lectures/lecture_notes_ECON1550.pdf)
   - [Models in Economics](files/lectures/models_in_economics.pdf)
   - [Financial Assets](files/lectures/financial_assets.pdf)
-  - [Intermediate Macro](files/lectures/closed_economy.pdf)
+  - [Review of Intermediate Macro](files/lectures/review_of_intermediate_macro.pdf)
   - [The II-XX Model](files/lectures/iixx.pdf)
 <!-- AUTO-GENERATED:LECTURES:END -->
 
@@ -195,7 +199,7 @@ Download combined PDFs of all released materials:
           if (!firstCell) return;
 
           // Problem sets table: check release status and disable unreleased links
-          if (firstCell.textContent.includes('Problem Set')) {
+          if (isPsetTable && firstCell.textContent.includes('Problem Set')) {
             const cells = row.querySelectorAll('td');
 
             // Find the pset ID from any link in the row
@@ -263,6 +267,12 @@ Download combined PDFs of all released materials:
         if (!path || !files[path]) {
           disableLink(link);
         }
+      });
+
+      // Add "Last updated" rows to the bundles table
+      document.querySelectorAll('a.bundle-link').forEach(link => {
+        const row = link.closest('tr');
+        if (row) addLastUpdatedRow(row, 'Last updated', true);
       });
 
       // Process other links (lecture notes) with inline dates; disable if not staged
