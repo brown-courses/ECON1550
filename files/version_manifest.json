@@ -34,9 +34,13 @@
     "files/slides/08-output-and-the-exchange-rate-in-the-short-run.pdf",
     "files/syllabus/Syllabus.pdf"
   ],
-  "generated_at": "2026-03-13T03:22:15.625039+00:00",
+  "generated_at": "2026-03-13T03:46:10.522476+00:00",
   "versions": {
     "files/bundles/ECON1550_complete_bundle.pdf": [
+      {
+        "archived_at": "2026-03-13T03:46:10.522476+00:00",
+        "path": "files/_versions/bundles/ECON1550_complete_bundle_2026-03-13T03-46-10Z.pdf"
+      },
       {
         "archived_at": "2026-03-13T03:22:15.625039+00:00",
         "path": "files/_versions/bundles/ECON1550_complete_bundle_2026-03-13T03-22-15Z.pdf"
@@ -59,6 +63,10 @@
       }
     ],
     "files/bundles/ECON1550_problem_sets_bundle.pdf": [
+      {
+        "archived_at": "2026-03-13T03:46:10.522476+00:00",
+        "path": "files/_versions/bundles/ECON1550_problem_sets_bundle_2026-03-13T03-46-10Z.pdf"
+      },
       {
         "archived_at": "2026-03-13T03:22:15.625039+00:00",
         "path": "files/_versions/bundles/ECON1550_problem_sets_bundle_2026-03-13T03-22-15Z.pdf"
@@ -252,6 +260,10 @@
     ],
     "files/psets/pset5/pset5_ECON1550_answers.pdf": [
       {
+        "archived_at": "2026-03-13T03:46:10.522476+00:00",
+        "path": "files/_versions/psets/pset5/pset5_ECON1550_answers_2026-03-13T03-46-10Z.pdf"
+      },
+      {
         "archived_at": "2026-03-13T03:22:15.625039+00:00",
         "path": "files/_versions/psets/pset5/pset5_ECON1550_answers_2026-03-13T03-22-15Z.pdf"
       },
@@ -261,6 +273,10 @@
       }
     ],
     "files/psets/pset5/pset5_ECON1550_answers_short.pdf": [
+      {
+        "archived_at": "2026-03-13T03:46:10.522476+00:00",
+        "path": "files/_versions/psets/pset5/pset5_ECON1550_answers_short_2026-03-13T03-46-10Z.pdf"
+      },
       {
         "archived_at": "2026-03-13T03:22:15.625039+00:00",
         "path": "files/_versions/psets/pset5/pset5_ECON1550_answers_short_2026-03-13T03-22-15Z.pdf"
