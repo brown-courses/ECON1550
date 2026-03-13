@@ -34,9 +34,13 @@
     "files/slides/08-output-and-the-exchange-rate-in-the-short-run.pdf",
     "files/syllabus/Syllabus.pdf"
   ],
-  "generated_at": "2026-03-13T01:26:31.934717+00:00",
+  "generated_at": "2026-03-13T02:36:57.044709+00:00",
   "versions": {
     "files/bundles/ECON1550_complete_bundle.pdf": [
+      {
+        "archived_at": "2026-03-13T02:36:57.044709+00:00",
+        "path": "files/_versions/bundles/ECON1550_complete_bundle_2026-03-13T02-36-57Z.pdf"
+      },
       {
         "archived_at": "2026-03-12T06:22:23.136235+00:00",
         "path": "files/_versions/bundles/ECON1550_complete_bundle_2026-03-12T06-22-23Z.pdf"
@@ -52,6 +56,10 @@
     ],
     "files/bundles/ECON1550_problem_sets_bundle.pdf": [
       {
+        "archived_at": "2026-03-13T02:36:57.044709+00:00",
+        "path": "files/_versions/bundles/ECON1550_problem_sets_bundle_2026-03-13T02-36-57Z.pdf"
+      },
+      {
         "archived_at": "2026-03-12T06:22:23.136235+00:00",
         "path": "files/_versions/bundles/ECON1550_problem_sets_bundle_2026-03-12T06-22-23Z.pdf"
       },
@@ -61,6 +69,10 @@
       }
     ],
     "files/bundles/ECON1550_slides_bundle.pdf": [
+      {
+        "archived_at": "2026-03-13T02:36:57.044709+00:00",
+        "path": "files/_versions/bundles/ECON1550_slides_bundle_2026-03-13T02-36-57Z.pdf"
+      },
       {
         "archived_at": "2026-03-11T02:46:32.066781+00:00",
         "path": "files/_versions/bundles/ECON1550_slides_bundle_2026-03-11T02-46-32Z.pdf"
@@ -230,7 +242,23 @@
         "path": "files/_versions/psets/pset5/pset5_ECON1550_2026-03-08T22-02-34Z.pdf"
       }
     ],
+    "files/psets/pset5/pset5_ECON1550_answers.pdf": [
+      {
+        "archived_at": "2026-03-13T02:36:57.044709+00:00",
+        "path": "files/_versions/psets/pset5/pset5_ECON1550_answers_2026-03-13T02-36-57Z.pdf"
+      }
+    ],
+    "files/psets/pset5/pset5_ECON1550_answers_short.pdf": [
+      {
+        "archived_at": "2026-03-13T02:36:57.044709+00:00",
+        "path": "files/_versions/psets/pset5/pset5_ECON1550_answers_short_2026-03-13T02-36-57Z.pdf"
+      }
+    ],
     "files/psets/pset6/pset6_ECON1550.pdf": [
+      {
+        "archived_at": "2026-03-13T02:36:57.044709+00:00",
+        "path": "files/_versions/psets/pset6/pset6_ECON1550_2026-03-13T02-36-57Z.pdf"
+      },
       {
         "archived_at": "2026-03-12T12:38:10.688812+00:00",
         "path": "files/_versions/psets/pset6/pset6_ECON1550_2026-03-12T12-38-10Z.pdf"
@@ -277,6 +305,10 @@
       }
     ],
     "files/slides/07-price-levels-and-the-exchange-rate-in-the-long-run.pdf": [
+      {
+        "archived_at": "2026-03-13T02:36:57.044709+00:00",
+        "path": "files/_versions/slides/07-price-levels-and-the-exchange-rate-in-the-long-run_2026-03-13T02-36-57Z.pdf"
+      },
       {
         "archived_at": "2026-03-09T17:41:50.668241+00:00",
         "path": "files/_versions/slides/07-price-levels-and-the-exchange-rate-in-the-long-run_2026-03-09T17-41-50Z.pdf"
