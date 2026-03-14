@@ -19,8 +19,8 @@
   box-shadow: 0 2px 8px rgba(0, 0, 0, 0.3);
 }
 
-/* FAQ question headings */
-.faq-page h3 {
+/* FAQ question headings (scoped to content sections, not TOC) */
+.faq-page section.level2 > h2 {
   font-size: 1.1rem;
 }
 

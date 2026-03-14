@@ -164,7 +164,25 @@ ul.task-list li input[type="checkbox"] {
     </div>
 <!-- main -->
 <main class="content" id="quarto-document-content">
-<a href="#quarto-document-content" class="skip-link">Skip to main content</a>
+<script>
+// Inject skip link as the first child of <body> for correct tab order.
+// Quarto's include-before-body places content inside <main>, which puts
+// the skip link AFTER the navbar in tab order — defeating its purpose.
+(function() {
+  function insertSkipLink() {
+    var link = document.createElement('a');
+    link.href = '#quarto-document-content';
+    link.className = 'skip-link';
+    link.textContent = 'Skip to main content';
+    document.body.insertBefore(link, document.body.firstChild);
+  }
+  if (document.readyState === 'loading') {
+    document.addEventListener('DOMContentLoaded', insertSkipLink);
+  } else {
+    insertSkipLink();
+  }
+})();
+</script>
 
 <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">

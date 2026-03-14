@@ -6,6 +6,7 @@
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
+<meta name="description" content="The requested content is not yet available or may have moved.">
 
 <title>ECON1550 – ECON1550 International Finance</title>
 <style>
@@ -154,13 +155,36 @@ ul.task-list li input[type="checkbox"] {
     
 <!-- main -->
 <main class="content" id="quarto-document-content">
-<a href="#quarto-document-content" class="skip-link">Skip to main content</a>
+<script>
+// Inject skip link as the first child of <body> for correct tab order.
+// Quarto's include-before-body places content inside <main>, which puts
+// the skip link AFTER the navbar in tab order — defeating its purpose.
+(function() {
+  function insertSkipLink() {
+    var link = document.createElement('a');
+    link.href = '#quarto-document-content';
+    link.className = 'skip-link';
+    link.textContent = 'Skip to main content';
+    document.body.insertBefore(link, document.body.firstChild);
+  }
+  if (document.readyState === 'loading') {
+    document.addEventListener('DOMContentLoaded', insertSkipLink);
+  } else {
+    insertSkipLink();
+  }
+})();
+</script>
 
 <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
 <h1 class="title">Content Not Yet Available</h1>
 </div>
 
+<div>
+  <div class="description">
+    The requested content is not yet available or may have moved.
+  </div>
+</div>
 
 
 <div class="quarto-title-meta">
@@ -208,22 +232,22 @@ ul.task-list li input[type="checkbox"] {
       <p class="suggestions-title">Here are some helpful links:</p>
       <div class="link-grid" id="link-grid">
         <a href="/ECON1550/index.html" class="link-card" data-page="index.html">
-          <span class="link-icon">🏠</span>
+          <span class="link-icon" aria-hidden="true">🏠</span>
           <span class="link-text">Home</span>
           <span class="link-desc">Course overview</span>
         </a>
         <a href="/ECON1550/materials.html" class="link-card" data-page="materials.html">
-          <span class="link-icon">📚</span>
+          <span class="link-icon" aria-hidden="true">📚</span>
           <span class="link-text">Materials</span>
           <span class="link-desc">Problem sets &amp; notes</span>
         </a>
         <a href="/ECON1550/schedule.html" class="link-card" data-page="schedule.html">
-          <span class="link-icon">📅</span>
+          <span class="link-icon" aria-hidden="true">📅</span>
           <span class="link-text">Schedule</span>
           <span class="link-desc">Class calendar</span>
         </a>
         <a href="https://canvas.brown.edu/courses/1101477" class="link-card external">
-          <span class="link-icon">🎓</span>
+          <span class="link-icon" aria-hidden="true">🎓</span>
           <span class="link-text">Canvas</span>
           <span class="link-desc">Grades &amp; announcements</span>
         </a>

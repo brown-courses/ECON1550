@@ -4,21 +4,21 @@
     "href": "versions.html",
     "title": "Version History",
     "section": "",
-    "text": "Skip to main content\n\n\n\n\nWhen course materials are updated (e.g., to fix a typo), the previous version is archived here. If a file has no entries below, it has not been revised since its initial release.\n\n\nLoading version history…"
+    "text": "When course materials are updated (e.g., to fix a typo), the previous version is archived here. If a file has no entries below, it has not been revised since its initial release.\n\n\nLoading version history…"
   },
   {
     "objectID": "materials.html",
     "href": "materials.html",
     "title": "Course Materials",
     "section": "",
-    "text": "Skip to main content"
+    "text": "Syllabus (PDF)"
   },
   {
     "objectID": "materials.html#syllabus",
     "href": "materials.html#syllabus",
     "title": "Course Materials",
-    "section": "Syllabus",
-    "text": "Syllabus\n\nSyllabus (PDF)"
+    "section": "",
+    "text": "Syllabus (PDF)"
   },
   {
     "objectID": "materials.html#lecture-notes",
@@ -53,35 +53,84 @@
     "href": "faq.html",
     "title": "Frequently Asked Questions",
     "section": "",
-    "text": "Skip to main content\n\n\n\n\n\n\nWill lectures be recorded?\nNo. Lectures are not recorded. If you miss class, get notes from a classmate and come to office hours with questions.\n\n\nDo I need the textbook version sold through Canvas or the Brown Bookstore?\nNo. You are welcome to use any edition or format of the textbook. The course does not rely on any proprietary or interactive features tied to a specific version.\n\n\nWhy are we using the 11th edition of the textbook when there is a 12th edition available?\nThe Brown Bookstore only had the 11th edition available in Inclusive Access form. You can certainly use the 12th edition — it has the same content, but charts and figures are updated and some boxes cover more recent events.\n\n\nI earned what would have been an A while taking the course S/NC. Why don’t I see S_DIST on my transcript?\nAs stated on the Grade Options page,\n\n“S with Distinction grades are not recorded on your Brown transcript or your internal academic record.”\n\nTherefore, even though in this course we do award S_DIST, and Prof. Duarte does enter S_DIST as your grade, you will still see “S.”\nThe Registrar keeps a separate list of S_DIST awarded for internal academic uses such as honors eligibility. If you need confirmation, the Registrar can verify it for you.\n\n\n\nAre there sections during exam weeks?\nNo.\n\n\nAre there review sessions during exam weeks?\nYes.\n\n\nDo we get practice exams?\nYes, at least one week before the actual exam takes place. The format and style of the actual exam will be the same as for the practice exam. We also aim to make the difficulty and length of the actual and practice exams as similar as possible.\n\n\n\n\n\n\n\n\nNoteStill have questions?\n\n\n\nFor questions about problem sets, course content, or anything time-sensitive, post on Ed Discussion — you’ll get a faster response there. For general questions you think should be added to this FAQ, submit them here."
+    "text": "No. Lectures are not recorded. If you miss class, get notes from a classmate and come to office hours with questions."
+  },
+  {
+    "objectID": "faq.html#will-lectures-be-recorded",
+    "href": "faq.html#will-lectures-be-recorded",
+    "title": "Frequently Asked Questions",
+    "section": "",
+    "text": "No. Lectures are not recorded. If you miss class, get notes from a classmate and come to office hours with questions."
+  },
+  {
+    "objectID": "faq.html#do-i-need-the-textbook-version-sold-through-canvas-or-the-brown-bookstore",
+    "href": "faq.html#do-i-need-the-textbook-version-sold-through-canvas-or-the-brown-bookstore",
+    "title": "Frequently Asked Questions",
+    "section": "Do I need the textbook version sold through Canvas or the Brown Bookstore?",
+    "text": "Do I need the textbook version sold through Canvas or the Brown Bookstore?\nNo. You are welcome to use any edition or format of the textbook. The course does not rely on any proprietary or interactive features tied to a specific version."
+  },
+  {
+    "objectID": "faq.html#why-are-we-using-the-11th-edition-of-the-textbook-when-there-is-a-12th-edition-available",
+    "href": "faq.html#why-are-we-using-the-11th-edition-of-the-textbook-when-there-is-a-12th-edition-available",
+    "title": "Frequently Asked Questions",
+    "section": "Why are we using the 11th edition of the textbook when there is a 12th edition available?",
+    "text": "Why are we using the 11th edition of the textbook when there is a 12th edition available?\nThe Brown Bookstore only had the 11th edition available in Inclusive Access form. You can certainly use the 12th edition — it has the same content, but charts and figures are updated and some boxes cover more recent events."
+  },
+  {
+    "objectID": "faq.html#i-earned-what-would-have-been-an-a-while-taking-the-course-snc.-why-dont-i-see-s_dist-on-my-transcript",
+    "href": "faq.html#i-earned-what-would-have-been-an-a-while-taking-the-course-snc.-why-dont-i-see-s_dist-on-my-transcript",
+    "title": "Frequently Asked Questions",
+    "section": "I earned what would have been an A while taking the course S/NC. Why don’t I see S_DIST on my transcript?",
+    "text": "I earned what would have been an A while taking the course S/NC. Why don’t I see S_DIST on my transcript?\nAs stated on the Grade Options page,\n\n“S with Distinction grades are not recorded on your Brown transcript or your internal academic record.”\n\nTherefore, even though in this course we do award S_DIST, and Prof. Duarte does enter S_DIST as your grade, you will still see “S.”\nThe Registrar keeps a separate list of S_DIST awarded for internal academic uses such as honors eligibility. If you need confirmation, the Registrar can verify it for you."
+  },
+  {
+    "objectID": "faq.html#are-there-sections-during-exam-weeks",
+    "href": "faq.html#are-there-sections-during-exam-weeks",
+    "title": "Frequently Asked Questions",
+    "section": "Are there sections during exam weeks?",
+    "text": "Are there sections during exam weeks?\nNo."
+  },
+  {
+    "objectID": "faq.html#are-there-review-sessions-during-exam-weeks",
+    "href": "faq.html#are-there-review-sessions-during-exam-weeks",
+    "title": "Frequently Asked Questions",
+    "section": "Are there review sessions during exam weeks?",
+    "text": "Are there review sessions during exam weeks?\nYes."
+  },
+  {
+    "objectID": "faq.html#do-we-get-practice-exams",
+    "href": "faq.html#do-we-get-practice-exams",
+    "title": "Frequently Asked Questions",
+    "section": "Do we get practice exams?",
+    "text": "Do we get practice exams?\nYes, at least one week before the actual exam takes place. The format and style of the actual exam will be the same as for the practice exam. We also aim to make the difficulty and length of the actual and practice exams as similar as possible.\n\n\n\n\n\n\n\n\nNoteStill have questions?\n\n\n\nFor questions about problem sets, course content, or anything time-sensitive, post on Ed Discussion — you’ll get a faster response there. For general questions you think should be added to this FAQ, submit them here."
   },
   {
     "objectID": "accessibility.html",
     "href": "accessibility.html",
     "title": "Accessibility",
     "section": "",
-    "text": "Skip to main content"
+    "text": "The ECON1550 International Finance course website is committed to ensuring digital accessibility for all users, including those with disabilities.\n\n\nWe aim to conform to WCAG 2.1 Level AA standards.\n\n\n\nThis site includes the following accessibility features:\n\nSemantic HTML structure with proper heading hierarchy\nKeyboard navigation support with skip-to-content link\nResponsive design for various devices and screen sizes\nSufficient color contrast\nDescriptive link text\n\n\n\n\nIf you encounter any accessibility barriers on this site, please submit an issue on our GitHub repository.\n\n\n\nPlease include:\n\nThe web address (URL) of the content\nA description of the issue"
   },
   {
     "objectID": "accessibility.html#accessibility-statement",
     "href": "accessibility.html#accessibility-statement",
     "title": "Accessibility",
-    "section": "Accessibility Statement",
-    "text": "Accessibility Statement\nThe ECON1550 International Finance course website is committed to ensuring digital accessibility for all users, including those with disabilities.\n\nStandards\nWe aim to conform to WCAG 2.1 Level AA standards.\n\n\nFeatures\nThis site includes the following accessibility features:\n\nSemantic HTML structure with proper heading hierarchy\nKeyboard navigation support with skip-to-content link\nResponsive design for various devices and screen sizes\nSufficient color contrast\nDescriptive link text\n\n\n\nFeedback\nIf you encounter any accessibility barriers on this site, please submit an issue on our GitHub repository.\n\n\nReporting Issues\nPlease include:\n\nThe web address (URL) of the content\nA description of the issue"
+    "section": "",
+    "text": "The ECON1550 International Finance course website is committed to ensuring digital accessibility for all users, including those with disabilities.\n\n\nWe aim to conform to WCAG 2.1 Level AA standards.\n\n\n\nThis site includes the following accessibility features:\n\nSemantic HTML structure with proper heading hierarchy\nKeyboard navigation support with skip-to-content link\nResponsive design for various devices and screen sizes\nSufficient color contrast\nDescriptive link text\n\n\n\n\nIf you encounter any accessibility barriers on this site, please submit an issue on our GitHub repository.\n\n\n\nPlease include:\n\nThe web address (URL) of the content\nA description of the issue"
   },
   {
     "objectID": "index.html",
     "href": "index.html",
     "title": "ECON1550 International Finance",
     "section": "",
-    "text": "Skip to main content"
+    "text": "Canvas is the official home for this course. Everything you need—announcements, assignments, grades, policies, and course materials—is available there.\nThis website and the GitHub repository mirror the course materials and offer a few extras:\n\nLaTeX source files — edit or build upon the original source code for problem sets and notes\nModification dates — see exactly when each file was last updated\nRepo history — see exactly what changed in each update\nProgrammatic access — clone the repo or use the GitHub API to automate your workflow\nFrequently Asked Questions — answers to common questions about the course\n\nIf you just want to download PDFs, Canvas is simpler. This site is here for those who want more."
   },
   {
     "objectID": "index.html#where-to-find-course-materials",
     "href": "index.html#where-to-find-course-materials",
     "title": "ECON1550 International Finance",
-    "section": "Where to Find Course Materials",
-    "text": "Where to Find Course Materials\nCanvas is the official home for this course. Everything you need—announcements, assignments, grades, policies, and course materials—is available there.\nThis website and the GitHub repository mirror the course materials and offer a few extras:\n\nLaTeX source files — edit or build upon the original source code for problem sets and notes\nModification dates — see exactly when each file was last updated\nRepo history — see exactly what changed in each update\nProgrammatic access — clone the repo or use the GitHub API to automate your workflow\nFrequently Asked Questions — answers to common questions about the course\n\nIf you just want to download PDFs, Canvas is simpler. This site is here for those who want more."
+    "section": "",
+    "text": "Canvas is the official home for this course. Everything you need—announcements, assignments, grades, policies, and course materials—is available there.\nThis website and the GitHub repository mirror the course materials and offer a few extras:\n\nLaTeX source files — edit or build upon the original source code for problem sets and notes\nModification dates — see exactly when each file was last updated\nRepo history — see exactly what changed in each update\nProgrammatic access — clone the repo or use the GitHub API to automate your workflow\nFrequently Asked Questions — answers to common questions about the course\n\nIf you just want to download PDFs, Canvas is simpler. This site is here for those who want more."
   },
   {
     "objectID": "index.html#found-an-error-or-have-a-suggestion",
@@ -109,14 +158,14 @@
     "href": "schedule.html",
     "title": "Course Schedule",
     "section": "",
-    "text": "Skip to main content"
+    "text": "Assignment\nRelease Date\nDue Date\n\n\n\n\nProblem Set 1\nJanuary 23, 2026\nFebruary 4, 2026 (11:59 PM)\n\n\nProblem Set 2\nFebruary 5, 2026\nFebruary 11, 2026 (11:59 PM)\n\n\nProblem Set 3\nFebruary 12, 2026\nFebruary 18, 2026 (11:59 PM)\n\n\nProblem Set 4\nFebruary 19, 2026\nFebruary 25, 2026 (11:59 PM)\n\n\nMidterm 1\n\nMarch 4, 2026 (In class, MacMillan Hall 115)\n\n\nProblem Set 5\nMarch 4, 2026\nMarch 11, 2026 (11:59 PM)\n\n\nProblem Set 6\nMarch 12, 2026\nMarch 18, 2026 (11:59 PM)\n\n\nProblem Set 7\nMarch 19, 2026\nApril 1, 2026 (11:59 PM)\n\n\nProblem Set 8\nApril 2, 2026\nApril 8, 2026 (11:59 PM)\n\n\nMidterm 2\n\nApril 15, 2026 (In class, MacMillan Hall 115)\n\n\nProblem Set 9\nApril 9, 2026\nApril 22, 2026 (11:59 PM)\n\n\nFinal Exam\n\nMay 12, 2026 (Exam Group 07, 2 hours)"
   },
   {
     "objectID": "schedule.html#assignment-due-dates",
     "href": "schedule.html#assignment-due-dates",
     "title": "Course Schedule",
-    "section": "Assignment Due Dates",
-    "text": "Assignment Due Dates\n\n\n\nAssignment\nRelease Date\nDue Date\n\n\n\n\nProblem Set 1\nJanuary 23, 2026\nFebruary 4, 2026 (11:59 PM)\n\n\nProblem Set 2\nFebruary 5, 2026\nFebruary 11, 2026 (11:59 PM)\n\n\nProblem Set 3\nFebruary 12, 2026\nFebruary 18, 2026 (11:59 PM)\n\n\nProblem Set 4\nFebruary 19, 2026\nFebruary 25, 2026 (11:59 PM)\n\n\nMidterm 1\n\nMarch 4, 2026 (In class, MacMillan Hall 115)\n\n\nProblem Set 5\nMarch 4, 2026\nMarch 11, 2026 (11:59 PM)\n\n\nProblem Set 6\nMarch 12, 2026\nMarch 18, 2026 (11:59 PM)\n\n\nProblem Set 7\nMarch 19, 2026\nApril 1, 2026 (11:59 PM)\n\n\nProblem Set 8\nApril 2, 2026\nApril 8, 2026 (11:59 PM)\n\n\nMidterm 2\n\nApril 15, 2026 (In class, MacMillan Hall 115)\n\n\nProblem Set 9\nApril 9, 2026\nApril 22, 2026 (11:59 PM)\n\n\nFinal Exam\n\nMay 12, 2026 (Exam Group 07, 2 hours)"
+    "section": "",
+    "text": "Assignment\nRelease Date\nDue Date\n\n\n\n\nProblem Set 1\nJanuary 23, 2026\nFebruary 4, 2026 (11:59 PM)\n\n\nProblem Set 2\nFebruary 5, 2026\nFebruary 11, 2026 (11:59 PM)\n\n\nProblem Set 3\nFebruary 12, 2026\nFebruary 18, 2026 (11:59 PM)\n\n\nProblem Set 4\nFebruary 19, 2026\nFebruary 25, 2026 (11:59 PM)\n\n\nMidterm 1\n\nMarch 4, 2026 (In class, MacMillan Hall 115)\n\n\nProblem Set 5\nMarch 4, 2026\nMarch 11, 2026 (11:59 PM)\n\n\nProblem Set 6\nMarch 12, 2026\nMarch 18, 2026 (11:59 PM)\n\n\nProblem Set 7\nMarch 19, 2026\nApril 1, 2026 (11:59 PM)\n\n\nProblem Set 8\nApril 2, 2026\nApril 8, 2026 (11:59 PM)\n\n\nMidterm 2\n\nApril 15, 2026 (In class, MacMillan Hall 115)\n\n\nProblem Set 9\nApril 9, 2026\nApril 22, 2026 (11:59 PM)\n\n\nFinal Exam\n\nMay 12, 2026 (Exam Group 07, 2 hours)"
   },
   {
     "objectID": "schedule.html#important-dates",
