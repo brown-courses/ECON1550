@@ -51,7 +51,7 @@ If a file has no entries below, it has not been revised since its initial releas
         if (files.length === 0) return;
         html += '<h3>' + cat + '</h3>';
         html += '<table class="table"><thead><tr>';
-        html += '<th>File</th><th>Latest</th><th>Previous Versions</th>';
+        html += '<th scope="col">File</th><th scope="col">Latest</th><th scope="col">Previous Versions</th>';
         html += '</tr></thead><tbody>';
         files.forEach(function(entry) {
           var fileName = entry.filePath.split('/').pop();

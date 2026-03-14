@@ -1,6 +1,7 @@
 ---
 title: "Content Not Yet Available"
 pagetitle: "ECON1550"
+description: "The requested content is not yet available or may have moved."
 toc: false
 ---
 
@@ -38,22 +39,22 @@ toc: false
       <p class="suggestions-title">Here are some helpful links:</p>
       <div class="link-grid" id="link-grid">
         <a href="index.html" class="link-card" data-page="index.html">
-          <span class="link-icon">🏠</span>
+          <span class="link-icon" aria-hidden="true">🏠</span>
           <span class="link-text">Home</span>
           <span class="link-desc">Course overview</span>
         </a>
         <a href="materials.html" class="link-card" data-page="materials.html">
-          <span class="link-icon">📚</span>
+          <span class="link-icon" aria-hidden="true">📚</span>
           <span class="link-text">Materials</span>
           <span class="link-desc">Problem sets & notes</span>
         </a>
         <a href="schedule.html" class="link-card" data-page="schedule.html">
-          <span class="link-icon">📅</span>
+          <span class="link-icon" aria-hidden="true">📅</span>
           <span class="link-text">Schedule</span>
           <span class="link-desc">Class calendar</span>
         </a>
         <a href="https://canvas.brown.edu/courses/1101477" class="link-card external">
-          <span class="link-icon">🎓</span>
+          <span class="link-icon" aria-hidden="true">🎓</span>
           <span class="link-text">Canvas</span>
           <span class="link-desc">Grades & announcements</span>
         </a>

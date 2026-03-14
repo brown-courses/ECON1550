@@ -8,19 +8,19 @@ body-classes: faq-page
 ### Is attendance required?
 
 -->
-### Will lectures be recorded?
+## Will lectures be recorded?
 
 No. Lectures are not recorded. If you miss class, get notes from a classmate and come to office hours with questions.
 
-### Do I need the textbook version sold through Canvas or the Brown Bookstore?
+## Do I need the textbook version sold through Canvas or the Brown Bookstore?
 
 No. You are welcome to use any edition or format of the textbook. The course does not rely on any proprietary or interactive features tied to a specific version.
 
-### Why are we using the 11th edition of the textbook when there is a 12th edition available?
+## Why are we using the 11th edition of the textbook when there is a 12th edition available?
 
 The Brown Bookstore only had the 11th edition available in Inclusive Access form. You can certainly use the 12th edition — it has the same content, but charts and figures are updated and some boxes cover more recent events.
 
-### I earned what would have been an A while taking the course S/NC. Why don't I see S_DIST on my transcript?
+## I earned what would have been an A while taking the course S/NC. Why don't I see S_DIST on my transcript?
 
 As stated on the [Grade Options](https://college.brown.edu/design-your-education/explore-open-curriculum/course-selection/grade-options) page,
 
@@ -43,15 +43,15 @@ The Registrar keeps a separate list of S_DIST awarded for internal academic uses
 ### What if I can't make an exam?
 
 -->
-### Are there sections during exam weeks?
+## Are there sections during exam weeks?
 
 No.
 
-### Are there review sessions during exam weeks?
+## Are there review sessions during exam weeks?
 
 Yes.
 
-### Do we get practice exams?
+## Do we get practice exams?
 
 Yes, at least one week before the actual exam takes place. The format and style of the actual exam will be the same as for the practice exam. We also aim to make the difficulty and length of the actual and practice exams as similar as possible.
 

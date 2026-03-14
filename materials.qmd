@@ -106,6 +106,7 @@ Download combined PDFs of all released materials:
         if (link.classList.contains('link-disabled')) return;
         link.classList.add('link-disabled');
         link.removeAttribute('href');
+        link.setAttribute('aria-disabled', 'true');
         link.style.pointerEvents = 'none';
       }
 
