@@ -11,21 +11,14 @@
     "href": "materials.html",
     "title": "Course Materials",
     "section": "",
-    "text": "Syllabus (PDF)"
-  },
-  {
-    "objectID": "materials.html#syllabus",
-    "href": "materials.html#syllabus",
-    "title": "Course Materials",
-    "section": "",
-    "text": "Syllabus (PDF)"
+    "text": "Lecture Notes (PDF)\n\nModels in Economics\nFinancial Assets\nReview of Intermediate Macro\nThe II-XX Model"
   },
   {
     "objectID": "materials.html#lecture-notes",
     "href": "materials.html#lecture-notes",
     "title": "Course Materials",
-    "section": "Lecture Notes",
-    "text": "Lecture Notes\n\n\nLecture Notes (PDF)\n\nModels in Economics\nFinancial Assets\nReview of Intermediate Macro\nThe II-XX Model"
+    "section": "",
+    "text": "Lecture Notes (PDF)\n\nModels in Economics\nFinancial Assets\nReview of Intermediate Macro\nThe II-XX Model"
   },
   {
     "objectID": "materials.html#slides",
@@ -123,14 +116,14 @@
     "href": "index.html",
     "title": "ECON1550 International Finance",
     "section": "",
-    "text": "Canvas is the official home for this course. Everything you need—announcements, assignments, grades, policies, and course materials—is available there.\nThis website and the GitHub repository mirror the course materials and offer a few extras:\n\nLaTeX source files — edit or build upon the original source code for problem sets and notes\nModification dates — see exactly when each file was last updated\nRepo history — see exactly what changed in each update\nProgrammatic access — clone the repo or use the GitHub API to automate your workflow\nFrequently Asked Questions — answers to common questions about the course\n\nIf you just want to download PDFs, Canvas is simpler. This site is here for those who want more."
+    "text": "Canvas is the official home for this course. Everything you need—announcements, assignments, grades, policies, and course materials—is available there.\nThis website and the GitHub repository mirror the course materials and offer a few extras:\n\nLaTeX source files — edit or build upon the original source code for problem sets and notes\nModification dates — see exactly when each file was last updated\nRepo history — see exactly what changed in each update\nProgrammatic access — clone the repo or use the GitHub API to automate your workflow\nFrequently Asked Questions — answers to common questions about the course\n\nIf you just want to download PDFs, Canvas is simpler. This site is here for those who want more.\nInstructor: Fernando Duarte (fernando_duarte@brown.edu)"
   },
   {
     "objectID": "index.html#where-to-find-course-materials",
     "href": "index.html#where-to-find-course-materials",
     "title": "ECON1550 International Finance",
     "section": "",
-    "text": "Canvas is the official home for this course. Everything you need—announcements, assignments, grades, policies, and course materials—is available there.\nThis website and the GitHub repository mirror the course materials and offer a few extras:\n\nLaTeX source files — edit or build upon the original source code for problem sets and notes\nModification dates — see exactly when each file was last updated\nRepo history — see exactly what changed in each update\nProgrammatic access — clone the repo or use the GitHub API to automate your workflow\nFrequently Asked Questions — answers to common questions about the course\n\nIf you just want to download PDFs, Canvas is simpler. This site is here for those who want more."
+    "text": "Canvas is the official home for this course. Everything you need—announcements, assignments, grades, policies, and course materials—is available there.\nThis website and the GitHub repository mirror the course materials and offer a few extras:\n\nLaTeX source files — edit or build upon the original source code for problem sets and notes\nModification dates — see exactly when each file was last updated\nRepo history — see exactly what changed in each update\nProgrammatic access — clone the repo or use the GitHub API to automate your workflow\nFrequently Asked Questions — answers to common questions about the course\n\nIf you just want to download PDFs, Canvas is simpler. This site is here for those who want more.\nInstructor: Fernando Duarte (fernando_duarte@brown.edu)"
   },
   {
     "objectID": "index.html#found-an-error-or-have-a-suggestion",
@@ -140,32 +133,18 @@
     "text": "Found an error or have a suggestion?\nIf you spot a typo, a broken link, or something that looks wrong in the course materials, you can let us know by opening an issue on the GitHub repository. Think of an issue as a short message that the instructor will see — no coding required.\n\nGo to the Issues page (you will need a free GitHub account).\nClick the green New issue button.\nGive it a short title (e.g., “Typo in Problem Set 3, question 2”).\nIn the description box, explain what you noticed and where. The more specific you are, the easier it is to fix.\nClick Submit new issue.\n\nThat’s it. You will get a notification when the issue is addressed."
   },
   {
-    "objectID": "index.html#course-information",
-    "href": "index.html#course-information",
-    "title": "ECON1550 International Finance",
-    "section": "Course Information",
-    "text": "Course Information\nInstructor: Fernando Duarte (fernando_duarte@brown.edu)"
-  },
-  {
-    "objectID": "index.html#links",
-    "href": "index.html#links",
-    "title": "ECON1550 International Finance",
-    "section": "Links",
-    "text": "Links\n\nMaterials - Problem sets, slides, and lecture notes\nSchedule - Course schedule and due dates"
-  },
-  {
     "objectID": "schedule.html",
     "href": "schedule.html",
     "title": "Course Schedule",
     "section": "",
-    "text": "Assignment\nRelease Date\nDue Date\n\n\n\n\nProblem Set 1\nJanuary 23, 2026\nFebruary 4, 2026 (11:59 PM)\n\n\nProblem Set 2\nFebruary 5, 2026\nFebruary 11, 2026 (11:59 PM)\n\n\nProblem Set 3\nFebruary 12, 2026\nFebruary 18, 2026 (11:59 PM)\n\n\nProblem Set 4\nFebruary 19, 2026\nFebruary 25, 2026 (11:59 PM)\n\n\nMidterm 1\n\nMarch 4, 2026 (In class, MacMillan Hall 115)\n\n\nProblem Set 5\nMarch 4, 2026\nMarch 11, 2026 (11:59 PM)\n\n\nProblem Set 6\nMarch 12, 2026\nMarch 18, 2026 (11:59 PM)\n\n\nProblem Set 7\nMarch 19, 2026\nApril 1, 2026 (11:59 PM)\n\n\nProblem Set 8\nApril 2, 2026\nApril 8, 2026 (11:59 PM)\n\n\nMidterm 2\n\nApril 15, 2026 (In class, MacMillan Hall 115)\n\n\nProblem Set 9\nApril 9, 2026\nApril 22, 2026 (11:59 PM)\n\n\nFinal Exam\n\nMay 12, 2026 (Exam Group 07, 2 hours)"
+    "text": "Assignment\nRelease Date\nDue Date\n\n\n\n\nProblem Set 1\nJanuary 23, 2026\nFebruary 4, 2026 (11:59 PM)\n\n\nProblem Set 2\nFebruary 5, 2026\nFebruary 11, 2026 (11:59 PM)\n\n\nProblem Set 3\nFebruary 12, 2026\nFebruary 18, 2026 (11:59 PM)\n\n\nProblem Set 4\nFebruary 19, 2026\nFebruary 25, 2026 (11:59 PM)\n\n\nMidterm 1\n\nMarch 4, 2026 (In class)\n\n\nProblem Set 5\nMarch 4, 2026\nMarch 11, 2026 (11:59 PM)\n\n\nProblem Set 6\nMarch 12, 2026\nMarch 18, 2026 (11:59 PM)\n\n\nProblem Set 7\nMarch 19, 2026\nApril 1, 2026 (11:59 PM)\n\n\nProblem Set 8\nApril 2, 2026\nApril 8, 2026 (11:59 PM)\n\n\nMidterm 2\n\nApril 15, 2026 (In class)\n\n\nProblem Set 9\nApril 9, 2026\nApril 22, 2026 (11:59 PM)\n\n\nFinal Exam\n\nMay 12, 2026 (Exam Group 07)"
   },
   {
     "objectID": "schedule.html#assignment-due-dates",
     "href": "schedule.html#assignment-due-dates",
     "title": "Course Schedule",
     "section": "",
-    "text": "Assignment\nRelease Date\nDue Date\n\n\n\n\nProblem Set 1\nJanuary 23, 2026\nFebruary 4, 2026 (11:59 PM)\n\n\nProblem Set 2\nFebruary 5, 2026\nFebruary 11, 2026 (11:59 PM)\n\n\nProblem Set 3\nFebruary 12, 2026\nFebruary 18, 2026 (11:59 PM)\n\n\nProblem Set 4\nFebruary 19, 2026\nFebruary 25, 2026 (11:59 PM)\n\n\nMidterm 1\n\nMarch 4, 2026 (In class, MacMillan Hall 115)\n\n\nProblem Set 5\nMarch 4, 2026\nMarch 11, 2026 (11:59 PM)\n\n\nProblem Set 6\nMarch 12, 2026\nMarch 18, 2026 (11:59 PM)\n\n\nProblem Set 7\nMarch 19, 2026\nApril 1, 2026 (11:59 PM)\n\n\nProblem Set 8\nApril 2, 2026\nApril 8, 2026 (11:59 PM)\n\n\nMidterm 2\n\nApril 15, 2026 (In class, MacMillan Hall 115)\n\n\nProblem Set 9\nApril 9, 2026\nApril 22, 2026 (11:59 PM)\n\n\nFinal Exam\n\nMay 12, 2026 (Exam Group 07, 2 hours)"
+    "text": "Assignment\nRelease Date\nDue Date\n\n\n\n\nProblem Set 1\nJanuary 23, 2026\nFebruary 4, 2026 (11:59 PM)\n\n\nProblem Set 2\nFebruary 5, 2026\nFebruary 11, 2026 (11:59 PM)\n\n\nProblem Set 3\nFebruary 12, 2026\nFebruary 18, 2026 (11:59 PM)\n\n\nProblem Set 4\nFebruary 19, 2026\nFebruary 25, 2026 (11:59 PM)\n\n\nMidterm 1\n\nMarch 4, 2026 (In class)\n\n\nProblem Set 5\nMarch 4, 2026\nMarch 11, 2026 (11:59 PM)\n\n\nProblem Set 6\nMarch 12, 2026\nMarch 18, 2026 (11:59 PM)\n\n\nProblem Set 7\nMarch 19, 2026\nApril 1, 2026 (11:59 PM)\n\n\nProblem Set 8\nApril 2, 2026\nApril 8, 2026 (11:59 PM)\n\n\nMidterm 2\n\nApril 15, 2026 (In class)\n\n\nProblem Set 9\nApril 9, 2026\nApril 22, 2026 (11:59 PM)\n\n\nFinal Exam\n\nMay 12, 2026 (Exam Group 07)"
   },
   {
     "objectID": "schedule.html#important-dates",
