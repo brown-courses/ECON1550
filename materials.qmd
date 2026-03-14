@@ -3,10 +3,6 @@ title: "Course Materials"
 description: "Lecture notes, slides, and problem sets with solutions for ECON1550 International Finance."
 ---
 
-## Syllabus
-
-- [Syllabus (PDF)](files/syllabus/Syllabus.pdf)
-
 ## Lecture Notes
 
 <!-- AUTO-GENERATED:LECTURES:START -->
@@ -395,6 +391,7 @@ Download combined PDFs of all released materials:
 .slides-table table td:nth-child(3),
 .slides-table table th:nth-child(3) {
   white-space: nowrap;
+  text-align: center;
 }
 .file-updated {
   color: #6b7280;
@@ -414,6 +411,7 @@ Download combined PDFs of all released materials:
 }
 .last-updated-row td.last-updated-label {
   font-style: italic;
+  padding-left: 1.5em !important;
 }
 .last-updated-date {
 }

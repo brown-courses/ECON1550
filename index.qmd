@@ -6,35 +6,28 @@ description: "Course materials, problem sets, lecture notes, and schedule for EC
 
 ## Where to Find Course Materials
 
-**[Canvas]({{< var links.canvas >}}) is the official home for this course.** Everything you need—announcements, assignments, grades, policies, and course materials—is available there.
+[Canvas]({{< var links.canvas >}}) is the official home for this course. Everything you need—announcements, assignments, grades, policies, and course materials—is available there.
 
 This website and the [GitHub repository](https://github.com/brown-courses/ECON1550) mirror the course materials and offer a few extras:
 
-- **LaTeX source files** — edit or build upon the original source code for problem sets and notes
-- **Modification dates** — see exactly when each file was last updated
-- **Repo history** — see exactly what changed in each update
-- **Programmatic access** — clone the repo or use the GitHub API to automate your workflow
-- **[Frequently Asked Questions](faq.qmd)** — answers to common questions about the course
+- LaTeX source files — edit or build upon the original source code for problem sets and notes
+- Modification dates — see exactly when each file was last updated
+- Repo history — see exactly what changed in each update
+- Programmatic access — clone the repo or use the GitHub API to automate your workflow
+- [Frequently Asked Questions](faq.qmd) — answers to common questions about the course
 
 If you just want to download PDFs, Canvas is simpler. This site is here for those who want more.
 
+Instructor: {{< var instructor.name >}} ([{{< var instructor.email >}}](mailto:{{< var instructor.email >}}))
+
 ## Found an error or have a suggestion?
 
-If you spot a typo, a broken link, or something that looks wrong in the course materials, you can let us know by opening an **issue** on the GitHub repository. Think of an issue as a short message that the instructor will see — no coding required.
+If you spot a typo, a broken link, or something that looks wrong in the course materials, you can let us know by opening an issue on the GitHub repository. Think of an issue as a short message that the instructor will see — no coding required.
 
 1. Go to the [Issues page](https://github.com/brown-courses/ECON1550/issues) (you will need a free GitHub account).
-2. Click the green **New issue** button.
+2. Click the green `New issue` button.
 3. Give it a short title (e.g., "Typo in Problem Set 3, question 2").
 4. In the description box, explain what you noticed and where. The more specific you are, the easier it is to fix.
-5. Click **Submit new issue**.
+5. Click `Submit new issue`.
 
 That's it. You will get a notification when the issue is addressed.
-
-## Course Information
-
-**Instructor:** {{< var instructor.name >}} ([{{< var instructor.email >}}](mailto:{{< var instructor.email >}}))
-
-## Links
-
-- [Materials](materials.qmd) - Problem sets, slides, and lecture notes
-- [Schedule](schedule.qmd) - Course schedule and due dates
