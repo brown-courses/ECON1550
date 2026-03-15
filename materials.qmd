@@ -45,7 +45,9 @@ description: "Lecture notes, slides, and problem sets with solutions for ECON155
 | Problem Set 8 | [Questions (PDF)](files/psets/pset8/pset8_ECON1550.pdf) | [Solutions (PDF)](files/psets/pset8/pset8_ECON1550_answers.pdf) | [Short (PDF)](files/psets/pset8/pset8_ECON1550_answers_short.pdf) | [Source (ZIP)](files/psets/pset8/pset8_ECON1550-src.zip) |
 | Problem Set 9 | [Questions (PDF)](files/psets/pset9/pset9_ECON1550.pdf) | [Solutions (PDF)](files/psets/pset9/pset9_ECON1550_answers.pdf) | [Short (PDF)](files/psets/pset9/pset9_ECON1550_answers_short.pdf) | [Source (ZIP)](files/psets/pset9/pset9_ECON1550-src.zip) |
 
+::: {.release-note}
 Links will become active as materials are released. Solutions are released immediately after the deadline, along with the next problem set.
+:::
 
 ## Download All Materials
 
@@ -388,6 +390,8 @@ Download combined PDFs of all released materials:
 .slides-table table th:first-child {
   white-space: nowrap;
 }
+.slides-table table td:nth-child(2),
+.slides-table table th:nth-child(2),
 .slides-table table td:nth-child(3),
 .slides-table table th:nth-child(3) {
   white-space: nowrap;

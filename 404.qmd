@@ -38,26 +38,13 @@ toc: false
     <div class="info-suggestions">
       <p class="suggestions-title">Here are some helpful links:</p>
       <div class="link-grid" id="link-grid">
-        <a href="index.html" class="link-card" data-page="index.html">
-          <span class="link-icon" aria-hidden="true">🏠</span>
-          <span class="link-text">Home</span>
-          <span class="link-desc">Course overview</span>
-        </a>
-        <a href="materials.html" class="link-card" data-page="materials.html">
-          <span class="link-icon" aria-hidden="true">📚</span>
-          <span class="link-text">Materials</span>
-          <span class="link-desc">Problem sets & notes</span>
-        </a>
-        <a href="schedule.html" class="link-card" data-page="schedule.html">
-          <span class="link-icon" aria-hidden="true">📅</span>
-          <span class="link-text">Schedule</span>
-          <span class="link-desc">Class calendar</span>
-        </a>
-        <a href="https://canvas.brown.edu/courses/1101477" class="link-card external">
-          <span class="link-icon" aria-hidden="true">🎓</span>
-          <span class="link-text">Canvas</span>
-          <span class="link-desc">Grades & announcements</span>
-        </a>
+        <a href="index.html" class="link-card" data-page="index.html">Home</a>
+        <span class="link-sep" aria-hidden="true">/</span>
+        <a href="materials.html" class="link-card" data-page="materials.html">Materials</a>
+        <span class="link-sep" aria-hidden="true">/</span>
+        <a href="schedule.html" class="link-card" data-page="schedule.html">Schedule</a>
+        <span class="link-sep" aria-hidden="true">/</span>
+        <a href="https://canvas.brown.edu/courses/1101477" class="link-card external">Canvas</a>
       </div>
     </div>
   </div>
@@ -67,151 +54,133 @@ toc: false
 .info-page {
   text-align: center;
   padding: 3rem 1.5rem;
-  max-width: 700px;
+  max-width: 600px;
   margin: 0 auto;
 }
 
 .info-icon {
-  color: #2780e3;
+  color: #82c4e8;
   margin-bottom: 1.5rem;
-  opacity: 0.7;
 }
 
 .info-title {
-  color: #2c3e50;
-  font-size: 1.75rem;
-  font-weight: 600;
-  margin-bottom: 0.75rem;
+  color: #6b1d63;
+  font-size: 1.5rem;
+  font-weight: 500;
+  margin-bottom: 0.5rem;
+  border-bottom: none;
 }
 
 .info-description {
   color: #6b7280;
-  font-size: 1.1rem;
-  margin-bottom: 2rem;
+  font-size: 1rem;
+  margin-bottom: 0;
   line-height: 1.6;
 }
 
 .info-suggestions {
   margin-top: 2.5rem;
+  text-align: left;
 }
 
 .suggestions-title {
-  color: #495057;
-  font-size: 0.95rem;
-  font-weight: 500;
-  margin-bottom: 1.25rem;
+  color: #6b7280;
+  font-size: 0.85rem;
+  font-weight: 400;
+  margin-bottom: 1rem;
   text-transform: uppercase;
   letter-spacing: 0.5px;
 }
 
 .link-grid {
-  display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(140px, 1fr));
-  gap: 1rem;
-  max-width: 600px;
-  margin: 0 auto;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  gap: 0.5em;
 }
 
 .link-card {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  padding: 1.25rem 1rem;
-  background: #f8f9fa;
-  border: 1px solid #e9ecef;
-  border-radius: 12px;
+  color: #6b1d63;
+  font-weight: 500;
   text-decoration: none;
-  transition: all 0.2s ease;
 }
 
 .link-card:hover {
-  background: #fff;
-  border-color: #2780e3;
-  box-shadow: 0 4px 12px rgba(39, 128, 227, 0.15);
-  transform: translateY(-2px);
+  color: #8c2781;
 }
 
-.link-icon {
-  font-size: 1.75rem;
-  margin-bottom: 0.5rem;
+.link-sep {
+  color: #c8e6f5;
+  font-weight: 300;
 }
 
-.link-text {
-  color: #2c3e50;
-  font-weight: 600;
-  font-size: 1rem;
-  margin-bottom: 0.25rem;
-}
-
-.link-desc {
-  color: #6b7280;
-  font-size: 0.8rem;
-}
-
-.link-card.external .link-text::after {
-  content: " ↗";
-  font-size: 0.75rem;
-  opacity: 0.6;
+.link-card.external::after {
+  content: " \203A";
+  font-size: 0.85rem;
+  color: #82c4e8;
 }
 
 /* Release info card styling */
 .release-card {
-  background: linear-gradient(135deg, #f8f9fa 0%, #fff 100%);
-  border: 1px solid #dee2e6;
-  border-radius: 16px;
-  padding: 2.5rem 2rem;
-  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.08);
+  background: #fff;
+  border: 1px solid #ddeef8;
+  border-left: 3px solid #82c4e8;
+  border-radius: 4px;
+  padding: 2rem 1.5rem;
+  text-align: left;
+  box-shadow: none;
 }
 
 .release-title {
-  color: #2c3e50;
-  font-size: 1.5rem;
-  font-weight: 600;
-  margin-bottom: 1rem;
+  color: #6b1d63;
+  font-size: 1.25rem;
+  font-weight: 500;
+  margin-bottom: 0.75rem;
 }
 
 .release-message {
   color: #495057;
-  font-size: 1.15rem;
-  margin-bottom: 1.5rem;
+  font-size: 1rem;
+  margin-bottom: 1rem;
   line-height: 1.6;
 }
 
 .release-actions {
-  margin-top: 1.5rem;
+  margin-top: 1rem;
 }
 
 .btn {
   display: inline-block;
-  padding: 0.75rem 1.5rem;
-  border-radius: 8px;
+  padding: 0.5rem 1.25rem;
+  border-radius: 4px;
   text-decoration: none;
   font-weight: 500;
-  transition: all 0.2s ease;
+  font-size: 0.9rem;
+  transition: background 0.15s ease;
 }
 
 .btn-primary {
-  background: #2780e3;
+  background: #8c2781;
   color: white;
 }
 
 .btn-primary:hover {
-  background: #1a5fb4;
+  background: #6b1d63;
   color: white;
-  box-shadow: 0 4px 12px rgba(39, 128, 227, 0.3);
+  box-shadow: none;
 }
 
 button.btn {
   border: none;
   cursor: pointer;
-  font-size: 1rem;
 }
 
 /* Loading state */
 .loading-text {
   color: #6b7280;
   font-style: italic;
-  font-size: 1.1rem;
+  font-size: 1rem;
 }
 
 /* Utility classes */
@@ -225,12 +194,8 @@ button.btn {
     padding: 2rem 1rem;
   }
 
-  .link-grid {
-    grid-template-columns: repeat(2, 1fr);
-  }
-
   .info-title {
-    font-size: 1.5rem;
+    font-size: 1.25rem;
   }
 }
 </style>

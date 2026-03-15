@@ -22,7 +22,7 @@ description: "Assignment due dates and lecture schedule for ECON1550 Internation
 
 ## Important Dates
 
-- *Spring Break:* March 21-29, 2026 (No classes)
-- *Last Day of Classes:* April 22, 2026
-- *Reading Period:* April 24 -- May 5, 2026
-- *Final Exams:* May 6-15, 2026
+- **Spring Break:** March 21-29, 2026 (No classes)
+- **Last Day of Classes:** April 22, 2026
+- **Reading Period:** April 24 -- May 5, 2026
+- **Final Exams:** May 6-15, 2026

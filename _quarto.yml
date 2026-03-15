@@ -32,7 +32,8 @@ website:
 
   # Footer landmark
   page-footer:
-    left: "2026 Brown University - ECON1550"
+    left: "Brown University - ECON1550"
+    center: "Spring 2026"
     right:
       - text: "Accessibility"
         href: accessibility.html
@@ -63,7 +64,9 @@ website:
 
 format:
   html:
-    theme: cosmo
+    theme:
+      - cosmo
+      - styles/theme.scss
     toc: true
     css: styles/custom.css
     link-external-newwindow: true
