@@ -1,13 +1,14 @@
 # ECON 1550: International Finance — Spring 2026
 
-**[Canvas](https://canvas.brown.edu/courses/1101477) is the official home for this course.** Everything you need — announcements, assignments, grades, policies, and course materials — is available there.
+[Canvas](https://canvas.brown.edu/courses/1101477) is the official home for this course. Everything you need — announcements, assignments, grades, policies, and course materials — is available there.
 
 This GitHub repository and the [course website](https://brown-courses.github.io/ECON1550) mirror the course materials and offer a few extras:
 
-- **LaTeX source files** — edit or build upon the original source code for problem sets and notes
-- **Modification dates** — see exactly when each file was last updated
-- **Version history** — see exactly what changed in each update
-- **Programmatic access** — clone the repo or use the GitHub API to automate your workflow
+- LaTeX source files — edit or build upon the original source code for problem sets and notes
+- Modification dates — see exactly when each file was last updated
+- Version history — see exactly what changed in each update
+- Programmatic access — clone the repo or use the GitHub API to automate your workflow
+- [Frequently Asked Questions](https://brown-courses.github.io/ECON1550/faq.html) — answers to common questions about the course
 
 If you just want to download PDFs, Canvas is simpler. This repo is here for those who want more.
 
@@ -28,13 +29,13 @@ If you're new to GitHub, here are the basics.
 
 That's it — no account or software required.
 
-**Want to see an older version of a file?** On this GitHub page, click on any file, then click the **History** button (top-right of the file view). This shows every past version of that file. Click on any entry to see what changed, or click the `< >` icon to view the full file as it was at that point in time.
+Want to see an older version of a file? On this GitHub page, click on any file, then click the `History` button (top-right of the file view). This shows every past version of that file. Click on any entry to see what changed, or click the `< >` icon to view the full file as it was at that point in time.
 
 ### Option B: Clone the repo (useful if you want a local copy)
 
 Cloning downloads the entire repository to your computer so you can keep it up to date with one command.
 
-**First time (one-time setup):**
+First time (one-time setup):
 
 Open a terminal (Terminal on macOS/Linux, Command Prompt or PowerShell on Windows) and run:
 
@@ -44,7 +45,7 @@ git clone https://github.com/brown-courses/ECON1550.git
 
 This creates an `ECON1550` folder in whatever directory your terminal is currently in (usually your home folder).
 
-**To get the latest updates:**
+To get the latest updates:
 
 In the same terminal, run:
 
@@ -55,19 +56,17 @@ git pull
 
 Run `git pull` any time you want to grab new or updated materials.
 
-> **Don't have Git installed?** Download it at <https://git-scm.com/downloads>. On macOS, you can also install it by running `xcode-select --install` in Terminal.
+> Don't have Git installed? Download it at <https://git-scm.com/downloads>. On macOS, you can also install it by running `xcode-select --install` in Terminal.
 
 ## Found an error or have a suggestion?
 
-If you spot a typo, a broken link, or something that looks wrong in the course materials, you can let us know by opening an **issue** on this repository. Think of an issue as a short message that the instructor will see — no coding required.
+If you spot a typo, a broken link, or something that looks wrong in the course materials, you can let us know by opening an issue on this repository. Think of an issue as a short message that the instructor will see — no coding required.
 
-**How to submit an issue:**
-
-1. Go to the [Issues tab](https://github.com/brown-courses/ECON1550/issues) at the top of this page (you will need a free GitHub account).
-2. Click the green **New issue** button.
-3. Give it a short title (e.g., "Typo in Problem Set 3, question 2").
-4. In the description box, explain what you noticed and where. The more specific you are, the easier it is to fix.
-5. Click **Submit new issue**.
+- Go to the [Issues tab](https://github.com/brown-courses/ECON1550/issues) at the top of this page (you will need a free GitHub account).
+- Click the green `New issue` button.
+- Give it a short title (e.g., "Typo in Problem Set 3, question 2").
+- In the description box, explain what you noticed and where. The more specific you are, the easier it is to fix.
+- Click `Submit new issue`.
 
 That's it. You will get a notification when the issue is addressed.
 
