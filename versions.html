@@ -207,71 +207,7 @@ ul.task-list li input[type="checkbox"] {
 <em>Loading version history…</em>
 </p>
 </div>
-<script>
-(function() {
-  fetch('files/version_manifest.json')
-    .then(function(r) { return r.ok ? r.json() : null; })
-    .catch(function() { return null; })
-    .then(function(data) {
-      var container = document.getElementById('version-history');
-      if (!data || !data.versions || Object.keys(data.versions).length === 0) {
-        container.innerHTML = '<p>No version history available yet.</p>';
-        return;
-      }
-
-      // Group files by category
-      var categories = {
-        'Problem Sets': [],
-        'Slides': [],
-        'Lecture Notes': [],
-        'Other': []
-      };
-
-      Object.keys(data.versions).sort().forEach(function(filePath) {
-        var versions = data.versions[filePath];
-        if (versions.length === 0) return;
-        // Only show files that are currently active (released to students).
-        // Pre-release or removed files should not appear in version history.
-        var isActive = data.active_files && data.active_files.indexOf(filePath) !== -1;
-        if (!isActive) return;
-        var entry = { filePath: filePath, versions: versions };
-        if (filePath.indexOf('/psets/') !== -1) categories['Problem Sets'].push(entry);
-        else if (filePath.indexOf('/slides/') !== -1) categories['Slides'].push(entry);
-        else if (filePath.indexOf('/lectures/') !== -1) categories['Lecture Notes'].push(entry);
-        else categories['Other'].push(entry);
-      });
-
-      var html = '';
-      var categoryOrder = ['Problem Sets', 'Slides', 'Lecture Notes', 'Other'];
-      categoryOrder.forEach(function(cat) {
-        var files = categories[cat];
-        if (files.length === 0) return;
-        html += '<h3>' + cat + '</h3>';
-        html += '<table class="table"><thead><tr>';
-        html += '<th scope="col">File</th><th scope="col">Latest</th><th scope="col">Previous Versions</th>';
-        html += '</tr></thead><tbody>';
-        files.forEach(function(entry) {
-          var fileName = entry.filePath.split('/').pop();
-          html += '<tr><td>' + fileName + '</td>';
-          html += '<td><a href="' + entry.filePath + '">Latest</a></td>';
-          html += '<td>';
-          entry.versions.forEach(function(v, i) {
-            var date = new Date(v.archived_at);
-            var formatted = date.toLocaleDateString('en-US', {
-              year: 'numeric', month: 'short', day: 'numeric'
-            });
-            if (i > 0) html += ', ';
-            html += '<a href="' + v.path + '">' + formatted + '</a>';
-          });
-          html += '</td></tr>';
-        });
-        html += '</tbody></table>';
-      });
-
-      container.innerHTML = html;
-    });
-})();
-</script>
+<script src="version-history.js"></script>
 
 
 
