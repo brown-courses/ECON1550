@@ -1,6 +1,6 @@
 {
-  "generated_at_local": "2026-03-19T15:46:04.238127-04:00",
-  "generated_at_utc": "2026-03-19T19:46:04.238127+00:00",
+  "generated_at_local": "2026-03-19T15:55:20.941547-04:00",
+  "generated_at_utc": "2026-03-19T19:55:20.941547+00:00",
   "timezone": "America/New_York",
   "forced_stage": null,
   "assignments": [
@@ -161,8 +161,8 @@
       "id": "pset7",
       "title": "Problem Set 7",
       "kind": "pset",
-      "stage": "questions",
-      "pre_release_at_local": "2026-03-19T00:00:00-04:00",
+      "stage": "none",
+      "pre_release_at_local": "2026-03-20T00:00:00-04:00",
       "due_at_local": "2026-04-01T23:59:00-04:00",
       "sol_release_at_local": "2026-04-02T00:00:00-04:00"
     },
