@@ -37,7 +37,7 @@
     "files/slides/08-output-and-the-exchange-rate-in-the-short-run.pdf",
     "files/syllabus/Syllabus.pdf"
   ],
-  "generated_at": "2026-03-21T01:15:45.801982+00:00",
+  "generated_at": "2026-03-21T03:44:02.153706+00:00",
   "versions": {
     "files/bundles/ECON1550_complete_bundle.pdf": [
       {
@@ -444,6 +444,10 @@
       }
     ],
     "files/psets/pset7/pset7_ECON1550.pdf": [
+      {
+        "archived_at": "2026-03-21T03:44:02.153706+00:00",
+        "path": "files/_versions/psets/pset7/pset7_ECON1550_2026-03-21T03-44-02Z.pdf"
+      },
       {
         "archived_at": "2026-03-21T01:15:45.801982+00:00",
         "path": "files/_versions/psets/pset7/pset7_ECON1550_2026-03-21T01-15-45Z.pdf"
