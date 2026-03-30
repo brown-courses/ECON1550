@@ -1,6 +1,6 @@
 {
-  "generated_at_local": "2026-03-27T13:47:28.927718-04:00",
-  "generated_at_utc": "2026-03-27T17:47:28.927718+00:00",
+  "generated_at_local": "2026-03-30T13:47:57.418529-04:00",
+  "generated_at_utc": "2026-03-30T17:47:57.418529+00:00",
   "timezone": "America/New_York",
   "forced_stage": null,
   "assignments": [
@@ -89,7 +89,7 @@
       "id": "slides-09-tour-world",
       "title": "A Tour of the World",
       "kind": "slides",
-      "stage": "none",
+      "stage": "questions",
       "pre_release_at_local": "2026-03-30T09:00:00-04:00",
       "due_at_local": "2026-05-15T23:59:00-04:00",
       "sol_release_at_local": null

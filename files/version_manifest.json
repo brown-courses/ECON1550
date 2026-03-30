@@ -35,11 +35,16 @@
     "files/slides/06-money-interest-rates-and-exchange-rates.pdf",
     "files/slides/07-price-levels-and-the-exchange-rate-in-the-long-run.pdf",
     "files/slides/08-output-and-the-exchange-rate-in-the-short-run.pdf",
+    "files/slides/09-tour-of-the-world.pdf",
     "files/syllabus/Syllabus.pdf"
   ],
-  "generated_at": "2026-03-21T03:44:02.153706+00:00",
+  "generated_at": "2026-03-30T17:53:40.986583+00:00",
   "versions": {
     "files/bundles/ECON1550_complete_bundle.pdf": [
+      {
+        "archived_at": "2026-03-30T17:53:40.986583+00:00",
+        "path": "files/_versions/bundles/ECON1550_complete_bundle_2026-03-30T17-53-40Z.pdf"
+      },
       {
         "archived_at": "2026-03-19T19:50:59.824313+00:00",
         "path": "files/_versions/bundles/ECON1550_complete_bundle_2026-03-19T19-50-59Z.pdf"
@@ -152,6 +157,10 @@
       }
     ],
     "files/bundles/ECON1550_slides_bundle.pdf": [
+      {
+        "archived_at": "2026-03-30T17:53:40.986583+00:00",
+        "path": "files/_versions/bundles/ECON1550_slides_bundle_2026-03-30T17-53-40Z.pdf"
+      },
       {
         "archived_at": "2026-03-19T19:50:59.824313+00:00",
         "path": "files/_versions/bundles/ECON1550_slides_bundle_2026-03-19T19-50-59Z.pdf"
