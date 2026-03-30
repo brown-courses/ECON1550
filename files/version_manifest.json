@@ -38,9 +38,13 @@
     "files/slides/09-tour-of-the-world.pdf",
     "files/syllabus/Syllabus.pdf"
   ],
-  "generated_at": "2026-03-30T17:53:40.986583+00:00",
+  "generated_at": "2026-03-30T18:04:49.513474+00:00",
   "versions": {
     "files/bundles/ECON1550_complete_bundle.pdf": [
+      {
+        "archived_at": "2026-03-30T18:04:49.513474+00:00",
+        "path": "files/_versions/bundles/ECON1550_complete_bundle_2026-03-30T18-04-49Z.pdf"
+      },
       {
         "archived_at": "2026-03-30T17:53:40.986583+00:00",
         "path": "files/_versions/bundles/ECON1550_complete_bundle_2026-03-30T17-53-40Z.pdf"
@@ -157,6 +161,10 @@
       }
     ],
     "files/bundles/ECON1550_slides_bundle.pdf": [
+      {
+        "archived_at": "2026-03-30T18:04:49.513474+00:00",
+        "path": "files/_versions/bundles/ECON1550_slides_bundle_2026-03-30T18-04-49Z.pdf"
+      },
       {
         "archived_at": "2026-03-30T17:53:40.986583+00:00",
         "path": "files/_versions/bundles/ECON1550_slides_bundle_2026-03-30T17-53-40Z.pdf"
@@ -540,6 +548,12 @@
       {
         "archived_at": "2026-03-13T20:42:58.774400+00:00",
         "path": "files/_versions/slides/08-output-and-the-exchange-rate-in-the-short-run_2026-03-13T20-42-58Z.pdf"
+      }
+    ],
+    "files/slides/09-tour-of-the-world.pdf": [
+      {
+        "archived_at": "2026-03-30T18:04:49.513474+00:00",
+        "path": "files/_versions/slides/09-tour-of-the-world_2026-03-30T18-04-49Z.pdf"
       }
     ],
     "files/syllabus/Syllabus.pdf": [
