@@ -38,7 +38,7 @@
     "files/slides/09-tour-of-the-world.pdf",
     "files/syllabus/Syllabus.pdf"
   ],
-  "generated_at": "2026-03-30T20:52:35.756032+00:00",
+  "generated_at": "2026-03-31T00:33:35.026543+00:00",
   "versions": {
     "files/bundles/ECON1550_complete_bundle.pdf": [
       {
@@ -541,6 +541,10 @@
       }
     ],
     "files/slides/08-output-and-the-exchange-rate-in-the-short-run.pdf": [
+      {
+        "archived_at": "2026-03-31T00:33:35.026543+00:00",
+        "path": "files/_versions/slides/08-output-and-the-exchange-rate-in-the-short-run_2026-03-31T00-33-35Z.pdf"
+      },
       {
         "archived_at": "2026-03-18T18:06:34.819481+00:00",
         "path": "files/_versions/slides/08-output-and-the-exchange-rate-in-the-short-run_2026-03-18T18-06-34Z.pdf"
