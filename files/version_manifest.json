@@ -38,9 +38,13 @@
     "files/slides/09-tour-of-the-world.pdf",
     "files/syllabus/Syllabus.pdf"
   ],
-  "generated_at": "2026-04-01T18:02:50.224373+00:00",
+  "generated_at": "2026-04-01T19:13:51.046513+00:00",
   "versions": {
     "files/bundles/ECON1550_complete_bundle.pdf": [
+      {
+        "archived_at": "2026-04-01T19:13:51.046513+00:00",
+        "path": "files/_versions/bundles/ECON1550_complete_bundle_2026-04-01T19-13-51Z.pdf"
+      },
       {
         "archived_at": "2026-03-30T20:52:35.756032+00:00",
         "path": "files/_versions/bundles/ECON1550_complete_bundle_2026-03-30T20-52-35Z.pdf"
@@ -169,6 +173,10 @@
       }
     ],
     "files/bundles/ECON1550_slides_bundle.pdf": [
+      {
+        "archived_at": "2026-04-01T19:13:51.046513+00:00",
+        "path": "files/_versions/bundles/ECON1550_slides_bundle_2026-04-01T19-13-51Z.pdf"
+      },
       {
         "archived_at": "2026-03-30T20:52:35.756032+00:00",
         "path": "files/_versions/bundles/ECON1550_slides_bundle_2026-03-30T20-52-35Z.pdf"
