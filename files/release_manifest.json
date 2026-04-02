@@ -1,6 +1,6 @@
 {
-  "generated_at_local": "2026-04-02T16:41:37.970555-04:00",
-  "generated_at_utc": "2026-04-02T20:41:37.970555+00:00",
+  "generated_at_local": "2026-04-02T16:51:56.008670-04:00",
+  "generated_at_utc": "2026-04-02T20:51:56.008670+00:00",
   "timezone": "America/New_York",
   "forced_stage": null,
   "assignments": [
@@ -170,8 +170,8 @@
       "id": "pset8",
       "title": "Problem Set 8",
       "kind": "pset",
-      "stage": "none",
-      "pre_release_at_local": "2026-04-03T00:00:00-04:00",
+      "stage": "questions",
+      "pre_release_at_local": "2026-04-02T00:00:00-04:00",
       "due_at_local": "2026-04-08T23:59:00-04:00",
       "sol_release_at_local": "2026-04-09T00:00:00-04:00"
     },
