@@ -27,6 +27,8 @@
     "files/psets/pset6/pset6_ECON1550_answers.pdf",
     "files/psets/pset6/pset6_ECON1550_answers_short.pdf",
     "files/psets/pset7/pset7_ECON1550.pdf",
+    "files/psets/pset7/pset7_ECON1550_answers.pdf",
+    "files/psets/pset7/pset7_ECON1550_answers_short.pdf",
     "files/psets/pset8/pset8_ECON1550.pdf",
     "files/slides/01-tour-of-the-class.pdf",
     "files/slides/02-models-in-economics.pdf",
@@ -39,9 +41,13 @@
     "files/slides/09-tour-of-the-world.pdf",
     "files/syllabus/Syllabus.pdf"
   ],
-  "generated_at": "2026-04-02T20:57:35.304701+00:00",
+  "generated_at": "2026-04-03T18:11:42.701662+00:00",
   "versions": {
     "files/bundles/ECON1550_complete_bundle.pdf": [
+      {
+        "archived_at": "2026-04-03T18:11:42.701662+00:00",
+        "path": "files/_versions/bundles/ECON1550_complete_bundle_2026-04-03T18-11-42Z.pdf"
+      },
       {
         "archived_at": "2026-04-01T19:23:35.168238+00:00",
         "path": "files/_versions/bundles/ECON1550_complete_bundle_2026-04-01T19-23-35Z.pdf"
@@ -145,6 +151,10 @@
     ],
     "files/bundles/ECON1550_problem_sets_bundle.pdf": [
       {
+        "archived_at": "2026-04-03T18:11:42.701662+00:00",
+        "path": "files/_versions/bundles/ECON1550_problem_sets_bundle_2026-04-03T18-11-42Z.pdf"
+      },
+      {
         "archived_at": "2026-03-19T04:07:13.326478+00:00",
         "path": "files/_versions/bundles/ECON1550_problem_sets_bundle_2026-03-19T04-07-13Z.pdf"
       },
@@ -178,6 +188,10 @@
       }
     ],
     "files/bundles/ECON1550_slides_bundle.pdf": [
+      {
+        "archived_at": "2026-04-03T18:11:42.701662+00:00",
+        "path": "files/_versions/bundles/ECON1550_slides_bundle_2026-04-03T18-11-42Z.pdf"
+      },
       {
         "archived_at": "2026-04-01T19:23:35.168238+00:00",
         "path": "files/_versions/bundles/ECON1550_slides_bundle_2026-04-01T19-23-35Z.pdf"
@@ -501,6 +515,12 @@
       {
         "archived_at": "2026-03-21T01:15:45.801982+00:00",
         "path": "files/_versions/psets/pset7/pset7_ECON1550_2026-03-21T01-15-45Z.pdf"
+      }
+    ],
+    "files/psets/pset8/pset8_ECON1550.pdf": [
+      {
+        "archived_at": "2026-04-03T18:11:42.701662+00:00",
+        "path": "files/_versions/psets/pset8/pset8_ECON1550_2026-04-03T18-11-42Z.pdf"
       }
     ],
     "files/slides/01-tour-of-the-class.pdf": [
