@@ -41,9 +41,13 @@
     "files/slides/09-tour-of-the-world.pdf",
     "files/syllabus/Syllabus.pdf"
   ],
-  "generated_at": "2026-04-03T19:51:30.586822+00:00",
+  "generated_at": "2026-04-04T23:27:26.630906+00:00",
   "versions": {
     "files/bundles/ECON1550_complete_bundle.pdf": [
+      {
+        "archived_at": "2026-04-04T23:27:26.630906+00:00",
+        "path": "files/_versions/bundles/ECON1550_complete_bundle_2026-04-04T23-27-26Z.pdf"
+      },
       {
         "archived_at": "2026-04-03T19:51:30.586822+00:00",
         "path": "files/_versions/bundles/ECON1550_complete_bundle_2026-04-03T19-51-30Z.pdf"
@@ -158,6 +162,10 @@
       }
     ],
     "files/bundles/ECON1550_problem_sets_bundle.pdf": [
+      {
+        "archived_at": "2026-04-04T23:27:26.630906+00:00",
+        "path": "files/_versions/bundles/ECON1550_problem_sets_bundle_2026-04-04T23-27-26Z.pdf"
+      },
       {
         "archived_at": "2026-04-03T18:11:42.701662+00:00",
         "path": "files/_versions/bundles/ECON1550_problem_sets_bundle_2026-04-03T18-11-42Z.pdf"
@@ -531,6 +539,18 @@
       {
         "archived_at": "2026-03-21T01:15:45.801982+00:00",
         "path": "files/_versions/psets/pset7/pset7_ECON1550_2026-03-21T01-15-45Z.pdf"
+      }
+    ],
+    "files/psets/pset7/pset7_ECON1550_answers.pdf": [
+      {
+        "archived_at": "2026-04-04T23:27:26.630906+00:00",
+        "path": "files/_versions/psets/pset7/pset7_ECON1550_answers_2026-04-04T23-27-26Z.pdf"
+      }
+    ],
+    "files/psets/pset7/pset7_ECON1550_answers_short.pdf": [
+      {
+        "archived_at": "2026-04-04T23:27:26.630906+00:00",
+        "path": "files/_versions/psets/pset7/pset7_ECON1550_answers_short_2026-04-04T23-27-26Z.pdf"
       }
     ],
     "files/psets/pset8/pset8_ECON1550.pdf": [
