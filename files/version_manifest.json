@@ -45,9 +45,13 @@
     "files/slides/10-fixed-exchange-rates-and-foreign-exchange-intervention.pdf",
     "files/syllabus/Syllabus.pdf"
   ],
-  "generated_at": "2026-04-09T23:11:11.365296+00:00",
+  "generated_at": "2026-04-09T23:36:42.847919+00:00",
   "versions": {
     "files/bundles/ECON1550_complete_bundle.pdf": [
+      {
+        "archived_at": "2026-04-09T23:36:42.847919+00:00",
+        "path": "files/_versions/bundles/ECON1550_complete_bundle_2026-04-09T23-36-42Z.pdf"
+      },
       {
         "archived_at": "2026-04-09T23:11:11.365296+00:00",
         "path": "files/_versions/bundles/ECON1550_complete_bundle_2026-04-09T23-11-11Z.pdf"
@@ -236,6 +240,10 @@
       }
     ],
     "files/bundles/ECON1550_slides_bundle.pdf": [
+      {
+        "archived_at": "2026-04-09T23:36:42.847919+00:00",
+        "path": "files/_versions/bundles/ECON1550_slides_bundle_2026-04-09T23-36-42Z.pdf"
+      },
       {
         "archived_at": "2026-04-09T23:11:11.365296+00:00",
         "path": "files/_versions/bundles/ECON1550_slides_bundle_2026-04-09T23-11-11Z.pdf"
@@ -719,6 +727,12 @@
       {
         "archived_at": "2026-03-30T18:04:49.513474+00:00",
         "path": "files/_versions/slides/09-tour-of-the-world_2026-03-30T18-04-49Z.pdf"
+      }
+    ],
+    "files/slides/10-fixed-exchange-rates-and-foreign-exchange-intervention.pdf": [
+      {
+        "archived_at": "2026-04-09T23:36:42.847919+00:00",
+        "path": "files/_versions/slides/10-fixed-exchange-rates-and-foreign-exchange-intervention_2026-04-09T23-36-42Z.pdf"
       }
     ],
     "files/syllabus/Syllabus.pdf": [
