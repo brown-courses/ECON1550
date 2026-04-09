@@ -30,6 +30,9 @@
     "files/psets/pset7/pset7_ECON1550_answers.pdf",
     "files/psets/pset7/pset7_ECON1550_answers_short.pdf",
     "files/psets/pset8/pset8_ECON1550.pdf",
+    "files/psets/pset8/pset8_ECON1550_answers.pdf",
+    "files/psets/pset8/pset8_ECON1550_answers_short.pdf",
+    "files/psets/pset9/pset9_ECON1550.pdf",
     "files/slides/01-tour-of-the-class.pdf",
     "files/slides/02-models-in-economics.pdf",
     "files/slides/03-review-of-intermediate-macro.pdf",
@@ -41,9 +44,13 @@
     "files/slides/09-tour-of-the-world.pdf",
     "files/syllabus/Syllabus.pdf"
   ],
-  "generated_at": "2026-04-09T03:33:10.034900+00:00",
+  "generated_at": "2026-04-09T04:33:04.231497+00:00",
   "versions": {
     "files/bundles/ECON1550_complete_bundle.pdf": [
+      {
+        "archived_at": "2026-04-09T04:33:04.231497+00:00",
+        "path": "files/_versions/bundles/ECON1550_complete_bundle_2026-04-09T04-33-04Z.pdf"
+      },
       {
         "archived_at": "2026-04-06T19:42:03.676785+00:00",
         "path": "files/_versions/bundles/ECON1550_complete_bundle_2026-04-06T19-42-03Z.pdf"
@@ -170,6 +177,10 @@
       }
     ],
     "files/bundles/ECON1550_problem_sets_bundle.pdf": [
+      {
+        "archived_at": "2026-04-09T04:33:04.231497+00:00",
+        "path": "files/_versions/bundles/ECON1550_problem_sets_bundle_2026-04-09T04-33-04Z.pdf"
+      },
       {
         "archived_at": "2026-04-06T16:01:01.878112+00:00",
         "path": "files/_versions/bundles/ECON1550_problem_sets_bundle_2026-04-06T16-01-01Z.pdf"
