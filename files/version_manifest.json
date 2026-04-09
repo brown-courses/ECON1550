@@ -42,11 +42,16 @@
     "files/slides/07-price-levels-and-the-exchange-rate-in-the-long-run.pdf",
     "files/slides/08-output-and-the-exchange-rate-in-the-short-run.pdf",
     "files/slides/09-tour-of-the-world.pdf",
+    "files/slides/10-fixed-exchange-rates-and-foreign-exchange-intervention.pdf",
     "files/syllabus/Syllabus.pdf"
   ],
-  "generated_at": "2026-04-09T19:44:53.918538+00:00",
+  "generated_at": "2026-04-09T23:11:11.365296+00:00",
   "versions": {
     "files/bundles/ECON1550_complete_bundle.pdf": [
+      {
+        "archived_at": "2026-04-09T23:11:11.365296+00:00",
+        "path": "files/_versions/bundles/ECON1550_complete_bundle_2026-04-09T23-11-11Z.pdf"
+      },
       {
         "archived_at": "2026-04-09T19:44:53.918538+00:00",
         "path": "files/_versions/bundles/ECON1550_complete_bundle_2026-04-09T19-44-53Z.pdf"
@@ -231,6 +236,10 @@
       }
     ],
     "files/bundles/ECON1550_slides_bundle.pdf": [
+      {
+        "archived_at": "2026-04-09T23:11:11.365296+00:00",
+        "path": "files/_versions/bundles/ECON1550_slides_bundle_2026-04-09T23-11-11Z.pdf"
+      },
       {
         "archived_at": "2026-04-09T19:44:53.918538+00:00",
         "path": "files/_versions/bundles/ECON1550_slides_bundle_2026-04-09T19-44-53Z.pdf"
