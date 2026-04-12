@@ -55,6 +55,10 @@ Yes.
 
 Yes, at least one week before the actual exam takes place. The format and style of the actual exam will be the same as for the practice exam. We also aim to make the difficulty and length of the actual and practice exams as similar as possible.
 
+## On exams, can I use the approximate version of a formula instead of the exact one (or vice versa)?
+
+Yes. Whenever a formula has both an exact and an approximate version (for example, the exact versus approximate return on a foreign bond), you may use either one and receive full credit.
+
 <!--
 ## Grading
 
