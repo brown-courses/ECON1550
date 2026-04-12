@@ -7,6 +7,7 @@
     "files/lectures/iixx.pdf",
     "files/lectures/lecture_notes_ECON1550.pdf",
     "files/lectures/models_in_economics.pdf",
+    "files/lectures/open_economy.pdf",
     "files/lectures/review_of_intermediate_macro.pdf",
     "files/psets/pset1/pset1_ECON1550.pdf",
     "files/psets/pset1/pset1_ECON1550_answers.pdf",
@@ -45,9 +46,13 @@
     "files/slides/10-fixed-exchange-rates-and-foreign-exchange-intervention.pdf",
     "files/syllabus/Syllabus.pdf"
   ],
-  "generated_at": "2026-04-11T20:16:22.085488+00:00",
+  "generated_at": "2026-04-12T11:27:38.202034+00:00",
   "versions": {
     "files/bundles/ECON1550_complete_bundle.pdf": [
+      {
+        "archived_at": "2026-04-12T11:27:38.202034+00:00",
+        "path": "files/_versions/bundles/ECON1550_complete_bundle_2026-04-12T11-27-38Z.pdf"
+      },
       {
         "archived_at": "2026-04-11T20:16:22.085488+00:00",
         "path": "files/_versions/bundles/ECON1550_complete_bundle_2026-04-11T20-16-22Z.pdf"
@@ -384,6 +389,10 @@
       }
     ],
     "files/lectures/lecture_notes_ECON1550.pdf": [
+      {
+        "archived_at": "2026-04-12T11:27:38.202034+00:00",
+        "path": "files/_versions/lectures/lecture_notes_ECON1550_2026-04-12T11-27-38Z.pdf"
+      },
       {
         "archived_at": "2026-03-13T17:50:58.363309+00:00",
         "path": "files/_versions/lectures/lecture_notes_ECON1550_2026-03-13T17-50-58Z.pdf"
