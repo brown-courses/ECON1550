@@ -10,8 +10,8 @@ description: "Lecture notes, slides, and problem sets with solutions for ECON155
   - [Models in Economics](files/lectures/models_in_economics.pdf)
   - [Financial Assets](files/lectures/financial_assets.pdf)
   - [Review of Intermediate Macro](files/lectures/review_of_intermediate_macro.pdf)
-  - [The II-XX Model](files/lectures/iixx.pdf)
   - [An Open Economy Model](files/lectures/open_economy.pdf)
+  - [The II-XX Model](files/lectures/iixx.pdf)
 <!-- AUTO-GENERATED:LECTURES:END -->
 
 ## Slides
