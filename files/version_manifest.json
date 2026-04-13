@@ -46,9 +46,13 @@
     "files/slides/10-fixed-exchange-rates-and-foreign-exchange-intervention.pdf",
     "files/syllabus/Syllabus.pdf"
   ],
-  "generated_at": "2026-04-12T23:11:03.066263+00:00",
+  "generated_at": "2026-04-13T01:14:06.815999+00:00",
   "versions": {
     "files/bundles/ECON1550_complete_bundle.pdf": [
+      {
+        "archived_at": "2026-04-13T01:14:06.815999+00:00",
+        "path": "files/_versions/bundles/ECON1550_complete_bundle_2026-04-13T01-14-06Z.pdf"
+      },
       {
         "archived_at": "2026-04-12T23:11:03.066263+00:00",
         "path": "files/_versions/bundles/ECON1550_complete_bundle_2026-04-12T23-11-03Z.pdf"
@@ -398,6 +402,10 @@
     ],
     "files/lectures/lecture_notes_ECON1550.pdf": [
       {
+        "archived_at": "2026-04-13T01:14:06.815999+00:00",
+        "path": "files/_versions/lectures/lecture_notes_ECON1550_2026-04-13T01-14-06Z.pdf"
+      },
+      {
         "archived_at": "2026-04-12T23:11:03.066263+00:00",
         "path": "files/_versions/lectures/lecture_notes_ECON1550_2026-04-12T23-11-03Z.pdf"
       },
@@ -425,6 +433,10 @@
       }
     ],
     "files/lectures/open_economy.pdf": [
+      {
+        "archived_at": "2026-04-13T01:14:06.815999+00:00",
+        "path": "files/_versions/lectures/open_economy_2026-04-13T01-14-06Z.pdf"
+      },
       {
         "archived_at": "2026-04-12T11:38:00.745717+00:00",
         "path": "files/_versions/lectures/open_economy_2026-04-12T11-38-00Z.pdf"
