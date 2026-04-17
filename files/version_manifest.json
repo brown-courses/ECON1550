@@ -46,7 +46,7 @@
     "files/slides/10-fixed-exchange-rates-and-foreign-exchange-intervention.pdf",
     "files/syllabus/Syllabus.pdf"
   ],
-  "generated_at": "2026-04-17T10:26:52.257505+00:00",
+  "generated_at": "2026-04-17T16:37:55.785829+00:00",
   "versions": {
     "files/bundles/ECON1550_complete_bundle.pdf": [
       {
@@ -843,6 +843,10 @@
       }
     ],
     "files/syllabus/Syllabus.pdf": [
+      {
+        "archived_at": "2026-04-17T16:37:55.785829+00:00",
+        "path": "files/_versions/syllabus/Syllabus_2026-04-17T16-37-55Z.pdf"
+      },
       {
         "archived_at": "2026-04-17T10:26:52.257505+00:00",
         "path": "files/_versions/syllabus/Syllabus_2026-04-17T10-26-52Z.pdf"
