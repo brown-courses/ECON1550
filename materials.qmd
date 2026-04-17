@@ -30,6 +30,7 @@ description: "Lecture notes, slides, and problem sets with solutions for ECON155
 | Output and the Exchange Rate in the Short Run | [PDF](files/slides/08-output-and-the-exchange-rate-in-the-short-run.pdf) | [PDF](files/slides/08-output-and-the-exchange-rate-in-the-short-run-annotated.pdf) |
 | A Tour of the World | [PDF](files/slides/09-tour-of-the-world.pdf) | [PDF](files/slides/09-tour-of-the-world-annotated.pdf) |
 | Fixed Exchange Rates and Foreign Exchange Intervention | [PDF](files/slides/10-fixed-exchange-rates-and-foreign-exchange-intervention.pdf) | [PDF](files/slides/10-fixed-exchange-rates-and-foreign-exchange-intervention-annotated.pdf) |
+| The II-XX Model | [PDF](files/slides/11-ii-xx-model.pdf) | [PDF](files/slides/11-ii-xx-model-annotated.pdf) |
 <!-- AUTO-GENERATED:SLIDES:END -->
 :::
 
