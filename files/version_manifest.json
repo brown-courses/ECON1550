@@ -47,7 +47,7 @@
     "files/slides/11-ii-xx-model.pdf",
     "files/syllabus/Syllabus.pdf"
   ],
-  "generated_at": "2026-04-17T23:43:25.593371+00:00",
+  "generated_at": "2026-04-17T23:55:53.301091+00:00",
   "versions": {
     "files/bundles/ECON1550_complete_bundle.pdf": [
       {
@@ -749,6 +749,12 @@
       {
         "archived_at": "2026-04-03T18:11:42.701662+00:00",
         "path": "files/_versions/psets/pset8/pset8_ECON1550_2026-04-03T18-11-42Z.pdf"
+      }
+    ],
+    "files/psets/pset9/pset9_ECON1550.pdf": [
+      {
+        "archived_at": "2026-04-17T23:55:53.301091+00:00",
+        "path": "files/_versions/psets/pset9/pset9_ECON1550_2026-04-17T23-55-53Z.pdf"
       }
     ],
     "files/slides/01-tour-of-the-class.pdf": [
