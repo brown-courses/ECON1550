@@ -44,11 +44,16 @@
     "files/slides/08-output-and-the-exchange-rate-in-the-short-run.pdf",
     "files/slides/09-tour-of-the-world.pdf",
     "files/slides/10-fixed-exchange-rates-and-foreign-exchange-intervention.pdf",
+    "files/slides/11-ii-xx-model.pdf",
     "files/syllabus/Syllabus.pdf"
   ],
-  "generated_at": "2026-04-17T16:37:55.785829+00:00",
+  "generated_at": "2026-04-17T23:43:25.593371+00:00",
   "versions": {
     "files/bundles/ECON1550_complete_bundle.pdf": [
+      {
+        "archived_at": "2026-04-17T23:43:25.593371+00:00",
+        "path": "files/_versions/bundles/ECON1550_complete_bundle_2026-04-17T23-43-25Z.pdf"
+      },
       {
         "archived_at": "2026-04-17T10:26:52.257505+00:00",
         "path": "files/_versions/bundles/ECON1550_complete_bundle_2026-04-17T10-26-52Z.pdf"
@@ -282,6 +287,10 @@
     ],
     "files/bundles/ECON1550_slides_bundle.pdf": [
       {
+        "archived_at": "2026-04-17T23:43:25.593371+00:00",
+        "path": "files/_versions/bundles/ECON1550_slides_bundle_2026-04-17T23-43-25Z.pdf"
+      },
+      {
         "archived_at": "2026-04-14T18:33:33.033842+00:00",
         "path": "files/_versions/bundles/ECON1550_slides_bundle_2026-04-14T18-33-33Z.pdf"
       },
@@ -416,6 +425,10 @@
     ],
     "files/lectures/iixx.pdf": [
       {
+        "archived_at": "2026-04-17T23:43:25.593371+00:00",
+        "path": "files/_versions/lectures/iixx_2026-04-17T23-43-25Z.pdf"
+      },
+      {
         "archived_at": "2026-04-17T10:26:52.257505+00:00",
         "path": "files/_versions/lectures/iixx_2026-04-17T10-26-52Z.pdf"
       },
@@ -425,6 +438,10 @@
       }
     ],
     "files/lectures/lecture_notes_ECON1550.pdf": [
+      {
+        "archived_at": "2026-04-17T23:43:25.593371+00:00",
+        "path": "files/_versions/lectures/lecture_notes_ECON1550_2026-04-17T23-43-25Z.pdf"
+      },
       {
         "archived_at": "2026-04-17T10:26:52.257505+00:00",
         "path": "files/_versions/lectures/lecture_notes_ECON1550_2026-04-17T10-26-52Z.pdf"
@@ -843,6 +860,10 @@
       }
     ],
     "files/syllabus/Syllabus.pdf": [
+      {
+        "archived_at": "2026-04-17T23:43:25.593371+00:00",
+        "path": "files/_versions/syllabus/Syllabus_2026-04-17T23-43-25Z.pdf"
+      },
       {
         "archived_at": "2026-04-17T16:37:55.785829+00:00",
         "path": "files/_versions/syllabus/Syllabus_2026-04-17T16-37-55Z.pdf"
