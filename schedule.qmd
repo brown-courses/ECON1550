@@ -17,7 +17,7 @@ description: "Assignment due dates and lecture schedule for ECON1550 Internation
 | Problem Set 7 | March 18, 2026 | April 1, 2026 (11:59 PM) |
 | Problem Set 8 | April 2, 2026 | April 8, 2026 (11:59 PM) |
 | **Midterm 2** |  | **April 15, 2026 (In class)** |
-| Problem Set 9 | April 17, 2026 | April 22, 2026 (11:59 PM) |
+| Problem Set 9 | April 15, 2026 | April 24, 2026 (11:59 PM) |
 | **Final Exam** |  | **May 12, 2026 (Exam Group 07)** |
 
 ## Important Dates
