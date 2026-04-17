@@ -33,6 +33,7 @@
     "files/psets/pset8/pset8_ECON1550.pdf",
     "files/psets/pset8/pset8_ECON1550_answers.pdf",
     "files/psets/pset8/pset8_ECON1550_answers_short.pdf",
+    "files/psets/pset9/pset9_ECON1550.pdf",
     "files/slides/01-tour-of-the-class.pdf",
     "files/slides/02-models-in-economics.pdf",
     "files/slides/03-review-of-intermediate-macro.pdf",
@@ -45,9 +46,13 @@
     "files/slides/10-fixed-exchange-rates-and-foreign-exchange-intervention.pdf",
     "files/syllabus/Syllabus.pdf"
   ],
-  "generated_at": "2026-04-16T01:08:12.830005+00:00",
+  "generated_at": "2026-04-17T10:26:52.257505+00:00",
   "versions": {
     "files/bundles/ECON1550_complete_bundle.pdf": [
+      {
+        "archived_at": "2026-04-17T10:26:52.257505+00:00",
+        "path": "files/_versions/bundles/ECON1550_complete_bundle_2026-04-17T10-26-52Z.pdf"
+      },
       {
         "archived_at": "2026-04-14T18:33:33.033842+00:00",
         "path": "files/_versions/bundles/ECON1550_complete_bundle_2026-04-14T18-33-33Z.pdf"
@@ -411,11 +416,19 @@
     ],
     "files/lectures/iixx.pdf": [
       {
+        "archived_at": "2026-04-17T10:26:52.257505+00:00",
+        "path": "files/_versions/lectures/iixx_2026-04-17T10-26-52Z.pdf"
+      },
+      {
         "archived_at": "2026-03-09T15:54:56.402441+00:00",
         "path": "files/_versions/lectures/iixx_2026-03-09T15-54-56Z.pdf"
       }
     ],
     "files/lectures/lecture_notes_ECON1550.pdf": [
+      {
+        "archived_at": "2026-04-17T10:26:52.257505+00:00",
+        "path": "files/_versions/lectures/lecture_notes_ECON1550_2026-04-17T10-26-52Z.pdf"
+      },
       {
         "archived_at": "2026-04-13T02:25:16.060720+00:00",
         "path": "files/_versions/lectures/lecture_notes_ECON1550_2026-04-13T02-25-16Z.pdf"
@@ -456,6 +469,10 @@
       }
     ],
     "files/lectures/open_economy.pdf": [
+      {
+        "archived_at": "2026-04-17T10:26:52.257505+00:00",
+        "path": "files/_versions/lectures/open_economy_2026-04-17T10-26-52Z.pdf"
+      },
       {
         "archived_at": "2026-04-13T02:25:16.060720+00:00",
         "path": "files/_versions/lectures/open_economy_2026-04-13T02-25-16Z.pdf"
@@ -826,6 +843,10 @@
       }
     ],
     "files/syllabus/Syllabus.pdf": [
+      {
+        "archived_at": "2026-04-17T10:26:52.257505+00:00",
+        "path": "files/_versions/syllabus/Syllabus_2026-04-17T10-26-52Z.pdf"
+      },
       {
         "archived_at": "2026-04-12T23:11:03.066263+00:00",
         "path": "files/_versions/syllabus/Syllabus_2026-04-12T23-11-03Z.pdf"
