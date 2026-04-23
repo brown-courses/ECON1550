@@ -45,11 +45,16 @@
     "files/slides/09-tour-of-the-world.pdf",
     "files/slides/10-fixed-exchange-rates-and-foreign-exchange-intervention.pdf",
     "files/slides/11-ii-xx-model.pdf",
+    "files/slides/12-the-gold-standard.pdf",
     "files/syllabus/Syllabus.pdf"
   ],
-  "generated_at": "2026-04-20T20:23:08.179452+00:00",
+  "generated_at": "2026-04-23T17:53:54.562051+00:00",
   "versions": {
     "files/bundles/ECON1550_complete_bundle.pdf": [
+      {
+        "archived_at": "2026-04-23T17:53:54.562051+00:00",
+        "path": "files/_versions/bundles/ECON1550_complete_bundle_2026-04-23T17-53-54Z.pdf"
+      },
       {
         "archived_at": "2026-04-20T20:23:08.179452+00:00",
         "path": "files/_versions/bundles/ECON1550_complete_bundle_2026-04-20T20-23-08Z.pdf"
@@ -294,6 +299,10 @@
       }
     ],
     "files/bundles/ECON1550_slides_bundle.pdf": [
+      {
+        "archived_at": "2026-04-23T17:53:54.562051+00:00",
+        "path": "files/_versions/bundles/ECON1550_slides_bundle_2026-04-23T17-53-54Z.pdf"
+      },
       {
         "archived_at": "2026-04-17T23:43:25.593371+00:00",
         "path": "files/_versions/bundles/ECON1550_slides_bundle_2026-04-17T23-43-25Z.pdf"
