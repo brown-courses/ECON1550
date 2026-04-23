@@ -1,6 +1,6 @@
 {
-  "generated_at_local": "2026-04-23T02:38:44.419316-04:00",
-  "generated_at_utc": "2026-04-23T06:38:44.419316+00:00",
+  "generated_at_local": "2026-04-23T13:44:22.686612-04:00",
+  "generated_at_utc": "2026-04-23T17:44:22.686612+00:00",
   "timezone": "America/New_York",
   "forced_stage": null,
   "assignments": [
@@ -109,6 +109,15 @@
       "kind": "slides",
       "stage": "questions",
       "pre_release_at_local": "2026-04-17T00:00:00-04:00",
+      "due_at_local": "2026-05-15T23:59:00-04:00",
+      "sol_release_at_local": null
+    },
+    {
+      "id": "slides-12-the-gold-standard",
+      "title": "The Gold Standard",
+      "kind": "slides",
+      "stage": "questions",
+      "pre_release_at_local": "2026-04-22T00:00:00-04:00",
       "due_at_local": "2026-05-15T23:59:00-04:00",
       "sol_release_at_local": null
     },

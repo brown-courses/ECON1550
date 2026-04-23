@@ -31,6 +31,7 @@ description: "Lecture notes, slides, and problem sets with solutions for ECON155
 | A Tour of the World | [PDF](files/slides/09-tour-of-the-world.pdf) | [PDF](files/slides/09-tour-of-the-world-annotated.pdf) |
 | Fixed Exchange Rates and Foreign Exchange Intervention | [PDF](files/slides/10-fixed-exchange-rates-and-foreign-exchange-intervention.pdf) | [PDF](files/slides/10-fixed-exchange-rates-and-foreign-exchange-intervention-annotated.pdf) |
 | The II-XX Model | [PDF](files/slides/11-ii-xx-model.pdf) | [PDF](files/slides/11-ii-xx-model-annotated.pdf) |
+| The Gold Standard | [PDF](files/slides/12-the-gold-standard.pdf) | [PDF](files/slides/12-the-gold-standard-annotated.pdf) |
 <!-- AUTO-GENERATED:SLIDES:END -->
 :::
 
