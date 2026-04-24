@@ -48,9 +48,13 @@
     "files/slides/12-the-gold-standard.pdf",
     "files/syllabus/Syllabus.pdf"
   ],
-  "generated_at": "2026-04-23T17:53:54.562051+00:00",
+  "generated_at": "2026-04-24T22:17:40.586896+00:00",
   "versions": {
     "files/bundles/ECON1550_complete_bundle.pdf": [
+      {
+        "archived_at": "2026-04-24T22:17:40.586896+00:00",
+        "path": "files/_versions/bundles/ECON1550_complete_bundle_2026-04-24T22-17-40Z.pdf"
+      },
       {
         "archived_at": "2026-04-23T17:53:54.562051+00:00",
         "path": "files/_versions/bundles/ECON1550_complete_bundle_2026-04-23T17-53-54Z.pdf"
@@ -249,6 +253,10 @@
       }
     ],
     "files/bundles/ECON1550_problem_sets_bundle.pdf": [
+      {
+        "archived_at": "2026-04-24T22:17:40.586896+00:00",
+        "path": "files/_versions/bundles/ECON1550_problem_sets_bundle_2026-04-24T22-17-40Z.pdf"
+      },
       {
         "archived_at": "2026-04-09T04:33:04.231497+00:00",
         "path": "files/_versions/bundles/ECON1550_problem_sets_bundle_2026-04-09T04-33-04Z.pdf"
@@ -542,11 +550,19 @@
     ],
     "files/psets/pset1/pset1_ECON1550.pdf": [
       {
+        "archived_at": "2026-04-24T22:17:40.586896+00:00",
+        "path": "files/_versions/psets/pset1/pset1_ECON1550_2026-04-24T22-17-40Z.pdf"
+      },
+      {
         "archived_at": "2026-03-09T15:54:56.402441+00:00",
         "path": "files/_versions/psets/pset1/pset1_ECON1550_2026-03-09T15-54-56Z.pdf"
       }
     ],
     "files/psets/pset1/pset1_ECON1550_answers.pdf": [
+      {
+        "archived_at": "2026-04-24T22:17:40.586896+00:00",
+        "path": "files/_versions/psets/pset1/pset1_ECON1550_answers_2026-04-24T22-17-40Z.pdf"
+      },
       {
         "archived_at": "2026-03-09T15:54:56.402441+00:00",
         "path": "files/_versions/psets/pset1/pset1_ECON1550_answers_2026-03-09T15-54-56Z.pdf"
@@ -568,6 +584,10 @@
     ],
     "files/psets/pset2/pset2_ECON1550.pdf": [
       {
+        "archived_at": "2026-04-24T22:17:40.586896+00:00",
+        "path": "files/_versions/psets/pset2/pset2_ECON1550_2026-04-24T22-17-40Z.pdf"
+      },
+      {
         "archived_at": "2026-03-09T15:54:56.402441+00:00",
         "path": "files/_versions/psets/pset2/pset2_ECON1550_2026-03-09T15-54-56Z.pdf"
       },
@@ -578,6 +598,10 @@
     ],
     "files/psets/pset2/pset2_ECON1550_answers.pdf": [
       {
+        "archived_at": "2026-04-24T22:17:40.586896+00:00",
+        "path": "files/_versions/psets/pset2/pset2_ECON1550_answers_2026-04-24T22-17-40Z.pdf"
+      },
+      {
         "archived_at": "2026-03-09T15:54:56.402441+00:00",
         "path": "files/_versions/psets/pset2/pset2_ECON1550_answers_2026-03-09T15-54-56Z.pdf"
       },
@@ -587,6 +611,10 @@
       }
     ],
     "files/psets/pset2/pset2_ECON1550_answers_short.pdf": [
+      {
+        "archived_at": "2026-04-24T22:17:40.586896+00:00",
+        "path": "files/_versions/psets/pset2/pset2_ECON1550_answers_short_2026-04-24T22-17-40Z.pdf"
+      },
       {
         "archived_at": "2026-03-09T15:54:56.402441+00:00",
         "path": "files/_versions/psets/pset2/pset2_ECON1550_answers_short_2026-03-09T15-54-56Z.pdf"
@@ -772,6 +800,10 @@
     ],
     "files/psets/pset8/pset8_ECON1550.pdf": [
       {
+        "archived_at": "2026-04-24T22:17:40.586896+00:00",
+        "path": "files/_versions/psets/pset8/pset8_ECON1550_2026-04-24T22-17-40Z.pdf"
+      },
+      {
         "archived_at": "2026-04-05T02:54:58.694869+00:00",
         "path": "files/_versions/psets/pset8/pset8_ECON1550_2026-04-05T02-54-58Z.pdf"
       },
@@ -782,6 +814,12 @@
       {
         "archived_at": "2026-04-03T18:11:42.701662+00:00",
         "path": "files/_versions/psets/pset8/pset8_ECON1550_2026-04-03T18-11-42Z.pdf"
+      }
+    ],
+    "files/psets/pset8/pset8_ECON1550_answers.pdf": [
+      {
+        "archived_at": "2026-04-24T22:17:40.586896+00:00",
+        "path": "files/_versions/psets/pset8/pset8_ECON1550_answers_2026-04-24T22-17-40Z.pdf"
       }
     ],
     "files/psets/pset9/pset9_ECON1550.pdf": [
