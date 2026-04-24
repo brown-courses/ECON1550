@@ -51,6 +51,10 @@ No.
 
 Yes.
 
+## Do I have to take the final exam? Is there a minimum score I need to pass?
+
+No to both. The final exam is not required and there is no minimum score on it. If you skip the final, it simply counts as a zero and your course grade is computed normally using the same procedure as if you had a non-zero score in the final.
+
 ## Do we get practice exams?
 
 Yes, at least one week before the actual exam takes place. The format and style of the actual exam will be the same as for the practice exam. We also aim to make the difficulty and length of the actual and practice exams as similar as possible.
