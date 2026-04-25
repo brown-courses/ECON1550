@@ -50,9 +50,13 @@
     "files/slides/12-the-gold-standard.pdf",
     "files/syllabus/Syllabus.pdf"
   ],
-  "generated_at": "2026-04-25T19:27:12.256198+00:00",
+  "generated_at": "2026-04-25T23:13:30.169352+00:00",
   "versions": {
     "files/bundles/ECON1550_complete_bundle.pdf": [
+      {
+        "archived_at": "2026-04-25T23:13:30.169352+00:00",
+        "path": "files/_versions/bundles/ECON1550_complete_bundle_2026-04-25T23-13-30Z.pdf"
+      },
       {
         "archived_at": "2026-04-25T19:27:12.256198+00:00",
         "path": "files/_versions/bundles/ECON1550_complete_bundle_2026-04-25T19-27-12Z.pdf"
@@ -263,6 +267,10 @@
       }
     ],
     "files/bundles/ECON1550_problem_sets_bundle.pdf": [
+      {
+        "archived_at": "2026-04-25T23:13:30.169352+00:00",
+        "path": "files/_versions/bundles/ECON1550_problem_sets_bundle_2026-04-25T23-13-30Z.pdf"
+      },
       {
         "archived_at": "2026-04-25T19:27:12.256198+00:00",
         "path": "files/_versions/bundles/ECON1550_problem_sets_bundle_2026-04-25T19-27-12Z.pdf"
@@ -848,6 +856,18 @@
       {
         "archived_at": "2026-04-17T23:55:53.301091+00:00",
         "path": "files/_versions/psets/pset9/pset9_ECON1550_2026-04-17T23-55-53Z.pdf"
+      }
+    ],
+    "files/psets/pset9/pset9_ECON1550_answers.pdf": [
+      {
+        "archived_at": "2026-04-25T23:13:30.169352+00:00",
+        "path": "files/_versions/psets/pset9/pset9_ECON1550_answers_2026-04-25T23-13-30Z.pdf"
+      }
+    ],
+    "files/psets/pset9/pset9_ECON1550_answers_short.pdf": [
+      {
+        "archived_at": "2026-04-25T23:13:30.169352+00:00",
+        "path": "files/_versions/psets/pset9/pset9_ECON1550_answers_short_2026-04-25T23-13-30Z.pdf"
       }
     ],
     "files/slides/01-tour-of-the-class.pdf": [
