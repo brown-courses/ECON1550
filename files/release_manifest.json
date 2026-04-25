@@ -1,6 +1,6 @@
 {
-  "generated_at_local": "2026-04-24T19:08:29.955889-04:00",
-  "generated_at_utc": "2026-04-24T23:08:29.955889+00:00",
+  "generated_at_local": "2026-04-25T15:19:32.725236-04:00",
+  "generated_at_utc": "2026-04-25T19:19:32.725236+00:00",
   "timezone": "America/New_York",
   "forced_stage": null,
   "assignments": [
@@ -206,7 +206,7 @@
       "id": "pset9",
       "title": "Problem Set 9",
       "kind": "pset",
-      "stage": "questions",
+      "stage": "solutions",
       "pre_release_at_local": "2026-04-15T00:00:00-04:00",
       "due_at_local": "2026-04-24T23:59:00-04:00",
       "sol_release_at_local": "2026-04-25T00:00:00-04:00"
