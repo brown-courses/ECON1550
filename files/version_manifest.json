@@ -50,7 +50,7 @@
     "files/slides/12-the-gold-standard.pdf",
     "files/syllabus/Syllabus.pdf"
   ],
-  "generated_at": "2026-04-25T23:13:30.169352+00:00",
+  "generated_at": "2026-04-26T04:28:04.194130+00:00",
   "versions": {
     "files/bundles/ECON1550_complete_bundle.pdf": [
       {
@@ -329,6 +329,10 @@
       }
     ],
     "files/bundles/ECON1550_slides_bundle.pdf": [
+      {
+        "archived_at": "2026-04-26T04:28:04.194130+00:00",
+        "path": "files/_versions/bundles/ECON1550_slides_bundle_2026-04-26T04-28-04Z.pdf"
+      },
       {
         "archived_at": "2026-04-25T19:27:12.256198+00:00",
         "path": "files/_versions/bundles/ECON1550_slides_bundle_2026-04-25T19-27-12Z.pdf"
