@@ -50,9 +50,13 @@
     "files/slides/12-the-gold-standard.pdf",
     "files/syllabus/Syllabus.pdf"
   ],
-  "generated_at": "2026-04-26T05:10:22.625171+00:00",
+  "generated_at": "2026-04-27T02:11:59.515969+00:00",
   "versions": {
     "files/bundles/ECON1550_complete_bundle.pdf": [
+      {
+        "archived_at": "2026-04-27T02:11:59.515969+00:00",
+        "path": "files/_versions/bundles/ECON1550_complete_bundle_2026-04-27T02-11-59Z.pdf"
+      },
       {
         "archived_at": "2026-04-26T05:10:22.625171+00:00",
         "path": "files/_versions/bundles/ECON1550_complete_bundle_2026-04-26T05-10-22Z.pdf"
@@ -492,6 +496,10 @@
     ],
     "files/lectures/iixx.pdf": [
       {
+        "archived_at": "2026-04-27T02:11:59.515969+00:00",
+        "path": "files/_versions/lectures/iixx_2026-04-27T02-11-59Z.pdf"
+      },
+      {
         "archived_at": "2026-04-20T20:23:08.179452+00:00",
         "path": "files/_versions/lectures/iixx_2026-04-20T20-23-08Z.pdf"
       },
@@ -513,6 +521,10 @@
       }
     ],
     "files/lectures/lecture_notes_ECON1550.pdf": [
+      {
+        "archived_at": "2026-04-27T02:11:59.515969+00:00",
+        "path": "files/_versions/lectures/lecture_notes_ECON1550_2026-04-27T02-11-59Z.pdf"
+      },
       {
         "archived_at": "2026-04-20T20:23:08.179452+00:00",
         "path": "files/_versions/lectures/lecture_notes_ECON1550_2026-04-20T20-23-08Z.pdf"
